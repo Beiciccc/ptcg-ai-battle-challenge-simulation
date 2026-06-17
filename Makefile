@@ -5,6 +5,7 @@ download-light:
 
 check:
 	python tools/check_deck.py submission/deck.csv
+	python tools/check_submission_entrypoint.py
 
 test:
 	pytest -q

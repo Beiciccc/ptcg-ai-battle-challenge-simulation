@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
+import tarfile
 from zipfile import ZIP_DEFLATED, ZipFile
 
 
@@ -46,6 +47,31 @@ def build_submission_zip(
     with ZipFile(output, "w", ZIP_DEFLATED) as archive:
         for file_path in files:
             archive.write(file_path, file_path.relative_to(source).as_posix())
+
+    return SubmissionPackage(
+        path=output,
+        file_count=len(files),
+        has_support_files=(source / "cg" / "api.py").exists(),
+    )
+
+
+def build_submission_tar_gz(
+    source_dir: str | Path,
+    output_tar_gz: str | Path,
+    require_support_files: bool = True,
+) -> SubmissionPackage:
+    source = Path(source_dir)
+    output = Path(output_tar_gz)
+
+    problems = validate_submission_dir(source, require_support_files=require_support_files)
+    if problems:
+        raise ValueError("\n".join(problems))
+
+    output.parent.mkdir(parents=True, exist_ok=True)
+    files = list(_iter_submission_files(source))
+    with tarfile.open(output, "w:gz") as archive:
+        for file_path in files:
+            archive.add(file_path, file_path.relative_to(source).as_posix())
 
     return SubmissionPackage(
         path=output,
