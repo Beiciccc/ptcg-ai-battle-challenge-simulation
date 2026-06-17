@@ -1,0 +1,18 @@
+file,column_name,description
+EN_Card_Data.csv,Card ID,Competition card identifier
+EN_Card_Data.csv,Card Name,English card name
+EN_Card_Data.csv,Expansion,Expansion code
+EN_Card_Data.csv,Collection No.,Collection number within expansion
+EN_Card_Data.csv,Stage (Pokemon)/Type (Energy and Trainer),Evolution stage or non-Pokemon card type
+EN_Card_Data.csv,Rule,Special rule text category when present
+EN_Card_Data.csv,Category,Card category
+EN_Card_Data.csv,Previous stage,Previous evolution stage when present
+EN_Card_Data.csv,HP,Hit points for Pokemon cards
+EN_Card_Data.csv,Type,Card or Pokemon type
+EN_Card_Data.csv,Weakness,Weakness type
+EN_Card_Data.csv,Resistance (Type),Resistance type
+EN_Card_Data.csv,Retreat,Retreat cost
+EN_Card_Data.csv,Move Name,Attack or move name
+EN_Card_Data.csv,Cost,Attack or move cost
+EN_Card_Data.csv,Damage,Attack damage text
+EN_Card_Data.csv,Effect Explanation,Attack or effect text

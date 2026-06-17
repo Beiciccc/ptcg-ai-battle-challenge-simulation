@@ -1,0 +1,5 @@
+name: baseline
+competition: pokemon-tcg-ai-battle
+deck_path: submission/deck.csv
+submission_dir: submission
+notes: Deterministic starter policy with the sample legal deck.
