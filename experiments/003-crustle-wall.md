@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s003-crustle-wall.tar.gz`
 
 Kaggle submission: `53783789`
 
-Public score: 600.0
+Public score: 741.4
 
 Status: complete
 
@@ -23,5 +23,5 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score stayed at 600.0, so the next experiment should use a more
-  deck-specific turn policy for Crustle instead of the generic heuristic.
+- Latest refreshed public score was 741.4, making this a clear improvement over
+  the sample-deck baseline.

@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s004-crustle-specific.tar.gz`
 
 Kaggle submission: `53783875`
 
-Public score: 600.0
+Public score: 766.6
 
 Status: complete
 
@@ -23,5 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score stayed at 600.0, so the next experiment should test a
-  different proven deck family.
+- Latest refreshed public score was 766.6, the best result in this batch.

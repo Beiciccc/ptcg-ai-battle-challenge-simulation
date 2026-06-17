@@ -1,256 +1,508 @@
-from __future__ import annotations
+import os
+import sys
+from collections import defaultdict
 
-from pathlib import Path
+from cg.api import AreaType, CardType, EnergyType, Observation, SelectContext, OptionType, Card, Pokemon, all_card_data, to_observation_class
 
-from cg.api import (
-    AreaType,
-    Card,
-    CardType,
-    Observation,
-    OptionType,
-    Pokemon,
-    SelectContext,
-    SelectType,
-    all_attack,
-    all_card_data,
-    to_observation_class,
-)
+"""
+Mega Lucario ex Deck
+Intermediate Level
+This deck battles by strategically switching between Mega Lucario ex as the main attacker, and Hariyama and Solrock as secondary attackers.
+"""
 
-CARD_TABLE = {card.cardId: card for card in all_card_data()}
-ATTACK_TABLE = {attack.attackId: attack for attack in all_attack()}
-MAX_TURN_ACTIONS = 36
+# Load deck.csv in the dataset
+file_path = "deck.csv"
+if not os.path.exists(file_path):
+    file_path = "/kaggle_simulations/agent/" + file_path
+with open(file_path, "r") as file:
+    csv = file.read().split("\n")
+my_deck = []
+for i in range(60):
+    my_deck.append(int(csv[i]))
+
+# Fetch card metadata database and create an ID-to-Card lookup table
+all_card = all_card_data()
+card_table = {c.cardId:c for c in all_card}
+
+# Decklist
+Makuhita = 673  # ×2
+Hariyama = 674  # ×2
+Lunatone = 675  # ×2
+Solrock = 676  # ×3
+Riolu = 677  # ×3
+Mega_Lucario_ex = 678  # ×4
+Dusk_Ball = 1102  # ×4
+Switch = 1123  # ×2
+Premium_Power_Pro = 1141  # ×4
+Fighting_Gong = 1142  # ×4
+Poke_Pad = 1152  # x4
+Hero_Cape = 1159  # ×1
+Boss_Orders = 1182  # ×2
+Carmine = 1192  # ×4
+Lillie_Determination = 1227  # ×4
+Gravity_Mountain = 1252  # ×2
+Basic_Fighting_Energy = 6  # ×13
 
 
-def read_deck_csv() -> list[int]:
-    candidates = [Path("deck.csv"), Path("/kaggle_simulations/agent/deck.csv")]
-    try:
-        candidates.append(Path(__file__).with_name("deck.csv"))
-    except NameError:
-        pass
-    for path in candidates:
-        if path.exists():
-            cards = [int(line.strip()) for line in path.read_text().splitlines() if line.strip()]
-            if cards:
-                return cards[:60]
-    return []
+class AttackPlan:
+    attacker = -1
+    target = -1
+    attack_index = -1
+    remain_hp = -1
+    energy = False
 
 
-def get_card(obs: Observation, area, index, player_index):
-    try:
-        if area is None or index is None:
-            return None
-        player = obs.current.players[player_index]
-        if area == AreaType.DECK and obs.select.deck is not None:
+plan = AttackPlan()
+pre_turn = 0
+ability_used = False
+
+
+def get_card(obs: Observation, area: AreaType, index: int, player_index: int) -> Pokemon | Card | None:
+    """Helper function to safely extract a Card or Pokemon object from specific zones."""
+    ps = obs.current.players[player_index]
+    match area:
+        case AreaType.DECK:
             return obs.select.deck[index]
-        if area == AreaType.HAND and player.hand is not None:
-            return player.hand[index]
-        if area == AreaType.DISCARD:
-            return player.discard[index]
-        if area == AreaType.ACTIVE:
-            return player.active[index]
-        if area == AreaType.BENCH:
-            return player.bench[index]
-        if area == AreaType.PRIZE:
-            return player.prize[index]
-        if area == AreaType.STADIUM:
+        case AreaType.HAND:
+            return ps.hand[index]
+        case AreaType.DISCARD:
+            return ps.discard[index]
+        case AreaType.ACTIVE:
+            return ps.active[index]
+        case AreaType.BENCH:
+            return ps.bench[index]
+        case AreaType.PRIZE:
+            return ps.prize[index]
+        case AreaType.STADIUM:
             return obs.current.stadium[index]
-        if area == AreaType.LOOKING and obs.current.looking is not None:
+        case AreaType.LOOKING:
             return obs.current.looking[index]
-    except Exception:
-        return None
-    return None
+        case _:
+            return None
 
 
-def active_pokemon(obs: Observation, player_index: int) -> Pokemon | None:
-    active = obs.current.players[player_index].active
-    return active[0] if active and active[0] is not None else None
-
-
-def best_damage(pokemon: Pokemon) -> int:
-    data = CARD_TABLE.get(pokemon.id)
-    if data is None:
-        return 0
-    return max((ATTACK_TABLE[attack_id].damage for attack_id in data.attacks if attack_id in ATTACK_TABLE), default=0)
-
-
-def attack_damage(attacker: Pokemon, attack_id: int, defender: Pokemon) -> int:
-    attack = ATTACK_TABLE.get(attack_id)
-    if attack is None:
-        return 0
-    damage = attack.damage
-    attacker_data = CARD_TABLE.get(attacker.id)
-    defender_data = CARD_TABLE.get(defender.id)
-    if damage > 0 and attacker_data is not None and defender_data is not None:
-        if defender_data.weakness is not None and defender_data.weakness == attacker_data.energyType:
-            damage *= 2
-        elif defender_data.resistance is not None and defender_data.resistance == attacker_data.energyType:
-            damage = max(0, damage - 30)
-    return damage
+def prize_count(pokemon: Pokemon) -> int:
+    """Calculates how many Prize cards a Pokémon yields upon being Knocked Out, factoring in modifiers."""
+    data = card_table[pokemon.id]
+    count = 3 if data.megaEx else 2 if data.ex else 1
+    for card in pokemon.energyCards:
+        if card.id == 12:  # Legacy Energy
+            count -= 1
+    for card in pokemon.tools:
+        if card.id == 1172 and "Lillie" in data.name:  # Lillie’s Pearl
+            count -= 1
+    return max(0, count)
 
 
 def pokemon_score(pokemon: Pokemon) -> int:
-    data = CARD_TABLE.get(pokemon.id)
-    if data is None:
-        return pokemon.hp
-    prize_risk = 3 if data.megaEx else 2 if data.ex else 1
-    return pokemon.hp + best_damage(pokemon) + 30 * len(pokemon.energies) + 20 * len(pokemon.tools) - 25 * prize_risk
+    """Heuristically evaluates the tactical worth of targeting a specific Pokémon on the opponent's field."""
+    data = card_table[pokemon.id]
+    score = prize_count(pokemon) * 1000
+    score += len(pokemon.energies) * 150
+    score += len(pokemon.tools) * 100
+    if data.stage2:
+        score += 250
+    elif data.stage1:
+        score += 130
 
-
-def card_score(obs: Observation, option) -> int:
-    card = get_card(obs, option.area, option.index, option.playerIndex)
-    if isinstance(card, Pokemon):
-        score = pokemon_score(card)
-        if option.playerIndex != obs.current.yourIndex:
-            score += 500 if option.area == AreaType.ACTIVE else 150
-        return score
-    if isinstance(card, Card):
-        data = CARD_TABLE.get(card.id)
-        if data is None:
-            return 20
-        if data.cardType == CardType.POKEMON:
-            return 700 + data.hp + 40 * len(data.attacks)
-        if data.cardType in {CardType.BASIC_ENERGY, CardType.SPECIAL_ENERGY}:
-            return 320
-        if data.cardType == CardType.ITEM:
-            return 260
-        if data.cardType == CardType.SUPPORTER:
-            return 230
-        if data.cardType == CardType.TOOL:
-            return 210
-        if data.cardType == CardType.STADIUM:
-            return 130
-    if option.type == OptionType.YES:
-        return 100
-    if option.type == OptionType.NUMBER and option.number is not None:
-        return option.number
-    return 30
-
-
-def main_score(obs: Observation, option) -> int:
-    if option.type == OptionType.EVOLVE:
-        return 9300
-    if option.type == OptionType.ABILITY:
-        return 8800
-    if option.type == OptionType.ATTACH:
-        card = get_card(obs, option.area, option.index, obs.current.yourIndex)
-        target = get_card(obs, option.inPlayArea, option.inPlayIndex, obs.current.yourIndex)
-        score = 7600
-        if option.inPlayArea == AreaType.ACTIVE:
-            score += 500
-        if isinstance(card, Card) and card.id == 1159:
-            score += 1600 if option.inPlayArea == AreaType.ACTIVE else -5000
-        if isinstance(target, Pokemon):
-            score += best_damage(target) - 10 * len(target.energies)
-        return score
-    if option.type == OptionType.PLAY:
-        card = get_card(obs, AreaType.HAND, option.index, obs.current.yourIndex)
-        data = CARD_TABLE.get(getattr(card, "id", None))
-        if data is None:
-            return 3000
-        if data.cardType == CardType.SUPPORTER and obs.current.supporterPlayed:
-            return -1
-        if data.cardType == CardType.STADIUM and obs.current.stadiumPlayed:
-            return -1
-        if card.id in {1102, 1142}:
-            return 8300
-        if card.id in {1141, 1152}:
-            return 7900
-        if card.id in {1192, 1227}:
-            return 7300
-        if card.id == 1123:
-            return 2500
-        if card.id == 1252:
-            return 4200
-        if data.cardType == CardType.POKEMON:
-            bench_count = len([p for p in obs.current.players[obs.current.yourIndex].bench if p is not None])
-            return 7100 if bench_count < obs.current.players[obs.current.yourIndex].benchMax else -1
-        if data.cardType == CardType.ITEM:
-            return 6500
-        if data.cardType == CardType.SUPPORTER:
-            return 6100
-        return 4200
-    if option.type == OptionType.ATTACK:
-        active = active_pokemon(obs, obs.current.yourIndex)
-        defender = active_pokemon(obs, 1 - obs.current.yourIndex)
-        score = 1400
-        if active is not None and defender is not None:
-            damage = attack_damage(active, option.attackId, defender)
-            score += damage
-            if damage >= defender.hp:
-                score += 5000
-        return score
-    if option.type == OptionType.RETREAT:
-        if obs.current.retreated:
-            return -1
-        active = active_pokemon(obs, obs.current.yourIndex)
-        bench_best = max(
-            (best_damage(pokemon) for pokemon in obs.current.players[obs.current.yourIndex].bench if pokemon is not None),
-            default=0,
-        )
-        if active is not None and best_damage(active) == 0 and bench_best > 0:
-            return 900
-        return -1
-    if option.type == OptionType.END:
-        return 1
-    return 100
-
-
-def fallback(obs: Observation) -> list[int]:
-    if obs.select.maxCount <= 0 or not obs.select.option:
-        return []
-    count = min(max(obs.select.minCount, 1), obs.select.maxCount, len(obs.select.option))
-    return list(range(count))
-
-
-def choose(obs: Observation) -> list[int]:
-    select = obs.select
-    if select.maxCount == 0 or not select.option:
-        return []
-
-    if select.type == SelectType.YES_NO:
-        want = OptionType.NO if select.context == SelectContext.MULLIGAN else OptionType.YES
-        for index, option in enumerate(select.option):
-            if option.type == want:
-                return [index]
-        return fallback(obs)
-
-    if all(option.type == OptionType.NUMBER for option in select.option):
-        return [max(range(len(select.option)), key=lambda i: select.option[i].number or 0)]
-
-    if select.context == SelectContext.MAIN:
-        if obs.current.turnActionCount >= MAX_TURN_ACTIONS:
-            for index, option in enumerate(select.option):
-                if option.type == OptionType.ATTACK:
-                    return [index]
-            for index, option in enumerate(select.option):
-                if option.type == OptionType.END:
-                    return [index]
-        scores = [main_score(obs, option) for option in select.option]
-        return [max(range(len(scores)), key=lambda i: scores[i])]
-
-    low_contexts = {
-        SelectContext.DISCARD,
-        SelectContext.DISCARD_CARD_OR_ATTACHED_CARD,
-        SelectContext.DISCARD_ENERGY,
-        SelectContext.DISCARD_ENERGY_CARD,
-        SelectContext.TO_DECK,
-        SelectContext.TO_DECK_BOTTOM,
-    }
-    count = min(max(select.minCount, 1), select.maxCount, len(select.option))
-    scores = [card_score(obs, option) for option in select.option]
-    reverse = select.context not in low_contexts
-    return sorted(range(len(scores)), key=lambda i: scores[i], reverse=reverse)[:count]
+    id = pokemon.id
+    # Squawkabilly ex, Noctowl, Fan Rotom, Archaludon ex
+    if id == 144 or id == 322 or id == 323 or id == 337:
+        score -= 200
+    if id == 112 and len(pokemon.energies) >= 1:  # Munkidori
+        score += 300
+    score += pokemon.hp
+    return score
 
 
 def agent(obs_dict: dict) -> list[int]:
-    obs: Observation = to_observation_class(obs_dict)
-    if obs.select is None:
-        return read_deck_csv()
-    try:
-        result = choose(obs)
-        result = [i for i in dict.fromkeys(result) if 0 <= i < len(obs.select.option)]
-        if obs.select.minCount <= len(result) <= obs.select.maxCount:
-            return result
-        return fallback(obs)
-    except Exception:
-        return fallback(obs)
+    """Main Agent Function.
+
+    Each element in the returned list must be >= 0 and < len(obs.select.option).
+    The list length must be between obs.select.minCount and obs.select.maxCount (inclusive), with no duplicate elements.
+
+    Returns:
+        list[int]: A list of option index.
+    """
+    obs = to_observation_class(obs_dict)
+    if obs.select == None:
+        # In the initial selection, the obs.select is None, and it is necessary to return the deck.
+        # The deck is a list of 60 card IDs.
+        # The deck must comply with the Pokémon Trading Card Game rules.
+        return my_deck
+
+    state = obs.current
+    select = obs.select
+    context = select.context
+    my_index = state.yourIndex
+    my_state = state.players[my_index]
+    op_state = state.players[1 - my_index]
+    my_prize = len(my_state.prize)
+
+    global plan
+    global pre_turn
+    global ability_used
+    if pre_turn != state.turn:
+        pre_turn = state.turn
+        plan = AttackPlan()
+        ability_used = False
+
+    field_counts = defaultdict(int)  # Number of cards per card ID on the Bench and in the Active Spot
+    hand_counts = defaultdict(int)  # Number of cards per card ID in hand
+    discard_counts = defaultdict(int)  # Number of cards per card ID in discard pile
+
+    attacker1 = False
+    attacker2 = False
+    for card in my_state.active + my_state.bench:
+        if card == None:
+            continue
+        field_counts[card.id] += 1
+        if card.id == Makuhita or card.id == Hariyama:
+            if len(card.energies) >= 3:
+                attacker2 = True
+        elif card.id == Riolu or card.id == Mega_Lucario_ex:
+            if len(card.energies) >= 2:
+                attacker1 = True
+
+    for card in my_state.hand:
+        hand_counts[card.id] += 1
+
+    for card in my_state.discard:
+        discard_counts[card.id] += 1
+
+    stadium_id = 0
+    for card in state.stadium:
+        stadium_id = card.id
+
+    can_attack = False
+    if context == SelectContext.MAIN:
+        can_switch = False
+        can_op_switch = False
+        can_use_mega_brave = False
+        for o in select.option:
+            if o.type == OptionType.PLAY:
+                card = get_card(obs, AreaType.HAND, o.index, my_index)
+                if card.id == Switch:
+                    can_switch = True
+                elif card.id == Boss_Orders:
+                    can_op_switch = True
+            elif o.type == OptionType.EVOLVE:
+                card = get_card(obs, AreaType.HAND, o.index, my_index)
+                if card.id == Hariyama:
+                    can_op_switch = True
+            elif o.type == OptionType.RETREAT:
+                can_switch = True
+            elif o.type == OptionType.ATTACK:
+                can_attack = True
+                if o.attackId == 983:  # Mega Brave
+                    can_use_mega_brave = True
+
+        my_cards = [my_state.active[0]]
+        for pokemon in my_state.bench:
+            my_cards.append(pokemon)
+        op_cards = [op_state.active[0]]
+        for pokemon in op_state.bench:
+            op_cards.append(pokemon)
+
+        if state.turn >= 2:
+            best_score = -1
+            for i, my_pokemon in enumerate(my_cards):
+                if i != 0 and not can_switch:
+                    break
+                for a in range(2):
+                    energy_required = 0
+                    base_damage = 0
+                    base_score = 0
+                    if my_pokemon.id == Mega_Lucario_ex:
+                        if a == 0:
+                            energy_required = 1
+                            base_damage = 130
+                            base_score += 60 * min(3, discard_counts[Basic_Fighting_Energy])
+                        else:
+                            energy_required = 2
+                            base_damage = 270
+                        if my_prize == 2 or my_prize == 3:
+                            base_score -= 500
+                    elif a == 1:
+                        break
+                    elif my_pokemon.id == Hariyama:
+                        energy_required = 3
+                        base_damage = 210
+                    elif my_pokemon.id == Makuhita:
+                        for o in select.option:
+                            if o.type == OptionType.EVOLVE:
+                                index = o.inPlayIndex
+                                if o.inPlayArea == AreaType.BENCH:
+                                    index += 1
+                                if index == i:
+                                    break
+                        else:
+                            break
+                        base_score -= 100
+                        energy_required = 3
+                        base_damage = 210
+                    elif my_pokemon.id == Solrock:
+                        if field_counts[Lunatone] >= 1:
+                            energy_required = 1
+                            base_damage = 70
+
+                    if base_damage <= 0:
+                        continue
+
+                    more_energy = False
+                    energy_count = len(my_pokemon.energies)
+                    if a == 1 and i == 0 and energy_count >= 2 and not can_use_mega_brave:
+                        break
+                    if energy_count < energy_required:
+                        if hand_counts[Basic_Fighting_Energy] >= 1 and not state.energyAttached:
+                            energy_count += 1
+                            if energy_count < energy_required:
+                                continue
+                            else:
+                                more_energy = True
+                        else:
+                            continue
+
+                    for j, op_pokemon in enumerate(op_cards):
+                        if j != 0 and not can_op_switch:
+                            break
+                        damage = base_damage
+                        data = card_table[op_pokemon.id]
+                        if data.weakness == EnergyType.FIGHTING:
+                            damage *= 2
+                        elif data.resistance == EnergyType.FIGHTING:
+                            damage -= 30
+                        prize = 0
+                        score = pokemon_score(op_pokemon)
+                        if op_pokemon.hp <= damage:
+                            prize = prize_count(op_pokemon)
+                        else:
+                            score *= damage / op_pokemon.hp
+                        score += base_score
+
+                        if len(op_state.prize) <= prize:
+                            score = 50000
+
+                        if i == 0:
+                            score += 220
+                        if j == 0:
+                            score += 300
+                        score += energy_count
+                        if best_score < score:
+                            best_score = score
+                            plan.attacker = i
+                            plan.target = j
+                            plan.attack_index = a
+                            plan.remain_hp = op_pokemon.hp - damage
+                            plan.energy = more_energy
+
+    # Attach energy score
+    def energy_score(pokemon: Pokemon, active: bool) -> int:
+        energy_count = len(pokemon.energies)
+        score = 8000
+        if active:
+            score += 10
+        if pokemon.id == Makuhita or pokemon.id == Hariyama:
+            if pokemon.id == Hariyama:
+                score += 1
+            if energy_count < 3:
+                score += 100
+            if attacker2:
+                score -= 50
+        elif pokemon.id == Lunatone:
+            score -= 100
+        elif pokemon.id == Solrock:
+            if energy_count < 1:
+                score += 20
+            else:
+                score -= 100
+        elif pokemon.id == Riolu or pokemon.id == Mega_Lucario_ex:
+            if pokemon.id == Mega_Lucario_ex:
+                score += 1
+            if energy_count < 2:
+                score += 100
+            if attacker1:
+                score -= 50
+        return score
+
+    # Iterate over every possible option and assign a heuristic score.
+    scores = []  # Score for each action
+    for o in select.option:
+        score = 0  # The default and baseline score is 0.
+        if o.type == OptionType.NUMBER:
+            score = o.number  # e.g., for "draw X cards"
+        elif o.type == OptionType.YES:
+            score = 1  # Prefer "Yes"
+        elif o.type == OptionType.CARD:
+            card = get_card(obs, o.area, o.index, o.playerIndex)
+            if card != None:
+                energy_count = 0
+                if isinstance(card, Pokemon):
+                    energy_count = len(card.energies)
+                if context == SelectContext.SWITCH or context == SelectContext.TO_ACTIVE:
+                    # Selection of the Pokémon to send to the Active Spot
+                    if o.playerIndex == my_index:
+                        score += energy_count * 2
+                        if o.index == plan.attacker - 1:
+                            score += 100
+                        if card.id == Mega_Lucario_ex:
+                            if my_prize == 2 or my_prize == 3:
+                                score += 8
+                            else:
+                                score += 20
+                        elif card.id == Hariyama and energy_count >= 2:
+                            score += 15
+                        elif card.id == Makuhita and energy_count >= 2:
+                            score += 10
+                        elif card.id == Solrock:
+                            score += 5
+                        elif card.id == Riolu:
+                            score += 4
+                    else:
+                        if o.index == plan.target - 1:
+                            score += 100
+                elif context == SelectContext.SETUP_ACTIVE_POKEMON:
+                    # Prioritize playing Riolu if going first, and Solrock if going second.
+                    if card.id == Solrock:
+                        if state.firstPlayer == my_index:
+                            score = 2
+                        else:
+                            score = 4
+                    elif card.id == Riolu:
+                        score = 3
+                    elif card.id == Makuhita:
+                        score = 1
+                elif context == SelectContext.TO_HAND:
+                    score = 200 - hand_counts[card.id] * 100
+                    if card.id == Makuhita:
+                        if field_counts[card.id] >= 1:
+                            score -= 10
+                        else:
+                            score += 10
+                    elif card.id == Hariyama:
+                        if field_counts[Makuhita] >= 1:
+                            score += 20
+                        else:
+                            score -= 20
+                    elif card.id == Lunatone:
+                        if field_counts[card.id] >= 1:
+                            score -= 250
+                        else:
+                            score += 60
+                    elif card.id == Solrock:
+                        if field_counts[card.id] >= 1:
+                            score -= 250
+                        else:
+                            score += 50
+                    elif card.id == Riolu:
+                        if field_counts[card.id] + field_counts[Mega_Lucario_ex] >= 2:
+                            score -= 150
+                        elif field_counts[card.id] + field_counts[Mega_Lucario_ex] >= 1:
+                            score -= 3
+                        else:
+                            score += 40
+                    elif card.id == Mega_Lucario_ex:
+                        if field_counts[Riolu] >= 1:
+                            score += 40
+                        else:
+                            score -= 15
+                    elif card.id == Basic_Fighting_Energy:
+                        if not ability_used or not state.energyAttached:
+                            score += 30
+                        else:
+                            score -= 1
+                elif context == SelectContext.ATTACH_FROM:
+                    score = energy_score(card, o.area == AreaType.ACTIVE)
+        elif o.type == OptionType.PLAY:
+            card = get_card(obs, AreaType.HAND, o.index, my_index)
+            data = card_table[card.id]
+            if data.cardType == CardType.POKEMON:
+                score = 20000
+                if card.id == Lunatone or card.id == Solrock:
+                    if field_counts[card.id] >= 1:
+                        score = -1
+                elif card.id == Riolu:
+                    if field_counts[card.id] + field_counts[Mega_Lucario_ex] >= 2:
+                        score = -1
+            else:
+                score = 10000
+                if card.id == Switch:
+                    if plan.attacker <= 0:
+                        score = -1
+                    else:
+                        score = 6000
+                elif card.id == Premium_Power_Pro:
+                    if state.supporterPlayed and plan.remain_hp <= 0:
+                        score = -1
+                    elif not can_attack:
+                        if not state.supporterPlayed and hand_counts[Carmine] > 0 and hand_counts[Lillie_Determination] == 0:
+                            score = 3050
+                        else:
+                            score = -1
+                    else:
+                        score = 5000
+                elif card.id == Boss_Orders:
+                    if plan.target >= 1:
+                        score = 3200
+                    else:
+                        score = -1
+                elif card.id == Carmine:
+                    score = 3000
+                elif card.id == Lillie_Determination:
+                    score = 3100
+                elif card.id == Gravity_Mountain:
+                    if stadium_id == 0:
+                        score = -1
+        elif o.type == OptionType.ATTACH:
+            card = get_card(obs, AreaType.HAND, o.index, my_index)
+            pokemon = get_card(obs, o.inPlayArea, o.inPlayIndex, my_index)
+            if card.id == Hero_Cape:
+                score = 7000
+                if pokemon.id == Riolu:
+                    score += 100
+                elif pokemon.id == Mega_Lucario_ex:
+                    score += 200
+            else:
+                score = energy_score(pokemon, o.inPlayArea == AreaType.ACTIVE)
+                if o.inPlayArea == AreaType.ACTIVE:
+                    if plan.attacker == 0 and plan.energy:
+                        score += 200
+                else:
+                    if plan.attacker == 1 + o.inPlayIndex and plan.energy:
+                        score += 200
+        elif o.type == OptionType.EVOLVE:
+            pokemon = get_card(obs, o.inPlayArea, o.inPlayIndex, my_index)
+            score = 9000 + len(pokemon.energies)
+            if pokemon.id == Makuhita and plan.target == 0:
+                score = -1
+        elif o.type == OptionType.ABILITY:
+            card = get_card(obs, o.area, o.index, my_index)
+            if card.id == 1267:  # Lumiose City
+                score = 1
+            else:
+                score = 30000
+        elif o.type == OptionType.RETREAT:
+            if plan.attacker >= 1:
+                score = 2000
+            else:
+                score = -1
+        elif o.type == OptionType.ATTACK:
+            score = 1000
+            if plan.attack_index == 1:
+                if o.attackId == 983:  # Mega Brave
+                    score += 100
+            else:
+                if o.attackId != 983:
+                    score += 100
+
+        scores.append(score)
+
+    # Select in descending order of score
+    desc_indices = [i for i, _ in sorted(enumerate(scores), key=lambda x: x[1], reverse=True)]
+    if context == SelectContext.MAIN:
+        o = select.option[desc_indices[0]]
+        if o.type == OptionType.ABILITY:
+            card = get_card(obs, o.area, o.index, my_index)
+            if card.id == Lunatone:
+                ability_used = True
+    return desc_indices[:select.maxCount]

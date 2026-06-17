@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s005-lucario-tempo.tar.gz`
 
 Kaggle submission: `53784007`
 
-Public score: 600.0
+Public score: 423.4
 
 Status: complete
 
@@ -23,5 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score stayed at 600.0, so the final experiment should use a
-  fuller deck-specific Lucario policy.
+- Latest refreshed public score was 423.4, below the Crustle variants.

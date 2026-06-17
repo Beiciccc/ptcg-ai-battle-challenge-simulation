@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s002-generic-abomasnow-entryfix.tar.gz`
 
 Kaggle submission: `53783691`
 
-Public score: 600.0
+Public score: 556.4
 
 Status: complete
 
