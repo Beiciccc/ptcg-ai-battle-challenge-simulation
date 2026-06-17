@@ -1,0 +1,27 @@
+# 003 Crustle Wall
+
+Date: 2026-06-17
+
+Package: `artifacts/submissions/s003-crustle-wall.tar.gz`
+
+Kaggle submission: `53783789`
+
+Public score: 600.0
+
+Status: complete
+
+Summary:
+- Switched from the sample Mega Abomasnow deck to a Crustle wall deck.
+- Added light card-specific handling for Hero's Cape, Jumbo Ice Cream, Cook,
+  and Buddy-Buddy Poffin.
+
+Validation:
+- `python tools/check_submission_entrypoint.py submission/main.py`
+- `python tools/check_deck.py submission/deck.csv`
+- `PYTHONPATH=src pytest -q -p no:cacheprovider`
+- `python tools/package_submission.py --name s003-crustle-wall`
+
+Result:
+- Kaggle validation completed.
+- Public score stayed at 600.0, so the next experiment should use a more
+  deck-specific turn policy for Crustle instead of the generic heuristic.

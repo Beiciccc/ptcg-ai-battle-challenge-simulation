@@ -106,10 +106,15 @@ def score_main_option(obs: Observation, option) -> float:
     if option.type == OptionType.ABILITY:
         return 7600
     if option.type == OptionType.ATTACH:
+        card = get_card(obs, option.area, option.index, obs.current.yourIndex)
         target = get_card(obs, option.inPlayArea, option.inPlayIndex, obs.current.yourIndex)
         score = 7000
+        if isinstance(card, Card) and card.id == 1159 and option.inPlayArea != AreaType.ACTIVE:
+            return -1
         if option.inPlayArea == AreaType.ACTIVE:
             score += 500
+        if isinstance(card, Card) and card.id == 1159:
+            score += 2500
         if isinstance(target, Pokemon):
             score += best_printed_damage(target) - 8 * len(target.energies)
         return score
@@ -118,6 +123,11 @@ def score_main_option(obs: Observation, option) -> float:
         data = CARD_TABLE.get(getattr(card, "id", None))
         if data is None:
             return 3000
+        if card.id in {1147, 1212}:
+            active = active_pokemon(obs, obs.current.yourIndex)
+            if active is None or active.hp >= active.maxHp:
+                return -1
+            return 6200
         if data.cardType == CardType.SUPPORTER and obs.current.supporterPlayed:
             return -1
         if data.cardType == CardType.STADIUM and obs.current.stadiumPlayed:
@@ -253,6 +263,8 @@ def card_score(obs: Observation, option) -> float:
         if data.cardType == CardType.SUPPORTER:
             return 220
         if data.cardType == CardType.ITEM:
+            if card.id == 1086:
+                return 500
             return 200
         if data.cardType == CardType.TOOL:
             return 180
