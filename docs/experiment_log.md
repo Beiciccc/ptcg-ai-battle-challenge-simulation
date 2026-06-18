@@ -9,3 +9,4 @@
 | 004 | 2026-06-17 | `s004-crustle-specific.tar.gz` | 766.6 | complete | Crustle wall deck with deck-specific sequencing. Best score in this batch at latest refresh. |
 | 005 | 2026-06-17 | `s005-lucario-tempo.tar.gz` | 423.4 | complete | Mega Lucario deck with concise tempo policy. Underperformed Crustle. |
 | 006 | 2026-06-17 | `s006-lucario-full-policy.tar.gz` | 600.0 | complete | Mega Lucario deck with fuller public-rule policy. Initial validation completed but did not beat Crustle. |
+| 007 | 2026-06-18 | `s007-strongstart-lucario.tar.gz` | 600.0 | complete | Strong Start Crustle-aware Lucario policy with original Lucario deck. Initial score pending upward drift check. |
