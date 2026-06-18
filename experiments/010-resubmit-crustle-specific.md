@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s010-resubmit-crustle-specific.tar.gz`
 
 Kaggle submission: `53791955`
 
-Public score: 691.4
+Public score: 761.4
 
 Status: complete
 
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 691.4.
+- Latest refreshed public score was 761.4.
