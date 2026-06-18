@@ -10,3 +10,4 @@
 | 005 | 2026-06-17 | `s005-lucario-tempo.tar.gz` | 423.4 | complete | Mega Lucario deck with concise tempo policy. Underperformed Crustle. |
 | 006 | 2026-06-17 | `s006-lucario-full-policy.tar.gz` | 600.0 | complete | Mega Lucario deck with fuller public-rule policy. Initial validation completed but did not beat Crustle. |
 | 007 | 2026-06-18 | `s007-strongstart-lucario.tar.gz` | 600.0 | complete | Strong Start Crustle-aware Lucario policy with original Lucario deck. Initial score pending upward drift check. |
+| 008 | 2026-06-18 | `s008-strongstart-retuned.tar.gz` | 600.0 | complete | Strong Start policy with retuned anti-Crustle deck. Initial score did not improve over original. |
