@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s008-strongstart-retuned.tar.gz`
 
 Kaggle submission: `53791767`
 
-Public score: 600.0
+Public score: 799.5
 
 Status: complete
 
@@ -22,4 +22,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0. The retuned deck should be treated cautiously.
+- Latest refreshed public score was 799.5, the best result in this batch so far.

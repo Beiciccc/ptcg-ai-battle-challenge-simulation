@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s006-lucario-full-policy.tar.gz`
 
 Kaggle submission: `53784094`
 
-Public score: 600.0
+Public score: 870.3
 
 Status: complete
 
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0, below the best Crustle variant in this batch.
+- Latest refreshed public score was 870.3, the best result in the first batch.

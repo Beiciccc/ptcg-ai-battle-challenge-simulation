@@ -8,7 +8,8 @@
 | 003 | 2026-06-17 | `s003-crustle-wall.tar.gz` | 741.4 | complete | Crustle wall deck with generic heuristic plus light healing/tool rules. Best early improvement came from the deck change. |
 | 004 | 2026-06-17 | `s004-crustle-specific.tar.gz` | 766.6 | complete | Crustle wall deck with deck-specific sequencing. Best score in this batch at latest refresh. |
 | 005 | 2026-06-17 | `s005-lucario-tempo.tar.gz` | 423.4 | complete | Mega Lucario deck with concise tempo policy. Underperformed Crustle. |
-| 006 | 2026-06-17 | `s006-lucario-full-policy.tar.gz` | 600.0 | complete | Mega Lucario deck with fuller public-rule policy. Initial validation completed but did not beat Crustle. |
-| 007 | 2026-06-18 | `s007-strongstart-lucario.tar.gz` | 600.0 | complete | Strong Start Crustle-aware Lucario policy with original Lucario deck. Initial score pending upward drift check. |
-| 008 | 2026-06-18 | `s008-strongstart-retuned.tar.gz` | 600.0 | complete | Strong Start policy with retuned anti-Crustle deck. Initial score did not improve over original. |
-| 009 | 2026-06-18 | `s009-resubmit-lucario-full.tar.gz` | 600.0 | complete | Resubmitted the previous high-scoring full Lucario policy to restore a strong latest-window candidate. |
+| 006 | 2026-06-17 | `s006-lucario-full-policy.tar.gz` | 870.3 | complete | Mega Lucario deck with fuller public-rule policy. Highest refreshed score from the first batch. |
+| 007 | 2026-06-18 | `s007-strongstart-lucario.tar.gz` | 757.1 | complete | Strong Start Crustle-aware Lucario policy with original Lucario deck. Improved after additional public games. |
+| 008 | 2026-06-18 | `s008-strongstart-retuned.tar.gz` | 799.5 | complete | Strong Start policy with retuned anti-Crustle deck. Best refreshed score from the second-day batch so far. |
+| 009 | 2026-06-18 | `s009-resubmit-lucario-full.tar.gz` | 667.0 | complete | Resubmitted the previous high-scoring full Lucario policy to restore a strong latest-window candidate. Refreshed score stayed below the original run. |
+| 010 | 2026-06-18 | `s010-resubmit-crustle-specific.tar.gz` | 600.0 | complete | Resubmitted the Crustle-specific policy as a latest-window wall candidate. Initial public score was low and needs drift monitoring. |
