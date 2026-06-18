@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s009-resubmit-lucario-full.tar.gz`
 
 Kaggle submission: `53791858`
 
-Public score: 667.0
+Public score: 774.4
 
 Status: complete
 
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 667.0.
+- Latest refreshed public score was 774.4.

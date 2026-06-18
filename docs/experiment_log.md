@@ -11,5 +11,6 @@
 | 006 | 2026-06-17 | `s006-lucario-full-policy.tar.gz` | 870.3 | complete | Mega Lucario deck with fuller public-rule policy. Highest refreshed score from the first batch. |
 | 007 | 2026-06-18 | `s007-strongstart-lucario.tar.gz` | 757.1 | complete | Strong Start Crustle-aware Lucario policy with original Lucario deck. Improved after additional public games. |
 | 008 | 2026-06-18 | `s008-strongstart-retuned.tar.gz` | 799.5 | complete | Strong Start policy with retuned anti-Crustle deck. Best refreshed score from the second-day batch so far. |
-| 009 | 2026-06-18 | `s009-resubmit-lucario-full.tar.gz` | 667.0 | complete | Resubmitted the previous high-scoring full Lucario policy to restore a strong latest-window candidate. Refreshed score stayed below the original run. |
-| 010 | 2026-06-18 | `s010-resubmit-crustle-specific.tar.gz` | 600.0 | complete | Resubmitted the Crustle-specific policy as a latest-window wall candidate. Initial public score was low and needs drift monitoring. |
+| 009 | 2026-06-18 | `s009-resubmit-lucario-full.tar.gz` | 774.4 | complete | Resubmitted the previous high-scoring full Lucario policy. Refreshed score improved after more public games but stayed below the original run. |
+| 010 | 2026-06-18 | `s010-resubmit-crustle-specific.tar.gz` | 691.4 | complete | Resubmitted the Crustle-specific policy as a wall candidate. Refreshed score stayed below the original Crustle-specific run. |
+| 011 | 2026-06-18 | `s011-final-strongstart-retuned.tar.gz` | 600.0 | complete | Re-submitted the retuned Strong Start list after it became the best refreshed second-day result. Initial public score was 600.0. |
