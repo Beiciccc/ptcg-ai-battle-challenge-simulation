@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s011-final-strongstart-retuned.tar.gz`
 
 Kaggle submission: `53792068`
 
-Public score: 600.0
+Public score: 885.8
 
 Status: complete
 
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 885.8.

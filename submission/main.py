@@ -63,6 +63,10 @@ Lillie_Determination = 1227
 Gravity_Mountain = 1252
 Basic_Fighting_Energy = 6
 
+# Deck-out guard: below this many cards left, stop firing draw-heavy actions
+# (Carmine / Lillie / Lunatone's draw ability) so we don't deck ourselves out.
+LOW_DECK_COUNT = 8
+
 # --- Meta tech: the Day-1 #1 deck is a Crustle wall. -----------------------
 # Crustle (345) ability "Mysterious Rock Inn" negates ALL damage from the
 # opponent's Pokemon ex. Mega Lucario ex is a mega-ex, so swinging it into
@@ -158,6 +162,8 @@ def heuristic_agent(obs):
     my_state = state.players[my_index]
     op_state = state.players[1 - my_index]
     my_prize = len(my_state.prize)
+    # deckCount may be absent in odd states; default high so the guard is off.
+    low_deck = getattr(my_state, "deckCount", 999) <= LOW_DECK_COUNT
 
     global plan, pre_turn, ability_used
     if pre_turn != state.turn:
@@ -416,6 +422,47 @@ def heuristic_agent(obs):
                         score += 30 if (not ability_used or not state.energyAttached) else -1
                 elif context == SelectContext.ATTACH_FROM:
                     score = energy_score(card, o.area == AreaType.ACTIVE)
+                elif (context == SelectContext.SETUP_BENCH_POKEMON
+                      or context == SelectContext.TO_BENCH):
+                    # Bench the Lucario line (Riolu) first, then the draw engine.
+                    data = card_table.get(card.id)
+                    if data is not None and data.cardType == CardType.POKEMON:
+                        if card.id == Riolu:
+                            score = 120 - 25 * field_counts[Riolu]
+                        elif card.id == Solrock:
+                            score = 90 if field_counts[Solrock] == 0 else -1
+                        elif card.id == Lunatone:
+                            score = 80 if field_counts[Lunatone] == 0 else -1
+                        elif card.id == Makuhita:
+                            score = 65 if field_counts[Makuhita] == 0 else 10
+                elif context == SelectContext.DISCARD:
+                    # Pitch redundant/dead cards; protect key pieces.
+                    cid = card.id
+                    if cid == Basic_Fighting_Energy:
+                        score = 45 if hand_counts[cid] >= 2 else 5
+                        if plan.energy and not state.energyAttached:
+                            score -= 200
+                    elif hand_counts[cid] >= 2:
+                        score = 70
+                    elif (cid == Lunatone or cid == Solrock) and field_counts[cid] >= 1:
+                        score = 55
+                    elif cid == Gravity_Mountain and stadium_id == Gravity_Mountain:
+                        score = 50
+                    elif (cid == Carmine or cid == Lillie_Determination) and state.supporterPlayed:
+                        score = 30
+                    elif cid == Mega_Lucario_ex and field_counts[Riolu] == 0:
+                        score = -80
+                    elif cid == Hariyama and field_counts[Makuhita] == 0:
+                        score = -50
+                    elif cid in (Riolu, Makuhita, Boss_Orders, Hero_Cape):
+                        score = -40
+                elif (context == SelectContext.DAMAGE_COUNTER
+                      or context == SelectContext.DAMAGE_COUNTER_ANY):
+                    if isinstance(card, Pokemon):
+                        if o.playerIndex != my_index:
+                            score = 10000 + prize_count(card) * 1000 - getattr(card, "hp", 0)
+                        else:
+                            score = -pokemon_score(card)
         elif o.type == OptionType.PLAY:
             card = get_card(obs, AreaType.HAND, o.index, my_index)
             if card is None:
@@ -448,9 +495,9 @@ def heuristic_agent(obs):
                 elif card.id == Boss_Orders:
                     score = 3200 if plan.target >= 1 else -1
                 elif card.id == Carmine:
-                    score = 3000
+                    score = -1 if low_deck else 3000
                 elif card.id == Lillie_Determination:
-                    score = 3100
+                    score = -1 if low_deck else 3100
                 elif card.id == Gravity_Mountain:
                     if stadium_id == 0:
                         score = -1
@@ -486,6 +533,8 @@ def heuristic_agent(obs):
             card = get_card(obs, o.area, o.index, my_index)
             if card is not None and card.id == 1267:  # Lumiose City
                 score = 1
+            elif card is not None and card.id == Lunatone and low_deck:
+                score = -1  # Lunar Cycle draws 3 -> don't deck ourselves out
             else:
                 score = 30000
         elif o.type == OptionType.RETREAT:

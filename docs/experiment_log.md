@@ -13,4 +13,5 @@
 | 008 | 2026-06-18 | `s008-strongstart-retuned.tar.gz` | 799.5 | complete | Strong Start policy with retuned anti-Crustle deck. Best refreshed score from the second-day batch so far. |
 | 009 | 2026-06-18 | `s009-resubmit-lucario-full.tar.gz` | 893.0 | complete | Resubmitted the previous high-scoring full Lucario policy. Latest refreshed score became the best observed result so far. |
 | 010 | 2026-06-18 | `s010-resubmit-crustle-specific.tar.gz` | 761.4 | complete | Resubmitted the Crustle-specific policy as a wall candidate. Refreshed score nearly matched the original Crustle-specific run. |
-| 011 | 2026-06-18 | `s011-final-strongstart-retuned.tar.gz` | 600.0 | complete | Re-submitted the retuned Strong Start list after it became the best refreshed second-day result. Initial public score was 600.0. |
+| 011 | 2026-06-18 | `s011-final-strongstart-retuned.tar.gz` | 885.8 | complete | Re-submitted the retuned Strong Start list after it became the best refreshed second-day result. Latest refreshed score became a strong guard result. |
+| 012 | 2026-06-19 | `s012-roman-v7-guarded.tar.gz` | 600.0 | complete | Updated the retuned Strong Start policy with low-deck and extra selection guards from the public V7 notebook. Initial public score was 600.0. |
