@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s012-roman-v7-guarded.tar.gz`
 
 Kaggle submission: `53827461`
 
-Public score: 600.0
+Public score: 748.4
 
 Status: complete
 
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 748.4.

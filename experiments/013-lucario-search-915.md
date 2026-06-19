@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s013-lucario-search-915.tar.gz`
 
 Kaggle submission: `53827594`
 
-Public score: 600.0
+Public score: 692.0
 
 Status: complete
 
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 692.0.
