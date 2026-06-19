@@ -16,4 +16,5 @@
 | 011 | 2026-06-18 | `s011-final-strongstart-retuned.tar.gz` | 885.8 | complete | Re-submitted the retuned Strong Start list after it became the best refreshed second-day result. Latest refreshed score became a strong guard result. |
 | 012 | 2026-06-19 | `s012-roman-v7-guarded.tar.gz` | 748.4 | complete | Updated the retuned Strong Start policy with low-deck and extra selection guards from the public V7 notebook. Refreshed score stayed below prior guards. |
 | 013 | 2026-06-19 | `s013-lucario-search-915.tar.gz` | 692.0 | complete | Tested the public 915+ Lucario search baseline with bounded forward search enabled. Refreshed score stayed below prior guards. |
-| 014 | 2026-06-19 | `s014-yaroslav-lucario-v2.tar.gz` | 600.0 | complete | Tested the public Lucario V2 crustle-aware policy. Initial public score was 600.0. |
+| 014 | 2026-06-19 | `s014-yaroslav-lucario-v2.tar.gz` | 488.0 | complete | Tested the public Lucario V2 crustle-aware policy. Refreshed score was weak. |
+| 015 | 2026-06-19 | `s015-latest-two-guard-strongstart.tar.gz` | 600.0 | complete | Restored the retuned Strong Start guard as the first latest-two repair slot. Initial public score was 600.0. |

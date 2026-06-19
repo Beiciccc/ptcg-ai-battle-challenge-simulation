@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s014-yaroslav-lucario-v2.tar.gz`
 
 Kaggle submission: `53827710`
 
-Public score: 600.0
+Public score: 488.0
 
 Status: complete
 
@@ -25,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 488.0.
