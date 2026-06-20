@@ -19,6 +19,7 @@
 | 014 | 2026-06-19 | `s014-yaroslav-lucario-v2.tar.gz` | 681.2 | complete | Tested the public Lucario V2 crustle-aware policy. Refreshed score stayed below prior guards. |
 | 015 | 2026-06-19 | `s015-latest-two-guard-strongstart.tar.gz` | 694.3 | complete | Restored the retuned Strong Start guard as the first latest-two repair slot. Refreshed score underperformed the original run. |
 | 016 | 2026-06-19 | `s016-latest-two-guard-lucario-full.tar.gz` | 746.6 | complete | Restored the full Lucario policy as the final latest-two repair slot. Refreshed score stayed below the original run. |
-| 017 | 2026-06-20 | `s017-maktha-1084-baseline.tar.gz` | 750.5 | complete | Tested the public 1084.5 baseline candidate. Refreshed score stayed below prior guards. |
+| 017 | 2026-06-20 | `s017-maktha-1084-baseline.tar.gz` | 673.0 | complete | Tested the public 1084.5 baseline candidate. Refreshed score stayed below prior guards. |
 | 018 | 2026-06-20 | `s018-reroll-lucario-full.tar.gz` | 742.5 | complete | Re-submitted the full Lucario policy as the first guard reroll. Refreshed score stayed below the original run. |
 | 019 | 2026-06-20 | `s019-reroll-strongstart-retuned.tar.gz` | 600.0 | complete | Re-submitted the retuned Strong Start policy as a guard reroll. Initial public score was 600.0. |
+| 020 | 2026-06-20 | `s020-reroll-crustle-specific.tar.gz` | 600.0 | complete | Re-submitted the Crustle-specific policy as the first final latest-two guard slot. Initial public score was 600.0. |

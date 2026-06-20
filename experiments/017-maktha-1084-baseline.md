@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s017-maktha-1084-baseline.tar.gz`
 
 Kaggle submission: `53864132`
 
-Public score: 750.5
+Public score: 673.0
 
 Status: complete
 
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 750.5.
+- Latest refreshed public score was 673.0.
