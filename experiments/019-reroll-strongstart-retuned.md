@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s019-reroll-strongstart-retuned.tar.gz`
 
 Kaggle submission: `53864336`
 
-Public score: 600.0
+Public score: 469.7
 
 Status: complete
 
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 469.7.

@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s018-reroll-lucario-full.tar.gz`
 
 Kaggle submission: `53864259`
 
-Public score: 742.5
+Public score: 838.3
 
 Status: complete
 
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 742.5.
+- Latest refreshed public score was 838.3.
