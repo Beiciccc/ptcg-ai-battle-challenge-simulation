@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s015-latest-two-guard-strongstart.tar.gz`
 
 Kaggle submission: `53827828`
 
-Public score: 548.0
+Public score: 694.3
 
 Status: complete
 
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 548.0.
+- Latest refreshed public score was 694.3.

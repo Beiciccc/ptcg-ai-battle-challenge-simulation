@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s016-latest-two-guard-lucario-full.tar.gz`
 
 Kaggle submission: `53827932`
 
-Public score: 600.0
+Public score: 746.6
 
 Status: complete
 
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 746.6.
