@@ -25,3 +25,4 @@
 | 020 | 2026-06-20 | `s020-reroll-crustle-specific.tar.gz` | 783.2 | complete | Re-submitted the Crustle-specific policy as the first final latest-two guard slot. Refreshed score improved but stayed below the original run. |
 | 021 | 2026-06-20 | `s021-final-lucario-full.tar.gz` | 807.4 | complete | Re-submitted the full Lucario policy as the final latest-two guard slot. Refreshed score improved but stayed below the original run. |
 | 022 | 2026-06-21 | `s009-resubmit-lucario-full.tar.gz` | 600.0 | complete | Re-submitted the historical full Lucario guard package as the first 2026-06-21 repair slot. Initial public score was weak, so it should not be used as a final guard without a later refresh. |
+| 023 | 2026-06-21 | `s010-resubmit-crustle-specific.tar.gz` | 600.0 | complete | Re-submitted the historical Crustle-specific guard package as a diversity repair slot. Initial public score was weak, so the remaining batch keeps one exploration slot and two guard slots. |
