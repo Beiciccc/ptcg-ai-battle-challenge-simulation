@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s010-resubmit-crustle-specific.tar.gz`
 
 Kaggle submission: `53907042`
 
-Public score: 600.0
+Public score: 718.4
 
 Status: complete
 
@@ -14,7 +14,8 @@ Summary:
 - Re-submitted the historical Crustle-specific policy and wall deck package as
   a high-diversity repair slot after the first 2026-06-21 guard reroll scored
   weakly.
-- The submission completed, but the initial public score was also weak.
+- The submission completed, and the refreshed public score recovered from the
+  initial result but stayed below earlier runs.
 
 Validation:
 - `python tools/check_submission_entrypoint.py /tmp/ptcg-verify-s010/main.py`
@@ -24,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 718.4.
