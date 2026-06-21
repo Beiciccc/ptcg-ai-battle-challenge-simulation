@@ -6,14 +6,14 @@ Package: `artifacts/submissions/s009-resubmit-lucario-full.tar.gz`
 
 Kaggle submission: `53906929`
 
-Public score: 600.0
+Public score: 526.0
 
 Status: complete
 
 Summary:
 - Re-submitted the historical full Lucario policy and original Mega Lucario
   deck package as the first 2026-06-21 guard repair slot.
-- The submission completed, but the initial public score was weak relative to
+- The submission completed, but the refreshed public score was weak relative to
   the original run and to the refreshed 2026-06-20 guard runs.
 
 Validation:
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 526.0.
