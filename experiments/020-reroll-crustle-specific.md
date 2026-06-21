@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s020-reroll-crustle-specific.tar.gz`
 
 Kaggle submission: `53864421`
 
-Public score: 723.4
+Public score: 783.2
 
 Status: complete
 
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 723.4.
+- Latest refreshed public score was 783.2.
