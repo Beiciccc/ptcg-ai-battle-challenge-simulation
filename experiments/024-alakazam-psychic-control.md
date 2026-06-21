@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s024-alakazam-psychic-control.tar.gz`
 
 Kaggle submission: `53907175`
 
-Public score: 600.0
+Public score: 713.2
 
 Status: complete
 
@@ -14,8 +14,8 @@ Summary:
 - Tested a public Alakazam psychic-control candidate after the latest public
   code and discussion scan suggested that control-style decks were becoming
   more relevant than older Lucario-only baselines.
-- The candidate validated successfully but did not improve the current public
-  result.
+- The candidate validated successfully and recovered after the initial score,
+  but did not improve over the strongest guard candidate in this batch.
 
 Validation:
 - `python tools/check_submission_entrypoint.py /tmp/ptcg-alakazam-source/main.py`
@@ -25,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 713.2.
