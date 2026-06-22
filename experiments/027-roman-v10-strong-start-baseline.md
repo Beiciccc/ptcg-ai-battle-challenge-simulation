@@ -6,15 +6,15 @@ Package: `artifacts/submissions/s027-roman-v10-strong-start-baseline.tar.gz`
 
 Kaggle submission: `53945192`
 
-Public score: 731.5
+Public score: 652.0
 
 Status: complete
 
 Summary:
 - Tested the public Roman V10 Strong Start baseline after the 2026-06-22 code
   refresh identified it as a high-signal updated baseline.
-- The package validated successfully, and the refreshed public score recovered
-  from the initial result but stayed below the strongest guard candidates.
+- The package validated successfully, but the refreshed public score stayed
+  below the strongest guard candidates.
 
 Validation:
 - `python tools/check_submission_entrypoint.py /tmp/ptcg-source-roman_v10/main.py`
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 731.5.
+- Latest refreshed public score was 652.0.
