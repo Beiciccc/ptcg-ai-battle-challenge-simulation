@@ -6,15 +6,15 @@ Package: `artifacts/submissions/s028-naoto-hop-alakazam-target.tar.gz`
 
 Kaggle submission: `53961105`
 
-Public score: 737.9
+Public score: 854.6
 
 Status: complete
 
 Summary:
 - Re-submitted the Naoto Hop/Alakazam target-priority Lucario variant after it
   became the strongest refreshed 2026-06-22 result in the previous batch.
-- The package validated successfully, and the refreshed public score recovered
-  but stayed below the previous day's best run.
+- The package validated successfully, and the refreshed public score became
+  the best 2026-06-23 result so far.
 
 Validation:
 - `python tools/check_submission_entrypoint.py /tmp/ptcg-verify-s028-today/main.py`
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 737.9.
+- Latest refreshed public score was 854.6.
