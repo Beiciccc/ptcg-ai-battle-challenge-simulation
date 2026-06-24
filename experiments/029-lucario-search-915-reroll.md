@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s013-lucario-search-915.tar.gz`
 
 Kaggle submission: `53945452`
 
-Public score: 703.9
+Public score: 768.8
 
 Status: complete
 
@@ -17,10 +17,10 @@ Summary:
   initial result but stayed below the Naoto target variant.
 
 Validation:
-- `python tools/check_submission_entrypoint.py /tmp/ptcg-verify-s013-today/main.py`
-- `python tools/check_deck.py /tmp/ptcg-verify-s013-today/deck.csv`
+- `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
+- `python tools/check_deck.py $TEMP_DIR/deck.csv`
 - `tar -tzf artifacts/submissions/s013-lucario-search-915.tar.gz`
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 703.9.
+- Latest refreshed public score was 768.8.

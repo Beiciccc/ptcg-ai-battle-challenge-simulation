@@ -17,8 +17,8 @@ Summary:
   below the Naoto reroll.
 
 Validation:
-- `python tools/check_submission_entrypoint.py /tmp/ptcg-verify-s013-0623/main.py`
-- `python tools/check_deck.py /tmp/ptcg-verify-s013-0623/deck.csv`
+- `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
+- `python tools/check_deck.py $TEMP_DIR/deck.csv`
 - `tar -tzf artifacts/submissions/s013-lucario-search-915.tar.gz`
 
 Result:

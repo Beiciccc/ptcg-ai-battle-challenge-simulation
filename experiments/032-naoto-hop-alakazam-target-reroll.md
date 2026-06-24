@@ -17,8 +17,8 @@ Summary:
   the best 2026-06-23 result so far.
 
 Validation:
-- `python tools/check_submission_entrypoint.py /tmp/ptcg-verify-s028-today/main.py`
-- `python tools/check_deck.py /tmp/ptcg-verify-s028-today/deck.csv`
+- `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
+- `python tools/check_deck.py $TEMP_DIR/deck.csv`
 - `tar -tzf artifacts/submissions/s028-naoto-hop-alakazam-target.tar.gz`
 
 Result:

@@ -16,7 +16,7 @@ files.
 Submit a package with:
 
 ```bash
-python tools/submit_package.py artifacts/submissions/baseline.tar.gz --message "baseline"
+python tools/submit_package.py artifacts/submissions/baseline.zip --message "baseline"
 ```
 
 Use `tools/list_recent_submissions.py` to review recent Kaggle submission rows.

@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s010-resubmit-crustle-specific.tar.gz`
 
 Kaggle submission: `53961501`
 
-Public score: 675.2
+Public score: 709.0
 
 Status: complete
 
@@ -17,10 +17,10 @@ Summary:
   below the Naoto reroll.
 
 Validation:
-- `python tools/check_submission_entrypoint.py /tmp/ptcg-verify-s010-0623/main.py`
-- `python tools/check_deck.py /tmp/ptcg-verify-s010-0623/deck.csv`
+- `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
+- `python tools/check_deck.py $TEMP_DIR/deck.csv`
 - `tar -tzf artifacts/submissions/s010-resubmit-crustle-specific.tar.gz`
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 675.2.
+- Latest refreshed public score was 709.0.

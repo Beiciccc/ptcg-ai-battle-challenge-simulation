@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s005-lucario-tempo.tar.gz`
 
 Kaggle submission: `53784007`
 
-Public score: 423.4
+Public score: 410.9
 
 Status: complete
 
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 423.4, below the Crustle variants.
+- Latest refreshed public score was 410.9, below the Crustle variants.

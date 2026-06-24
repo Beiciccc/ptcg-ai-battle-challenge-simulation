@@ -18,8 +18,8 @@ Summary:
   refreshed 2026-06-20 guard runs.
 
 Validation:
-- `python tools/check_submission_entrypoint.py /tmp/ptcg-verify-s009/main.py`
-- `python tools/check_deck.py /tmp/ptcg-verify-s009/deck.csv`
+- `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
+- `python tools/check_deck.py $TEMP_DIR/deck.csv`
 - `PYTHONPATH=src pytest -q -p no:cacheprovider`
 - `tar -tzf artifacts/submissions/s009-resubmit-lucario-full.tar.gz`
 

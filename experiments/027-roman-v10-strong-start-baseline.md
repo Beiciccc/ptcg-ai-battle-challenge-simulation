@@ -17,9 +17,9 @@ Summary:
   below the strongest guard candidates.
 
 Validation:
-- `python tools/check_submission_entrypoint.py /tmp/ptcg-source-roman_v10/main.py`
-- `python tools/check_deck.py /tmp/ptcg-source-roman_v10/deck.csv`
-- `python tools/package_submission.py --source /tmp/ptcg-source-roman_v10 --name s027-roman-v10-strong-start-baseline`
+- `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
+- `python tools/check_deck.py $TEMP_DIR/deck.csv`
+- `python tools/package_submission.py --source $TEMP_DIR --name s027-roman-v10-strong-start-baseline`
 - `PYTHONPATH=src pytest -q -p no:cacheprovider`
 
 Result:

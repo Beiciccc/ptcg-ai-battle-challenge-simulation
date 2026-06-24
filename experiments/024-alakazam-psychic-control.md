@@ -18,9 +18,9 @@ Summary:
   but did not improve over the strongest guard candidate in this batch.
 
 Validation:
-- `python tools/check_submission_entrypoint.py /tmp/ptcg-alakazam-source/main.py`
-- `python tools/check_deck.py /tmp/ptcg-alakazam-source/deck.csv`
-- `python tools/package_submission.py --source /tmp/ptcg-alakazam-source --name s024-alakazam-psychic-control`
+- `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
+- `python tools/check_deck.py $TEMP_DIR/deck.csv`
+- `python tools/package_submission.py --source $TEMP_DIR --name s024-alakazam-psychic-control`
 - `tar -tzf artifacts/submissions/s024-alakazam-psychic-control.tar.gz`
 
 Result:

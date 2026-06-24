@@ -18,9 +18,9 @@ Summary:
   the best 2026-06-22 result in this batch.
 
 Validation:
-- `python tools/check_submission_entrypoint.py /tmp/ptcg-source-naoto_hop_alakazam_en/main.py`
-- `python tools/check_deck.py /tmp/ptcg-source-naoto_hop_alakazam_en/deck.csv`
-- `python tools/package_submission.py --source /tmp/ptcg-source-naoto_hop_alakazam_en --name s028-naoto-hop-alakazam-target`
+- `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
+- `python tools/check_deck.py $TEMP_DIR/deck.csv`
+- `python tools/package_submission.py --source $TEMP_DIR --name s028-naoto-hop-alakazam-target`
 - `PYTHONPATH=src pytest -q -p no:cacheprovider`
 
 Result:

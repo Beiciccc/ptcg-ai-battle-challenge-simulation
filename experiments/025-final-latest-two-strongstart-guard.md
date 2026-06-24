@@ -18,8 +18,8 @@ Summary:
   initial result.
 
 Validation:
-- `python tools/check_submission_entrypoint.py /tmp/ptcg-verify-s011/main.py`
-- `python tools/check_deck.py /tmp/ptcg-verify-s011/deck.csv`
+- `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
+- `python tools/check_deck.py $TEMP_DIR/deck.csv`
 - `PYTHONPATH=src pytest -q -p no:cacheprovider`
 - `tar -tzf artifacts/submissions/s011-final-strongstart-retuned.tar.gz`
 
