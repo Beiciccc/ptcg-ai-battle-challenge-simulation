@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s038-kokinn-diary-day3-il-rerank.tar.gz`
 
 Kaggle submission: `54010287`
 
-Public score: 600.0
+Public score: 619.5
 
 Status: complete
 
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 619.5.
