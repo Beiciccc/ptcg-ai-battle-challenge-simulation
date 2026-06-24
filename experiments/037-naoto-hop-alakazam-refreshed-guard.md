@@ -6,15 +6,15 @@ Package: `artifacts/submissions/s028-naoto-hop-alakazam-target.tar.gz`
 
 Kaggle submission: `54010123`
 
-Public score: 641.0
+Public score: 745.2
 
 Status: complete
 
 Summary:
 - Re-submitted the Naoto Hop/Alakazam target-priority Lucario variant after the
   prior refresh reached 1027.6 and became the strongest observed local result.
-- The accepted submission stayed weak after the first refresh, reinforcing that
-  same-package rerolls can vary sharply.
+- The accepted submission recovered after refresh but stayed below the prior
+  high refresh, reinforcing that same-package rerolls can vary sharply.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 641.0.
+- Latest refreshed public score was 745.2.
