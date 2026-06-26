@@ -42,5 +42,6 @@
 | 037 | 2026-06-24 | `s028-naoto-hop-alakazam-target.tar.gz` | 745.2 | complete | Re-submitted the Naoto Hop/Alakazam target-priority Lucario variant after the prior refresh reached 1027.6. Public score recovered but stayed below the prior high refresh. |
 | 038 | 2026-06-24 | `s038-kokinn-diary-day3-il-rerank.tar.gz` | 619.5 | complete | Tested the public Kokinn Diary Day 3 imitation-rerank candidate after the 2026-06-24 code refresh. Public score remained weak after refresh. |
 | 039 | 2026-06-24 | `s033-maktha-1084-latest.tar.gz` | 609.0 | complete | Tested the refreshed public 1084.5 baseline candidate as a distinct exploration slot. Public score stayed weak after refresh. |
-| 040 | 2026-06-24 | `s010-resubmit-crustle-specific.tar.gz` | 612.3 | complete | Re-submitted the Crustle-specific guard package after the exploratory slots underperformed. Public score stayed weak after refresh. |
-| 041 | 2026-06-24 | `s028-naoto-hop-alakazam-target.tar.gz` | 600.0 | complete | Re-submitted the Naoto Hop/Alakazam target-priority Lucario variant as the final guard slot. Initial public score was weak. |
+| 040 | 2026-06-24 | `s010-resubmit-crustle-specific.tar.gz` | 787.1 | complete | Re-submitted the Crustle-specific guard package after the exploratory slots underperformed. Public score recovered after refresh. |
+| 041 | 2026-06-24 | `s028-naoto-hop-alakazam-target.tar.gz` | 835.2 | complete | Re-submitted the Naoto Hop/Alakazam target-priority Lucario variant as the final guard slot. Public score recovered after refresh. |
+| 042 | 2026-06-26 | `s042-souta-libraryout-crustle-great-tusk-clean.tar.gz` | 600.0 | complete | Tested the public LibraryOut Crustle/Great Tusk candidate after the 2026-06-26 code refresh. Initial public score was weak. |
