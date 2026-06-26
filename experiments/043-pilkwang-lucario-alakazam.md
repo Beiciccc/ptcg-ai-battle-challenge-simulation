@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s043-pilkwang-lucario-alakazam-clean.tar.gz`
 
 Kaggle submission: `54081359`
 
-Public score: 715.0
+Public score: 621.3
 
 Status: complete
 
@@ -14,8 +14,7 @@ Summary:
 - Tested the public Pilkwang Lucario/Alakazam candidate after the 2026-06-26
   code refresh.
 - The public notebook had strong community signal and a clean submission
-  contract log. The accepted submission recovered after refresh and became the
-  best 2026-06-26 result so far.
+  contract log, but the accepted submission stayed weak after refresh.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -25,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 715.0.
+- Latest refreshed public score was 621.3.
