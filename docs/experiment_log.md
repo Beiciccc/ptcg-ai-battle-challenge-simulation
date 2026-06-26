@@ -45,3 +45,4 @@
 | 040 | 2026-06-24 | `s010-resubmit-crustle-specific.tar.gz` | 787.1 | complete | Re-submitted the Crustle-specific guard package after the exploratory slots underperformed. Public score recovered after refresh. |
 | 041 | 2026-06-24 | `s028-naoto-hop-alakazam-target.tar.gz` | 835.2 | complete | Re-submitted the Naoto Hop/Alakazam target-priority Lucario variant as the final guard slot. Public score recovered after refresh. |
 | 042 | 2026-06-26 | `s042-souta-libraryout-crustle-great-tusk-clean.tar.gz` | 600.0 | complete | Tested the public LibraryOut Crustle/Great Tusk candidate after the 2026-06-26 code refresh. Initial public score was weak. |
+| 043 | 2026-06-26 | `s043-pilkwang-lucario-alakazam-clean.tar.gz` | 600.0 | complete | Tested the public Pilkwang Lucario/Alakazam candidate after the 2026-06-26 code refresh. Initial public score was weak. |
