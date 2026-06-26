@@ -44,5 +44,6 @@
 | 039 | 2026-06-24 | `s033-maktha-1084-latest.tar.gz` | 609.0 | complete | Tested the refreshed public 1084.5 baseline candidate as a distinct exploration slot. Public score stayed weak after refresh. |
 | 040 | 2026-06-24 | `s010-resubmit-crustle-specific.tar.gz` | 787.1 | complete | Re-submitted the Crustle-specific guard package after the exploratory slots underperformed. Public score recovered after refresh. |
 | 041 | 2026-06-24 | `s028-naoto-hop-alakazam-target.tar.gz` | 835.2 | complete | Re-submitted the Naoto Hop/Alakazam target-priority Lucario variant as the final guard slot. Public score recovered after refresh. |
-| 042 | 2026-06-26 | `s042-souta-libraryout-crustle-great-tusk-clean.tar.gz` | 600.0 | complete | Tested the public LibraryOut Crustle/Great Tusk candidate after the 2026-06-26 code refresh. Initial public score was weak. |
+| 042 | 2026-06-26 | `s042-souta-libraryout-crustle-great-tusk-clean.tar.gz` | 694.9 | complete | Tested the public LibraryOut Crustle/Great Tusk candidate after the 2026-06-26 code refresh. Public score recovered after refresh but stayed below guard candidates. |
 | 043 | 2026-06-26 | `s043-pilkwang-lucario-alakazam-clean.tar.gz` | 600.0 | complete | Tested the public Pilkwang Lucario/Alakazam candidate after the 2026-06-26 code refresh. Initial public score was weak. |
+| 044 | 2026-06-26 | `s045-tomato-archaludon-vs-starmie-clean.tar.gz` | 600.0 | complete | Tested the public Archaludon anti-Starmie sample after the 2026-06-26 code refresh. Initial public score was weak. |
