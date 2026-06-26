@@ -6,15 +6,15 @@ Package: `artifacts/submissions/s042-souta-libraryout-crustle-great-tusk-clean.t
 
 Kaggle submission: `54081208`
 
-Public score: 694.9
+Public score: 617.0
 
 Status: complete
 
 Summary:
 - Tested the public LibraryOut Crustle/Great Tusk candidate after the
   2026-06-26 code refresh.
-- The public title reported a high max Elo. The accepted submission recovered
-  after refresh but stayed below the stronger guard candidates.
+- The public title reported a high max Elo, but the accepted submission stayed
+  weak after refresh.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 694.9.
+- Latest refreshed public score was 617.0.
