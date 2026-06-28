@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s045-tomato-archaludon-vs-starmie-clean.tar.gz`
 
 Kaggle submission: `54081459`
 
-Public score: 698.8
+Public score: 765.8
 
 Status: complete
 
@@ -14,8 +14,8 @@ Summary:
 - Tested the public Archaludon sample that reported a favorable matchup against
   a 1300+ Starmie benchmark.
 - The candidate was submitted as a new archetype probe after two public-code
-  candidates opened weakly. It recovered after refresh and became the best
-  2026-06-26 result in this batch.
+  candidates opened weakly. It recovered after refresh and became the
+  second-best 2026-06-26 result in this batch.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -25,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 698.8.
+- Latest refreshed public score was 765.8.

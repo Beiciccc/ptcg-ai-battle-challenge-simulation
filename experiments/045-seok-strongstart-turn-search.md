@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s044-seok-strongstart-turn-search-clean.tar.gz`
 
 Kaggle submission: `54081538`
 
-Public score: 600.0
+Public score: 608.3
 
 Status: complete
 
@@ -14,7 +14,7 @@ Summary:
 - Tested the public Strong Start safe turn-search candidate after the
   2026-06-26 code refresh.
 - The notebook output included local matchup checks with zero errors, but the
-  accepted submission opened weakly on the public leaderboard.
+  accepted submission stayed weak after refresh.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 608.3.

@@ -16,11 +16,11 @@ files.
 Submit a package with:
 
 ```bash
-python tools/submit_package.py artifacts/submissions/baseline.zip --message "baseline"
+python tools/submit_package.py artifacts/submissions/baseline.tar.gz --message "baseline"
 ```
 
 Use `tools/list_recent_submissions.py` to review recent Kaggle submission rows.
 
-For this simulation format, keep `agent()` as the last top-level function in
-`submission/main.py`; the submission loader can otherwise bind to the wrong
-callable.
+For this simulation format, keep the required submission entrypoint as the last
+top-level function in `submission/main.py`; the submission loader can otherwise
+bind to the wrong callable.
