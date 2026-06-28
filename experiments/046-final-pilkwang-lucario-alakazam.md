@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s043-pilkwang-lucario-alakazam-clean.tar.gz`
 
 Kaggle submission: `54081636`
 
-Public score: 775.0
+Public score: 779.3
 
 Status: complete
 
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 775.0.
+- Latest refreshed public score was 779.3.
