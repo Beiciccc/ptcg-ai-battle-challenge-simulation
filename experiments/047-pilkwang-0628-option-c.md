@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s047-pilkwang-0628-option-c.tar.gz`
 
 Kaggle submission: `54152749`
 
-Public score: 523.9
+Public score: 622.0
 
 Status: complete
 
@@ -15,9 +15,9 @@ Summary:
   with the low-deck threshold set to 8.
 - The candidate was chosen as a conservative exploration slot after the latest
   public field read favored measured Lucario tuning over a broad rewrite.
-- The refreshed public score was weak, so the next slot should return to
-  stronger historical guard packages unless a refreshed public signal changes
-  materially.
+- The refreshed public score stayed below the stronger guard range, so the next
+  slots should favor historical guard packages unless a refreshed public signal
+  changes materially.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -27,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 523.9.
+- Latest refreshed public score was 622.0.
