@@ -51,3 +51,4 @@
 | 046 | 2026-06-26 | `s043-pilkwang-lucario-alakazam-clean.tar.gz` | 779.3 | complete | Re-submitted the Pilkwang Lucario/Alakazam candidate as the final guard slot after it was the best refreshed 2026-06-26 run. Refreshed public score became the best 2026-06-26 result in this batch. |
 | 047 | 2026-06-28 | `s047-pilkwang-0628-option-c.tar.gz` | 523.9 | complete | Tested the 2026-06-28 public meta snapshot's reference-derived Lucario option with the low-deck threshold set to 8. Refreshed public score was weak. |
 | 048 | 2026-06-28 | `s028-naoto-hop-alakazam-target.tar.gz` | 600.0 | complete | Re-submitted the historical Naoto Hop/Alakazam guard package after the new Option C candidate underperformed. Initial public score was weak. |
+| 049 | 2026-06-28 | `s047-pilkwang-0628-metal-tempo.tar.gz` | 600.0 | complete | Tested the 2026-06-28 public meta snapshot's Metal tempo pressure profile. Initial public score was weak. |
