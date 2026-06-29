@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s010-resubmit-crustle-specific.tar.gz`
 
 Kaggle submission: `54152877`
 
-Public score: 600.0
+Public score: 762.7
 
 Status: complete
 
@@ -15,8 +15,8 @@ Summary:
   2026-06-28 candidates opened weakly.
 - The package has been one of the more stable historical guard routes, with
   prior public runs reaching 885.6, 828.6, 787.1, 783.2, and 782.1 after refresh.
-- The accepted submission opened weakly, so the final slot should use the best
-  currently refreshed package rather than another new exploratory profile.
+- The accepted submission recovered after refresh and became the best result in
+  this five-submission batch.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 762.7.
