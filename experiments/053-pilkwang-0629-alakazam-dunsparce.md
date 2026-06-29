@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s053-pilkwang-0629-alakazam-dunsparce.tar.gz`
 
 Kaggle submission: `54182783`
 
-Public score: 513.7
+Public score: 445.6
 
 Status: complete
 
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 513.7.
+- Latest refreshed public score was 445.6.
