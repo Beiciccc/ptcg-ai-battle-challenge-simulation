@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s052-pilkwang-0629-archaludon-metal.tar.gz`
 
 Kaggle submission: `54182720`
 
-Public score: 698.3
+Public score: 813.1
 
 Status: complete
 
@@ -14,9 +14,8 @@ Summary:
 - Tested the 2026-06-29 public meta snapshot's Archaludon metal-tempo challenger.
 - The candidate was selected because the 2026-06-28 episode data refresh and
   public meta analysis both pointed to Metal tempo as a rising pressure lane.
-- The accepted submission recovered after refresh but stayed below the current
-  guard packages, so the next slots should include stronger guard packages unless
-  a refreshed public signal changes materially.
+- The accepted submission recovered strongly after refresh and became the best
+  current result in this batch.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -26,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 698.3.
+- Latest refreshed public score was 813.1.
