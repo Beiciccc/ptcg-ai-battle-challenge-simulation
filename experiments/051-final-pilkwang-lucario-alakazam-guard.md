@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s043-pilkwang-lucario-alakazam-clean.tar.gz`
 
 Kaggle submission: `54152922`
 
-Public score: 751.8
+Public score: 746.1
 
 Status: complete
 
@@ -17,7 +17,7 @@ Summary:
   currently visible guard result at 779.3.
 - The accepted submission recovered after refresh and became the second-best
   result in this batch. The best result after the latest refresh was experiment
-  050 at 762.7.
+  050 at 755.2.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -27,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 751.8.
+- Latest refreshed public score was 746.1.
