@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s052-pilkwang-0629-archaludon-metal.tar.gz`
 
 Kaggle submission: `54214287`
 
-Public score: 573.0
+Public score: 677.2
 
 Status: complete
 
@@ -15,9 +15,9 @@ Summary:
   above 1000.
 - The package remains the strongest observed public result so far, with prior
   runs at 1030.6 and 813.1.
-- The accepted submission refreshed lower under the updated match mix, so the
-  next slot diversified with a historical high-ceiling guard package before
-  deciding whether to reroll this lane again.
+- The accepted submission stayed below the strongest prior Archaludon results,
+  so the next slot diversified with a historical high-ceiling guard package
+  before deciding whether to reroll this lane again.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -27,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 573.0.
+- Latest refreshed public score was 677.2.
