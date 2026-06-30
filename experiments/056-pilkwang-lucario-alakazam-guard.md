@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s043-pilkwang-lucario-alakazam-clean.tar.gz`
 
 Kaggle submission: `54182970`
 
-Public score: 600.0
+Public score: 697.8
 
 Status: complete
 
@@ -15,8 +15,8 @@ Summary:
   the five-submission batch.
 - The package was chosen as a distinct guard axis from the newly strong
   Archaludon metal-tempo candidate and the Crustle guard package.
-- The accepted submission opened weakly. The best current result in this batch
-  is experiment 052 at 813.1, followed by experiment 054 at 811.3.
+- The accepted submission recovered after refresh but stayed below the leading
+  Archaludon metal-tempo run.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 697.8.

@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s052-pilkwang-0629-archaludon-metal.tar.gz`
 
 Kaggle submission: `54182907`
 
-Public score: 669.2
+Public score: 1042.6
 
 Status: complete
 
@@ -15,9 +15,8 @@ Summary:
   052 refreshed to 813.1.
 - The reroll tested whether the new Metal tempo lane could reproduce a high
   public score under the current live pool.
-- The accepted submission recovered after refresh but did not reproduce the
-  high score from experiment 052, so the final slot used a stronger guard
-  package instead of another immediate reroll.
+- The accepted submission recovered strongly after refresh and became the best
+  observed result so far.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -27,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 669.2.
+- Latest refreshed public score was 1042.6.

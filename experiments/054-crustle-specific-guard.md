@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s010-resubmit-crustle-specific.tar.gz`
 
 Kaggle submission: `54182835`
 
-Public score: 811.3
+Public score: 689.8
 
 Status: complete
 
@@ -15,8 +15,8 @@ Summary:
   Alakazam/Dunsparce complement opened weakly.
 - The package was selected for stability: prior refreshed runs include 885.6,
   828.6, 787.1, 783.2, 782.1, and 755.2.
-- The accepted submission recovered strongly after refresh and became the
-  second-best current result in this batch, just behind experiment 052 at 813.1.
+- The accepted submission recovered after refresh but stayed below the strongest
+  current guard results.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 811.3.
+- Latest refreshed public score was 689.8.
