@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s052-pilkwang-0629-archaludon-metal.tar.gz`
 
 Kaggle submission: `54219319`
 
-Public score: 693.6
+Public score: 700.8
 
 Status: complete
 
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 693.6.
+- Latest refreshed public score was 700.8.

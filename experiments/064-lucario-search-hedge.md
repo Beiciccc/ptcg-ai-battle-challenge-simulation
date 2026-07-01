@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s013-lucario-search-915.tar.gz`
 
 Kaggle submission: `54219383`
 
-Public score: 600.0
+Public score: 636.8
 
 Status: complete
 
@@ -14,7 +14,7 @@ Summary:
 - Re-submitted the Lucario search package as a non-Archaludon hedge after the
   Archaludon metal reroll settled below the current Tomato profile.
 - Historical runs of this package were stable in the mid-to-high guard range,
-  but this rerun opened weakly.
+  but this rerun stayed below the best current Tomato profile.
 - With the Tomato profile now producing two recent high scores, the next slot
   should prioritize that stronger current lane.
 
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 636.8.
