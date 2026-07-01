@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s052-pilkwang-0629-archaludon-metal.tar.gz`
 
 Kaggle submission: `54219319`
 
-Public score: 600.0
+Public score: 693.6
 
 Status: complete
 
@@ -14,9 +14,9 @@ Summary:
 - Re-submitted the Archaludon metal high-ceiling package after the Tomato
   Archaludon reroll settled below its prior high.
 - Historical runs of this package include the strongest observed score in the
-  project history, but this rerun opened weakly.
-- The next slot should switch to a non-Archaludon hedge with prior stable
-  official scores.
+  project history, but this rerun settled below the current Tomato profile.
+- The next slot switched to a non-Archaludon hedge with prior stable official
+  scores.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 693.6.
