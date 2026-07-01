@@ -6,15 +6,15 @@ Package: `artifacts/submissions/s011-final-strongstart-retuned.tar.gz`
 
 Kaggle submission: `54214538`
 
-Public score: 733.4
+Public score: 657.9
 
 Status: complete
 
 Summary:
 - Re-submitted the retuned Strong Start guard package as a second decorrelated
   historical profile after the Crustle-specific guard opened weakly.
-- Earlier runs of this package had reached the high guard range, and this rerun
-  recovered into the current guard range after refresh.
+- Earlier runs of this package had reached the high guard range, while this
+  rerun settled in the mid guard range after refresh.
 - The final slot should prioritize a different matchup profile with prior
   official validation rather than another same-family reroll.
 
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 733.4.
+- Latest refreshed public score was 657.9.
