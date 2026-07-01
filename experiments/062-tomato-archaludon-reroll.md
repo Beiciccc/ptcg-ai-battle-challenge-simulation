@@ -6,15 +6,15 @@ Package: `artifacts/submissions/s045-tomato-archaludon-vs-starmie-clean.tar.gz`
 
 Kaggle submission: `54219204`
 
-Public score: 600.0
+Public score: 694.1
 
 Status: complete
 
 Summary:
 - Re-submitted the Tomato Archaludon anti-Starmie package after experiment 061
   refreshed to 920.8 and became the strongest result in the previous batch.
-- The rerun opened weakly, reinforcing that this matchup profile is high
-  variance under the updated match mix.
+- The rerun settled below the prior high result, reinforcing that this matchup
+  profile is high variance under the updated match mix.
 - The next slot should move to a different high-ceiling profile before deciding
   whether to reroll this package again.
 
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 694.1.
