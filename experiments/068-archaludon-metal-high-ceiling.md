@@ -6,16 +6,15 @@ Package: `artifacts/submissions/s052-pilkwang-0629-archaludon-metal.tar.gz`
 
 Kaggle submission: `54251262`
 
-Public score: 730.7
+Public score: 657.4
 
 Status: complete
 
 Summary:
 - Re-submitted the Archaludon metal package after the July 2 Tomato Archaludon
   reroll opened weakly.
-- The package retained historical upside from experiment 055 and refreshed
-  into a moderate guard range, but it did not recover that ceiling in this
-  reroll.
+- The package retained historical upside from experiment 055 but did not
+  recover that ceiling in this reroll.
 - The result stayed below the refreshed Tomato Archaludon run.
 
 Validation:
@@ -26,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 730.7.
+- Latest refreshed public score was 657.4.
