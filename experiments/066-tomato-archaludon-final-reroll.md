@@ -6,17 +6,17 @@ Package: `artifacts/submissions/s045-tomato-archaludon-vs-starmie-clean.tar.gz`
 
 Kaggle submission: `54219508`
 
-Public score: 600.0
+Public score: 930.0
 
 Status: complete
 
 Summary:
 - Re-submitted the Tomato Archaludon package as the final high-variance reroll
   in this five-submission batch.
-- The accepted submission opened weakly, while experiment 062 remained the
-  strongest result in the batch after refresh.
-- The profile remains volatile: it produced both the best current batch result
-  and two weak reruns.
+- The accepted submission refreshed into the high guard range, while experiment
+  065 became the strongest result in the batch.
+- The profile remains volatile, but it produced the strongest current results
+  across the last two batches.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Initial public score was 600.0.
+- Latest refreshed public score was 930.0.
