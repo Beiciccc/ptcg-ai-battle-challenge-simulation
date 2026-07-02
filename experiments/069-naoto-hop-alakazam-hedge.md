@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s028-naoto-hop-alakazam-target.tar.gz`
 
 Kaggle submission: `54251334`
 
-Public score: 600.0
+Public score: 688.0
 
 Status: complete
 
@@ -14,7 +14,7 @@ Summary:
 - Re-submitted the Naoto Hop/Alakazam target-priority guard as a decorrelated
   hedge after two Archaludon-family rerolls opened low.
 - The hedge did not recover its historical high-scoring behavior in this
-  reroll.
+  reroll, though it refreshed above its opening score.
 - The refreshed Tomato Archaludon result remains the best July 2 score so far.
 
 Validation:
@@ -25,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score was 600.0.
+- Latest refreshed public score was 688.0.

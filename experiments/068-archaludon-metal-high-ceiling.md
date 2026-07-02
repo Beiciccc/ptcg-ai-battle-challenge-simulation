@@ -6,17 +6,17 @@ Package: `artifacts/submissions/s052-pilkwang-0629-archaludon-metal.tar.gz`
 
 Kaggle submission: `54251262`
 
-Public score: 600.0
+Public score: 730.7
 
 Status: complete
 
 Summary:
 - Re-submitted the Archaludon metal package after the July 2 Tomato Archaludon
   reroll opened weakly.
-- The package retained historical upside from experiment 055 but did not
-  recover that ceiling in this reroll.
-- With two July 2 Archaludon-family results opening weakly, the next slot
-  should test a more decorrelated Alakazam profile.
+- The package retained historical upside from experiment 055 and refreshed
+  into a moderate guard range, but it did not recover that ceiling in this
+  reroll.
+- The result stayed below the refreshed Tomato Archaludon run.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score was 600.0.
+- Latest refreshed public score was 730.7.
