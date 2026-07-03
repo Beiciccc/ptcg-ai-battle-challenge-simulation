@@ -6,17 +6,16 @@ Package: `artifacts/submissions/s013-lucario-search-915.tar.gz`
 
 Kaggle submission: `54292357`
 
-Public score: 669.4
+Public score: 812.8
 
 Status: complete
 
 Summary:
 - Re-submitted the Lucario search package as a non-Archaludon hedge after the
   Archaludon metal reroll.
-- The hedge refreshed into a modest guard range but did not improve over the
-  July 3 Archaludon metal result.
-- The remaining slots should return to the Tomato Archaludon package, which
-  still owns the strongest recent refreshed scores.
+- The hedge refreshed into the best July 3 score so far.
+- The result outperformed the Tomato and Archaludon metal rerolls in this
+  cycle.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -26,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 669.4.
+- Latest refreshed public score was 812.8.
