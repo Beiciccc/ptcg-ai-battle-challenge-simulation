@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s045-tomato-archaludon-vs-starmie-clean.tar.gz`
 
 Kaggle submission: `54251496`
 
-Public score: 932.8
+Public score: 927.5
 
 Status: complete
 
@@ -25,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 932.8.
+- Latest refreshed public score was 927.5.
