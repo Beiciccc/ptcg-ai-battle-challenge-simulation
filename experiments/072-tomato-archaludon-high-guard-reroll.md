@@ -6,15 +6,15 @@ Package: `artifacts/submissions/s045-tomato-archaludon-vs-starmie-clean.tar.gz`
 
 Kaggle submission: `54292094`
 
-Public score: 600.0
+Public score: 691.8
 
 Status: complete
 
 Summary:
 - Re-submitted the Tomato Archaludon package after experiments 070 and 071
   refreshed into the high guard range.
-- The first July 3 reroll opened weakly despite the package's recent high
-  refreshed scores.
+- The first July 3 reroll refreshed into a modest guard range despite opening
+  weakly.
 - The next slot should hedge with a high-ceiling alternative before returning
   to the Tomato package if the hedge underperforms.
 
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score was 600.0.
+- Latest refreshed public score was 691.8.
