@@ -15,7 +15,7 @@ Summary:
   Lucario deck list.
 - Selected it as the last exploratory run before restoring high-scoring guard
   submissions, because public round-robin notes suggested it was competitive
-  against the visible sample of public agents.
+  against the visible sample of public submissions.
 
 Validation:
 - `python tools/check_submission_entrypoint.py submission/main.py`

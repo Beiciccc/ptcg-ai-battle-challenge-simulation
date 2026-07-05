@@ -8,10 +8,10 @@ check:
 	python tools/check_submission_entrypoint.py
 
 test:
-	pytest -q
+	PYTHONPATH=src pytest -q -p no:cacheprovider
 
 package:
 	python tools/package_submission.py --name baseline
 
 clean:
-	rm -rf artifacts/submissions/*.zip artifacts/reports/*
+	rm -rf artifacts/submissions/*.zip artifacts/submissions/*.tar.gz artifacts/reports/*

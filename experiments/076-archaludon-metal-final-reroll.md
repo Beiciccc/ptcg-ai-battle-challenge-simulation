@@ -6,16 +6,15 @@ Package: `artifacts/submissions/s052-pilkwang-0629-archaludon-metal.tar.gz`
 
 Kaggle submission: `54292591`
 
-Public score: 600.0
+Public score: 916.2
 
 Status: complete
 
 Summary:
 - Re-submitted the Archaludon metal package as the final reroll after
   experiment 073 led the batch.
-- The final reroll opened weakly and did not reproduce experiment 073.
-- Experiment 074 became the best result in this five-submission cycle after
-  refreshing into a stronger Lucario search hedge score.
+- Later refresh recovered strongly and surpassed experiment 074.
+- This became the best result in the July 3 five-submission cycle.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -25,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score was 600.0.
+- Latest refreshed public score was 916.2.

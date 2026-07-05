@@ -6,16 +6,16 @@ Package: `artifacts/submissions/s045-tomato-archaludon-vs-starmie-clean.tar.gz`
 
 Kaggle submission: `54292462`
 
-Public score: 536.2
+Public score: 865.5
 
 Status: complete
 
 Summary:
 - Re-submitted the Tomato Archaludon package after the hedge slots did not
   reach the prior high guard range.
-- This reroll stayed weak and did not recover the package's recent high
-  scores.
-- The Lucario search hedge became the best July 3 result.
+- Later refresh recovered into the high guard range.
+- The result kept the Tomato Archaludon package viable, though below the final
+  Archaludon metal reroll.
 
 Validation:
 - `python tools/check_submission_entrypoint.py $TEMP_DIR/main.py`
@@ -25,4 +25,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 536.2.
+- Latest refreshed public score was 865.5.

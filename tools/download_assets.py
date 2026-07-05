@@ -16,18 +16,20 @@ COMPETITION = "pokemon-tcg-ai-battle"
 LIGHT_FILES = [
     ("EN_Card_Data.csv", RAW_DATA_DIR),
     ("JP_Card_Data.csv", RAW_DATA_DIR),
-    ("sample_submission/cg/__init__.py", SUBMISSION_SOURCE_DIR / "cg"),
-    ("sample_submission/cg/api.py", SUBMISSION_SOURCE_DIR / "cg"),
-    ("sample_submission/cg/game.py", SUBMISSION_SOURCE_DIR / "cg"),
-    ("sample_submission/cg/sim.py", SUBMISSION_SOURCE_DIR / "cg"),
-    ("sample_submission/cg/utils.py", SUBMISSION_SOURCE_DIR / "cg"),
-    ("sample_submission/cg/libcg.so", SUBMISSION_SOURCE_DIR / "cg"),
-    ("sample_submission/cg/cg.dll", SUBMISSION_SOURCE_DIR / "cg"),
+    ("sample_submission/sample_submission/cg/__init__.py", SUBMISSION_SOURCE_DIR / "cg"),
+    ("sample_submission/sample_submission/cg/api.py", SUBMISSION_SOURCE_DIR / "cg"),
+    ("sample_submission/sample_submission/cg/game.py", SUBMISSION_SOURCE_DIR / "cg"),
+    ("sample_submission/sample_submission/cg/sim.py", SUBMISSION_SOURCE_DIR / "cg"),
+    ("sample_submission/sample_submission/cg/utils.py", SUBMISSION_SOURCE_DIR / "cg"),
+    ("sample_submission/sample_submission/cg/libcg.so", SUBMISSION_SOURCE_DIR / "cg"),
+    ("sample_submission/sample_submission/cg/libcg-arm64.so", SUBMISSION_SOURCE_DIR / "cg"),
+    ("sample_submission/sample_submission/cg/libcg.dylib", SUBMISSION_SOURCE_DIR / "cg"),
+    ("sample_submission/sample_submission/cg/cg.dll", SUBMISSION_SOURCE_DIR / "cg"),
 ]
 
 SAMPLE_FILES = [
-    ("sample_submission/main.py", PROJECT_ROOT / "data" / "raw" / "sample_submission"),
-    ("sample_submission/deck.csv", PROJECT_ROOT / "data" / "raw" / "sample_submission"),
+    ("sample_submission/sample_submission/main.py", PROJECT_ROOT / "data" / "raw" / "sample_submission"),
+    ("sample_submission/sample_submission/deck.csv", PROJECT_ROOT / "data" / "raw" / "sample_submission"),
 ]
 
 PDF_FILES = [

@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s028-naoto-hop-alakazam-target.tar.gz`
 
 Kaggle submission: `54010123`
 
-Public score: 745.2
+Public score: 822.1
 
 Status: complete
 
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Latest refreshed public score was 745.2.
+- Latest refreshed public score was 822.1.

@@ -15,6 +15,14 @@ class SubmissionPackage:
 
 EXCLUDED_DIRS = {"__pycache__", ".pytest_cache"}
 EXCLUDED_SUFFIXES = {".pyc", ".pyo"}
+REQUIRED_SUPPORT_FILES = (
+    "api.py",
+    "game.py",
+    "sim.py",
+    "utils.py",
+    "libcg.so",
+    "cg.dll",
+)
 
 
 def validate_submission_dir(source_dir: str | Path, require_support_files: bool = True) -> list[str]:
@@ -24,9 +32,16 @@ def validate_submission_dir(source_dir: str | Path, require_support_files: bool 
         if not (source / filename).exists():
             problems.append(f"Missing required submission file: {filename}")
 
-    support_file = source / "cg" / "api.py"
-    if require_support_files and not support_file.exists():
-        problems.append("Missing support files under submission/cg/. Run tools/download_assets.py --light.")
+    if require_support_files:
+        missing_support = [
+            filename for filename in REQUIRED_SUPPORT_FILES if not (source / "cg" / filename).exists()
+        ]
+        if missing_support:
+            missing_text = ", ".join(missing_support)
+            problems.append(
+                f"Missing support files under submission/cg/: {missing_text}. "
+                "Run tools/download_assets.py --light."
+            )
     return problems
 
 
