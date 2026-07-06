@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s079-pilkwang-0704-dragapult-pressure.tar.gz`
 
 Kaggle submission: `54379571`
 
-Public score: 600.0
+Public score: 785.0
 
 Status: complete
 
@@ -15,8 +15,8 @@ Summary:
   profile.
 - This was the final probe from the same public snapshot after both the
   Library-Out complement and Archaludon anchor stayed weak.
-- The public score stayed weak, so the next slots return to known high-scoring
-  guard packages.
+- The public score recovered into the best new-candidate result so far, but
+  stayed below the known high-scoring guard packages.
 
 Validation:
 - `python tools/check_submission_entrypoint.py private/candidates/s079-pilkwang-0704-dragapult-pressure/main.py`
@@ -27,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score was 600.0.
+- Latest refreshed public score was 785.0.
