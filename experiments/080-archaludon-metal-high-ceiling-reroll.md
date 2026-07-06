@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s080-archaludon-metal-high-ceiling-reroll.tar.gz
 
 Kaggle submission: `54379739`
 
-Public score: 600.0
+Public score: 726.5
 
 Status: complete
 
@@ -14,8 +14,8 @@ Summary:
 - Re-submitted the Archaludon metal high-ceiling package after the new
   2026-07-04 public snapshot profiles failed to reach guard range.
 - The package has the best historical public result in this workspace, but this
-  reroll opened weak.
-- The final slot should use the stronger Tomato Archaludon guard profile.
+  reroll recovered only moderately.
+- The final slot used the stronger Tomato Archaludon guard profile.
 
 Validation:
 - `tar -tzf artifacts/submissions/s080-archaludon-metal-high-ceiling-reroll.tar.gz`
@@ -23,4 +23,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score was 600.0.
+- Latest refreshed public score was 726.5.
