@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s077-pilkwang-0704-libraryout-complement.tar.gz`
 
 Kaggle submission: `54379313`
 
-Public score: 600.0
+Public score: 376.8
 
 Status: complete
 
@@ -15,8 +15,9 @@ Summary:
   Library-Out complement profile.
 - The public snapshot framed this profile as a portfolio complement for a
   wider field with Marnie/Munkidori, Starmie, and smaller stress archetypes.
-- The public score stayed weak, so the next slot should prefer a stronger
-  anchor profile rather than expanding this complement line immediately.
+- The public score stayed weak after refresh, so the next slot should prefer a
+  stronger anchor profile rather than expanding this complement line
+  immediately.
 
 Validation:
 - `python tools/check_submission_entrypoint.py private/candidates/s077-pilkwang-0704-libraryout-complement/main.py`
@@ -27,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score was 600.0.
+- Latest refreshed public score was 376.8.

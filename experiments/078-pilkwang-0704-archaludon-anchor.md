@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s078-pilkwang-0704-archaludon-anchor.tar.gz`
 
 Kaggle submission: `54379422`
 
-Public score: 600.0
+Public score: 594.3
 
 Status: complete
 
@@ -14,8 +14,8 @@ Summary:
 - Tested the 2026-07-04 public meta snapshot's Archaludon Metal Tempo anchor.
 - This was selected after the Library-Out complement underperformed, because
   the snapshot described the anchor as a near-top field-weighted reference.
-- The public score also stayed weak, so the next slot should only spend one
-  more probe on the distinct pressure profile before returning to known guards.
+- The public score also stayed weak, so the next slot spent only one more probe
+  on the distinct pressure profile before returning to known guards.
 
 Validation:
 - `python tools/check_submission_entrypoint.py private/candidates/s078-pilkwang-0704-archaludon-anchor/main.py`
@@ -26,4 +26,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score was 600.0.
+- Latest refreshed public score was 594.3.
