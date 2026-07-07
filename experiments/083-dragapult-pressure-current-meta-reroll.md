@@ -8,17 +8,17 @@ Kaggle submission: `54410436`
 
 Validation episode: `84492874`
 
-Public score: 600.0
+Public score: 681.8
 
 Status: complete
 
 Summary:
 - Re-submitted the Dragapult pressure profile after the Archaludon metal reroll
   opened weak.
-- The profile was the best new candidate family from the 2026-07-06 cycle, but
-  this reroll also opened weak.
-- The next slot shifts to the Tomato Archaludon guard profile for a historically
-  steadier result curve.
+- The profile was the best new candidate family from the 2026-07-06 cycle, and
+  the latest refresh recovered modestly.
+- The refreshed score stayed below the stronger Archaludon and Tomato guard
+  references.
 
 Validation:
 - `tar -tzf artifacts/submissions/s083-dragapult-pressure-current-meta-reroll.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84492874` completed.
-- Public score was 600.0.
+- Latest refreshed public score was 681.8.
