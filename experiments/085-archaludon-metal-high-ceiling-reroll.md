@@ -8,15 +8,16 @@ Kaggle submission: `54410676`
 
 Validation episode: `84494158`
 
-Public score: 600.0
+Public score: 722.3
 
 Status: complete
 
 Summary:
 - Re-submitted the Archaludon metal high-ceiling package after experiment 082
   recovered into the guard range.
-- This second same-day reroll opened weak.
-- The final slot shifts back to the Tomato Archaludon guard profile because it
+- This second same-day reroll recovered modestly but stayed below experiment
+  082.
+- The final slot shifted back to the Tomato Archaludon guard profile because it
   has the steadier recent score curve.
 
 Validation:
@@ -27,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84494158` completed.
-- Public score was 600.0.
+- Latest refreshed public score was 722.3.
