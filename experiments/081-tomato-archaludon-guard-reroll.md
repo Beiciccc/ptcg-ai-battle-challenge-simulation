@@ -6,17 +6,17 @@ Package: `artifacts/submissions/s081-tomato-archaludon-guard-reroll.tar.gz`
 
 Kaggle submission: `54379819`
 
-Public score: 600.0
+Public score: 868.2
 
 Status: complete
 
 Summary:
 - Re-submitted the Tomato Archaludon guard package as the final slot after the
-  Archaludon metal reroll did not recover strongly.
-- This package had multiple recent high guard results, but this reroll opened
-  weak.
-- Experiment 079's Dragapult pressure profile became the best result in this
-  five-submission cycle.
+  Archaludon metal reroll.
+- This package had multiple recent high guard results, and the latest refresh
+  recovered into a high guard range.
+- The refreshed result stayed below the Archaludon metal and Dragapult pressure
+  profiles from the same cycle.
 
 Validation:
 - `tar -tzf artifacts/submissions/s081-tomato-archaludon-guard-reroll.tar.gz`
@@ -24,4 +24,4 @@ Validation:
 
 Result:
 - Kaggle validation completed.
-- Public score was 600.0.
+- Latest refreshed public score was 868.2.
