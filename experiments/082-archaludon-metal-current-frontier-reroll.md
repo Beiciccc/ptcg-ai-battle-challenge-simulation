@@ -6,6 +6,8 @@ Package: `artifacts/submissions/s082-archaludon-metal-current-frontier-reroll.ta
 
 Kaggle submission: `54410344`
 
+Validation episode: `84492085`
+
 Public score: 600.0
 
 Status: complete
@@ -26,5 +28,5 @@ Validation:
 - `PYTHONPATH=src pytest -q -p no:cacheprovider`
 
 Result:
-- Kaggle validation completed.
+- Kaggle validation episode `84492085` completed.
 - Public score was 600.0.
