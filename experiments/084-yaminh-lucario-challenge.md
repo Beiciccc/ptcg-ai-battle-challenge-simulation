@@ -8,7 +8,7 @@ Kaggle submission: `54410567`
 
 Validation episode: `84493517`
 
-Public score: 600.0
+Public score: 710.9
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   current-meta rerolls opened low.
 - The candidate passed local package and smoke validation, including a
   one-game self-play smoke battle.
-- The public score opened weak, so the next slot returns to the Archaludon metal
-  high-ceiling package.
+- The latest refresh stayed below the leading guard packages, so the next slot
+  returned to the Archaludon metal high-ceiling package.
 
 Validation:
 - `tar -tzf artifacts/submissions/s084-yaminh-lucario-challenge.tar.gz`
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84493517` completed.
-- Public score was 600.0.
+- Latest refreshed public score was 710.9.
