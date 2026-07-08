@@ -27,7 +27,6 @@ kaggle/input/
 sample_submission/
 
 artifacts/submissions/*
-!artifacts/submissions/.gitkeep
 artifacts/reports/*
 !artifacts/reports/.gitkeep
 

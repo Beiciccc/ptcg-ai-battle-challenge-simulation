@@ -19,9 +19,9 @@ Summary:
   cycle.
 
 Validation:
-- `python tools/check_submission_entrypoint.py private/candidates/s079-pilkwang-0704-dragapult-pressure/main.py`
-- `python tools/check_deck.py private/candidates/s079-pilkwang-0704-dragapult-pressure/deck.csv`
-- `python tools/package_submission.py --source private/candidates/s079-pilkwang-0704-dragapult-pressure --name s079-pilkwang-0704-dragapult-pressure`
+- `python tools/check_submission_entrypoint.py`
+- `python tools/check_deck.py`
+- `python tools/package_submission.py --name s079-pilkwang-0704-dragapult-pressure`
 - `python tools/smoke_battle.py --agent main.py --deck deck.csv --games 1 --max-steps 400`
 - `PYTHONPATH=src pytest -q -p no:cacheprovider`
 

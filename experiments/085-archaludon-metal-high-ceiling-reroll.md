@@ -22,8 +22,8 @@ Summary:
 
 Validation:
 - `tar -tzf artifacts/submissions/s085-archaludon-metal-high-ceiling-reroll.tar.gz`
-- `python tools/check_submission_entrypoint.py /tmp/ptcg_validate_pkg/s052/main.py`
-- `python tools/check_deck.py /tmp/ptcg_validate_pkg/s052/deck.csv`
+- `python tools/check_submission_entrypoint.py`
+- `python tools/check_deck.py`
 - `PYTHONPATH=src pytest -q -p no:cacheprovider`
 
 Result:
