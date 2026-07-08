@@ -8,7 +8,7 @@ Kaggle submission: `54457221`
 
 Validation episode: `84815429`
 
-Public score: 600.0
+Public score: 733.3
 
 Status: complete
 
@@ -18,8 +18,9 @@ Summary:
   conservative default.
 - Local validation passed, including package structure and one self-play smoke
   battle.
-- The first public score opened weak, so the next slot returns to the recent
-  Archaludon metal high-ceiling package.
+- The latest refresh recovered modestly but stayed below the recent guard
+  references, so the next slot returned to the Archaludon metal high-ceiling
+  package.
 
 Validation:
 - `tar -tzf artifacts/submissions/s087-pilkwang-0808-alakazam-live-backed.tar.gz`
@@ -30,4 +31,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84815429` completed.
-- Public score was 600.0.
+- Latest refreshed public score was 733.3.
