@@ -1,0 +1,32 @@
+# 091 LLCC Meta A Stable Submit
+
+Date: 2026-07-08 UTC
+
+Package: `artifacts/submissions/s091-llcc-meta-a-stable-submit.tar.gz`
+
+Kaggle submission: `54457712`
+
+Validation episode: `84817434`
+
+Public score: 600.0
+
+Status: complete
+
+Summary:
+- Tested the fresh LLCC Meta A Stable public-code candidate as the final slot
+  after current rerolls stayed below the recent guard range.
+- Local validation passed, including package structure, deck validation, and
+  one smoke battle from the extracted package directory.
+- Public score was weak, leaving the Dragapult pressure reroll as the best
+  result in this five-submission cycle.
+
+Validation:
+- `tar -tzf artifacts/submissions/s091-llcc-meta-a-stable-submit.tar.gz`
+- `python tools/check_submission_entrypoint.py`
+- `python tools/check_deck.py`
+- `python tools/smoke_battle.py --games 1 --max-steps 900`
+- `PYTHONPATH=src pytest -q -p no:cacheprovider`
+
+Result:
+- Kaggle validation episode `84817434` completed.
+- Public score was 600.0.
