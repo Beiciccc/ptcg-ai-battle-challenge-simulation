@@ -8,7 +8,7 @@ Kaggle submission: `54482061`
 
 Validation episode: `84959616`
 
-Public score: 600.0
+Public score: 711.8
 
 Status: complete
 
@@ -17,8 +17,7 @@ Summary:
   Archaludon metal reroll opened weak.
 - Local validation passed, including package structure, deck validation, and
   one smoke battle from the extracted package directory.
-- The new row opened weak, so the final slot should switch to a Tomato
-  Archaludon guard reroll for diversity.
+- Latest refresh recovered into the second-best result of the current cycle.
 
 Validation:
 - `tar -tzf artifacts/submissions/s095-phantom-dragapult-pressure-reroll.tar.gz`
@@ -29,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84959616` completed.
-- Public score was 600.0.
+- Latest refreshed public score was 711.8.

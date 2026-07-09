@@ -8,7 +8,7 @@ Kaggle submission: `54481944`
 
 Validation episode: `84959122`
 
-Public score: 508.2
+Public score: 619.9
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   public snapshot package returned an ERROR row.
 - Local validation passed, including package structure, deck validation, and
   one smoke battle from the extracted package directory.
-- Latest refresh stayed weak, so the next slot used a different known-complete
-  pressure profile.
+- Latest refresh stayed below the current cycle leader, so the next slot used a
+  different known-complete pressure profile.
 
 Validation:
 - `tar -tzf artifacts/submissions/s094-archaludon-metal-high-ceiling-reroll.tar.gz`
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84959122` completed.
-- Latest refreshed public score was 508.2.
+- Latest refreshed public score was 619.9.
