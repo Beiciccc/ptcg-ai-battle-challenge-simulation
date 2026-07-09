@@ -8,7 +8,7 @@ Kaggle submission: `54457712`
 
 Validation episode: `84817434`
 
-Public score: 902.7
+Public score: 900.7
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   after current rerolls stayed below the recent guard range.
 - Local validation passed, including package structure, deck validation, and
   one smoke battle from the extracted package directory.
-- Latest refresh recovered into the strongest result of the cycle, making this
-  package the next active anchor.
+- Latest refresh remained the strongest result of the cycle, keeping this
+  package as an active anchor.
 
 Validation:
 - `tar -tzf artifacts/submissions/s091-llcc-meta-a-stable-submit.tar.gz`
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84817434` completed.
-- Latest refreshed public score was 902.7.
+- Latest refreshed public score was 900.7.

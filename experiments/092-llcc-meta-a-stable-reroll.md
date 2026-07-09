@@ -8,7 +8,7 @@ Kaggle submission: `54481753`
 
 Validation episode: `84958150`
 
-Public score: 600.0
+Public score: 554.1
 
 Status: complete
 
@@ -17,7 +17,7 @@ Summary:
   into the strongest result of the prior cycle.
 - Local validation passed, including package structure, deck validation, and
   one smoke battle from the extracted package directory.
-- The new row opened weak, so the next slot should test a distinct 2026-07-09
+- Latest refresh stayed weak, so the next slot tested a distinct 2026-07-09
   public snapshot profile.
 
 Validation:
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84958150` completed.
-- Public score was 600.0.
+- Latest refreshed public score was 554.1.
