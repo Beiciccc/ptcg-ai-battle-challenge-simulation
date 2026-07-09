@@ -8,14 +8,15 @@ Kaggle submission: `54457450`
 
 Validation episode: `84816429`
 
-Public score: 538.8
+Public score: 661.7
 
 Status: complete
 
 Summary:
 - Re-submitted the Tomato Archaludon guard profile after the Archaludon metal
   reroll remained below the recent guard range.
-- Latest refresh fell below the prior Tomato guard references.
+- Latest refresh recovered into the middle of the current cycle but stayed
+  below the strongest guard references.
 - The next slot should diversify back to the Dragapult pressure profile, which
   was the strongest result in the 2026-07-06 public-meta probe set.
 
@@ -27,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84816429` completed.
-- Latest refreshed public score was 538.8.
+- Latest refreshed public score was 661.7.

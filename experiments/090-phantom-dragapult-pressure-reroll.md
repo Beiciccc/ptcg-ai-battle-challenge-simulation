@@ -8,7 +8,7 @@ Kaggle submission: `54457570`
 
 Validation episode: `84816931`
 
-Public score: 719.8
+Public score: 677.6
 
 Status: complete
 
@@ -17,8 +17,7 @@ Summary:
   probe was the strongest result in that candidate family.
 - Local validation passed, including package structure, deck validation, and
   one smoke battle from the extracted package directory.
-- Latest refresh recovered into the best result of the current cycle, but
-  stayed below stronger historical guard results.
+- Latest refresh settled below stronger historical guard results.
 
 Validation:
 - `tar -tzf artifacts/submissions/s090-phantom-dragapult-pressure-reroll.tar.gz`
@@ -29,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84816931` completed.
-- Latest refreshed public score was 719.8.
+- Latest refreshed public score was 677.6.
