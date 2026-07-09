@@ -8,7 +8,7 @@ Kaggle submission: `54481753`
 
 Validation episode: `84958150`
 
-Public score: 650.5
+Public score: 743.6
 
 Status: complete
 
@@ -17,8 +17,7 @@ Summary:
   into the strongest result of the prior cycle.
 - Local validation passed, including package structure, deck validation, and
   one smoke battle from the extracted package directory.
-- Latest refresh stayed below the prior anchor, so the next slot tested a
-  distinct 2026-07-09 public snapshot profile.
+- Latest refresh became the best result of the 2026-07-09 cycle.
 
 Validation:
 - `tar -tzf artifacts/submissions/s092-llcc-meta-a-stable-reroll.tar.gz`
@@ -29,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84958150` completed.
-- Latest refreshed public score was 650.5.
+- Latest refreshed public score was 743.6.
