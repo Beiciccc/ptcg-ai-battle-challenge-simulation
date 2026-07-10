@@ -8,7 +8,7 @@ Kaggle submission: `54513822`
 
 Validation episode: `85133161`
 
-Public score: 600.0
+Public score: 591.6
 
 Status: complete
 
@@ -17,8 +17,7 @@ Summary:
   complementary profile to the rebuilt Focus candidate.
 - Local validation passed for the 11-file archive layout, entrypoint,
   60-card deck, and three smoke battles from the extracted root.
-- The validation episode completed successfully, but the first public score
-  opened below the current LLCC anchor.
+- Later score refreshes remained below the current LLCC anchor.
 
 Validation:
 - `tar -tzf artifacts/submissions/s099-phantom-dragapult-pressure-reroll.tar.gz`
@@ -28,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85133161` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 591.6.

@@ -8,7 +8,7 @@ Kaggle submission: `54513582`
 
 Validation episode: `85131722`
 
-Public score: 812.1
+Public score: 743.3
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   the strongest recent confirmed anchor.
 - Local validation passed, including archive structure, entrypoint and deck
   checks, and three smoke battles with distinct seeds.
-- Later score refreshes recovered into the guard range and made this the
-  strongest result from the first three 2026-07-10 submissions.
+- Later score refreshes recovered from the initial result and remained the
+  strongest of the first four 2026-07-10 submissions.
 
 Validation:
 - `tar -tzf artifacts/submissions/s097-llcc-meta-a-stable-reroll.tar.gz`
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85131722` completed.
-- Latest refreshed public score was 812.1.
+- Latest refreshed public score was 743.3.
