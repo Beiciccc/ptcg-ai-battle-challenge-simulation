@@ -8,7 +8,7 @@ Kaggle submission: `54513702`
 
 Validation episode: `85132675`
 
-Public score: 600.0
+Public score: 514.5
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   package layout after the prior archive failed before validation.
 - Local validation passed for the archive layout, entrypoint, 60-card deck,
   bare-namespace loading, and three smoke battles from the extracted root.
-- The new validation episode completed successfully, isolating the earlier
-  failure to the submission package or creation path.
+- The new validation episode completed successfully, but later score
+  refreshes remained weak.
 
 Validation:
 - `python tools/package_submission.py --format tar.gz`
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85132675` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 514.5.
