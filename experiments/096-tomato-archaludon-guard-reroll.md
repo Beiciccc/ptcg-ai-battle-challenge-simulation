@@ -8,7 +8,7 @@ Kaggle submission: `54482175`
 
 Validation episode: `84960102`
 
-Public score: 600.0
+Public score: 855.1
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   after the Dragapult pressure reroll opened weak.
 - Local validation passed, including package structure, deck validation, and
   one smoke battle from the extracted package directory.
-- The new row opened weak, leaving experiment 092 as the best current result
-  in this cycle.
+- Later score refreshes recovered into the guard range and made this the
+  strongest result of the 2026-07-09 cycle.
 
 Validation:
 - `tar -tzf artifacts/submissions/s096-tomato-archaludon-guard-reroll.tar.gz`
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `84960102` completed.
-- Public score was 600.0.
+- Latest refreshed public score was 855.1.
