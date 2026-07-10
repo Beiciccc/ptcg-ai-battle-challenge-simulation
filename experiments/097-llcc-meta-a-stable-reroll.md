@@ -8,7 +8,7 @@ Kaggle submission: `54513582`
 
 Validation episode: `85131722`
 
-Public score: 600.0
+Public score: 704.4
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   the strongest recent confirmed anchor.
 - Local validation passed, including archive structure, entrypoint and deck
   checks, and three smoke battles with distinct seeds.
-- The validation episode completed successfully, but the first public score
-  opened well below the package's prior results.
+- Later score refreshes recovered from the initial result but remained below
+  the package's prior high.
 
 Validation:
 - `tar -tzf artifacts/submissions/s097-llcc-meta-a-stable-reroll.tar.gz`
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85131722` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 704.4.
