@@ -8,7 +8,7 @@ Kaggle submission: `54571515`
 
 Validation episode: `85395669`
 
-Public score: 600.0
+Public score: 722.7
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   current-day observation after the first reroll began recovering.
 - Local validation passed for the archive layout, entrypoint, 60-card deck,
   and three smoke battles from the extracted root.
-- The validation episode completed successfully, but the first public score
-  opened below experiment 102.
+- Later score refreshes recovered above the initial result but remained below
+  the LLCC guard.
 
 Validation:
 - `tar -tzf artifacts/submissions/s104-tomato-archaludon-second-probe.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85395669` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 722.7.
