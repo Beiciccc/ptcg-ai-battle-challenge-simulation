@@ -8,7 +8,7 @@ Kaggle submission: `54514062`
 
 Validation episode: `85134627`
 
-Public score: 747.6
+Public score: 834.5
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   remained the strongest recent score.
 - Local validation passed for the archive layout, entrypoint, 60-card deck,
   and three smoke battles from the extracted root.
-- Later score refreshes recovered above the initial result and made this the
-  strongest current result of the 2026-07-10 cycle.
+- Later score refreshes recovered into the high guard range and made this the
+  strongest result of the 2026-07-10 cycle.
 
 Validation:
 - `tar -tzf artifacts/submissions/s100-tomato-archaludon-guard-reroll.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85134627` completed.
-- Latest refreshed public score was 747.6.
+- Latest refreshed public score was 834.5.

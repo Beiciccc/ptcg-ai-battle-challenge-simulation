@@ -8,7 +8,7 @@ Kaggle submission: `54514154`
 
 Validation episode: `85135116`
 
-Public score: 600.0
+Public score: 741.2
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   it remained the strongest result among the first four submissions.
 - Local validation passed for the 11-file archive layout, entrypoint,
   60-card deck, and three smoke battles from the extracted root.
-- The validation episode completed successfully and the first public score
-  opened at 600.0.
+- Later score refreshes recovered above the initial result but stayed below
+  the Tomato anchor.
 
 Validation:
 - `tar -tzf artifacts/submissions/s101-llcc-meta-a-stable-final-active.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85135116` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 741.2.
