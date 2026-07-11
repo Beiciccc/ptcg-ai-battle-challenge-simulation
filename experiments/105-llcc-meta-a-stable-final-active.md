@@ -8,7 +8,7 @@ Kaggle submission: `54571645`
 
 Validation episode: `85396146`
 
-Public score: 600.0
+Public score: 753.9
 
 Status: complete
 
@@ -17,8 +17,7 @@ Summary:
   profile after experiment 103 became the strongest current result.
 - Local validation passed for the 11-file archive layout, entrypoint,
   60-card deck, and three smoke battles from the extracted root.
-- The validation episode completed successfully and the first public score
-  opened at 600.0.
+- Later score refreshes recovered into the guard range.
 
 Validation:
 - `tar -tzf artifacts/submissions/s105-llcc-meta-a-stable-final-active.tar.gz`
@@ -28,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85396146` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 753.9.
