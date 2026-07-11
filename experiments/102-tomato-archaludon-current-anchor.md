@@ -8,7 +8,7 @@ Kaggle submission: `54571211`
 
 Validation episode: `85394214`
 
-Public score: 807.8
+Public score: 725.3
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   public-code refresh produced no newer evidence-backed candidate.
 - Local validation passed for the archive layout, entrypoint, 60-card deck,
   and three smoke battles from the extracted root.
-- Later score refreshes recovered into the high guard range and made this the
-  strongest result from the first three submissions.
+- Later score refreshes recovered above the initial result but moved below
+  the current LLCC guard.
 
 Validation:
 - `tar -tzf artifacts/submissions/s102-tomato-archaludon-current-anchor.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85394214` completed.
-- Latest refreshed public score was 807.8.
+- Latest refreshed public score was 725.3.

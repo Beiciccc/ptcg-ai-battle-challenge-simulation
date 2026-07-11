@@ -8,7 +8,7 @@ Kaggle submission: `54571338`
 
 Validation episode: `85395182`
 
-Public score: 656.0
+Public score: 773.1
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   the first Tomato reroll opened weak.
 - Local validation passed for the 11-file archive layout, entrypoint,
   60-card deck, and three smoke battles from the extracted root.
-- Later score refreshes recovered above the initial result but stayed below
-  the Tomato anchor.
+- Later score refreshes recovered into the guard range and made this the
+  strongest result from the first four submissions.
 
 Validation:
 - `tar -tzf artifacts/submissions/s103-llcc-meta-a-stable-current-guard.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85395182` completed.
-- Latest refreshed public score was 656.0.
+- Latest refreshed public score was 773.1.
