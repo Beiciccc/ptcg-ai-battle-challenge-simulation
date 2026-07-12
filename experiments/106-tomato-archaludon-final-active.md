@@ -8,7 +8,7 @@ Kaggle submission: `54571747`
 
 Validation episode: `85396623`
 
-Public score: 600.0
+Public score: 806.7
 
 Status: complete
 
@@ -17,8 +17,7 @@ Summary:
   profile, preserving the LLCC and Tomato pair.
 - Local validation passed for the archive layout, entrypoint, 60-card deck,
   and three smoke battles from the extracted root.
-- The validation episode completed successfully and the first public score
-  opened at 600.0.
+- Later score refreshes recovered into the high guard range.
 
 Validation:
 - `tar -tzf artifacts/submissions/s106-tomato-archaludon-final-active.tar.gz`
@@ -28,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85396623` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 806.7.
