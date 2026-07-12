@@ -8,7 +8,7 @@ Kaggle submission: `54594071`
 
 Validation episode: `85510410`
 
-Public score: 600.0
+Public score: 647.6
 
 Status: complete
 
@@ -17,8 +17,7 @@ Summary:
   Tomato.
 - Local validation passed for the 11-file archive layout, entrypoint,
   60-card deck, and three smoke battles from the extracted root.
-- The validation episode completed successfully, but the first public score
-  opened well below the continuing AttackFix result.
+- Later score refreshes recovered modestly but remained well below AttackFix.
 
 Validation:
 - `tar -tzf artifacts/submissions/s109-llcc-meta-a-stable-current-guard.tar.gz`
@@ -28,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85510410` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 647.6.

@@ -8,7 +8,7 @@ Kaggle submission: `54594143`
 
 Validation episode: `85510918`
 
-Public score: 600.0
+Public score: 715.8
 
 Status: complete
 
@@ -17,8 +17,7 @@ Summary:
   current probe remained weak.
 - Local validation passed for the archive layout, entrypoint, 60-card deck,
   and three smoke battles from the extracted root.
-- The validation episode completed successfully and the first public score
-  opened at 600.0.
+- Later score refreshes recovered into the guard range.
 
 Validation:
 - `tar -tzf artifacts/submissions/s110-tomato-archaludon-final-active.tar.gz`
@@ -28,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85510918` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 715.8.

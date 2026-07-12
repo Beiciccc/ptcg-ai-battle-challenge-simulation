@@ -8,7 +8,7 @@ Kaggle submission: `54593777`
 
 Validation episode: `85508912`
 
-Public score: 904.2
+Public score: 964.3
 
 Status: complete
 
@@ -19,8 +19,8 @@ Summary:
   Raging Hammer overrides to opposing Crustle.
 - Local validation passed for the 11-file archive layout, bare-namespace
   loading, entrypoint, 60-card deck, and three smoke battles.
-- Later score refreshes recovered above 900 and made this the strongest result
-  from the first three submissions.
+- Later score refreshes recovered into the mid-900 range and made this the
+  strongest result of the 2026-07-12 cycle.
 
 Validation:
 - `tar -tzf artifacts/submissions/s107-llcc-crustle-attackfix.tar.gz`
@@ -30,4 +30,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85508912` completed.
-- Latest refreshed public score was 904.2.
+- Latest refreshed public score was 964.3.
