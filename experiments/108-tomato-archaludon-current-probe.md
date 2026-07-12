@@ -8,7 +8,7 @@ Kaggle submission: `54593959`
 
 Validation episode: `85509938`
 
-Public score: 458.8
+Public score: 585.5
 
 Status: complete
 
@@ -17,7 +17,8 @@ Summary:
   profile after the AttackFix exploration.
 - Local validation passed for the archive layout, entrypoint, 60-card deck,
   and three smoke battles from the extracted root.
-- Later score refreshes remained weak and well below the AttackFix result.
+- Later score refreshes recovered modestly but remained well below the
+  AttackFix result.
 
 Validation:
 - `tar -tzf artifacts/submissions/s108-tomato-archaludon-current-probe.tar.gz`
@@ -27,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85509938` completed.
-- Latest refreshed public score was 458.8.
+- Latest refreshed public score was 585.5.
