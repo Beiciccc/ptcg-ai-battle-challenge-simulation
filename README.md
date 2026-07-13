@@ -29,7 +29,6 @@ configs/              Experiment configuration files
 data/metadata/         Public schema notes and small metadata files
 docs/                  Data notes, submission notes, and experiment log
 experiments/           Human-readable experiment records
-kaggle/notebooks/      Notebook handoff notes
 notebooks/             Local exploration notebooks
 src/ptcg_battle/       Reusable Python utilities
 submission/            Kaggle submission entrypoint and deck file
