@@ -8,7 +8,7 @@ Kaggle submission: `54626692`
 
 Validation episode: `85659212`
 
-Public score: 600.0
+Public score: 827.9
 
 Status: complete
 
@@ -17,8 +17,7 @@ Summary:
   current-day probe.
 - Local validation passed for the nine-file archive layout, entrypoint,
   60-card deck, and three smoke battles from the extracted root.
-- The validation episode completed successfully and the first public score
-  opened at 600.0.
+- Later score refreshes rose above 800 and led the current-day comparison.
 
 Validation:
 - `tar -tzf artifacts/submissions/s114-tomato-archaludon-current-probe.tar.gz`
@@ -28,4 +27,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85659212` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 827.9.
