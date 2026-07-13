@@ -8,7 +8,7 @@ Kaggle submission: `54626397`
 
 Validation episode: `85657801`
 
-Public score: 473.0
+Public score: 397.1
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   evidence-backed public payload appeared.
 - Local validation passed for the 11-file archive layout, bare-namespace
   loading, entrypoint, 60-card deck, and three smoke battles.
-- Later score refreshes fell below the initial result and prior AttackFix
-  runs.
+- Continued score refreshes fell well below the initial result and prior
+  AttackFix runs.
 
 Validation:
 - `tar -tzf artifacts/submissions/s112-llcc-crustle-attackfix-current-probe.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85657801` completed.
-- Latest refreshed public score was 473.0.
+- Latest refreshed public score was 397.1.

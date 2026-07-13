@@ -8,7 +8,7 @@ Kaggle submission: `54626542`
 
 Validation episode: `85658280`
 
-Public score: 600.0
+Public score: 696.8
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   opened weak.
 - Local validation passed for the 11-file archive layout, entrypoint,
   60-card deck, and three smoke battles from the extracted root.
-- The validation episode completed successfully and the first public score
-  opened at 600.0.
+- The refreshed public score recovered above its opening value and led the
+  current AttackFix probe.
 
 Validation:
 - `tar -tzf artifacts/submissions/s113-llcc-meta-a-stable-current-control.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85658280` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 696.8.
