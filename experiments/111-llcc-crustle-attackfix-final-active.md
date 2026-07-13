@@ -8,7 +8,7 @@ Kaggle submission: `54594245`
 
 Validation episode: `85511889`
 
-Public score: 600.0
+Public score: 769.7
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   active profile after experiment 107 exceeded 960.
 - Local validation passed for the 11-file archive layout, bare-namespace
   loading, entrypoint, 60-card deck, and three smoke battles.
-- The validation episode completed successfully and the first public score
-  opened at 600.0.
+- Later score refreshes recovered into the guard range but stayed below
+  experiment 107.
 
 Validation:
 - `tar -tzf artifacts/submissions/s111-llcc-crustle-attackfix-final-active.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85511889` completed.
-- First public score was 600.0.
+- Latest refreshed public score was 769.7.
