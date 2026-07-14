@@ -8,7 +8,7 @@ Kaggle submission: `54677044`
 
 Validation episode: `85888169`
 
-Public score: 513.1
+Public score: 675.5
 
 Status: complete
 
@@ -16,8 +16,8 @@ Summary:
 - Re-submitted Stable LLCC as the third current-day comparison after Alakazam
   recovered and Tomato fell.
 - The archive bytes matched the previously successful Stable LLCC package.
-- Later score refreshes fell below the Tomato anchor and excluded Stable from
-  the final pair.
+- Later score refreshes recovered above 675 but remained below both the
+  leading Alakazam result and the Tomato anchor.
 
 Validation:
 - Clean 11-file archive with `main.py`, `deck.csv`, and nine runtime files
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85888169` completed.
-- Latest refreshed public score was 513.1.
+- Latest refreshed public score was 675.5.
