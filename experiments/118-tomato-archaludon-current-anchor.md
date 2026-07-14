@@ -8,7 +8,7 @@ Kaggle submission: `54676860`
 
 Validation episode: `85887679`
 
-Public score: 496.0
+Public score: 641.4
 
 Status: complete
 
@@ -16,8 +16,8 @@ Summary:
 - Re-submitted the validated Tomato Archaludon package as the current-day
   anchor after the new Alakazam probe opened weak.
 - The archive bytes matched the previously successful Tomato package.
-- Later score refreshes fell below 500, making this current-day run the weakest
-  of the first two probes.
+- Later score refreshes recovered above 640 but remained below the leading
+  Alakazam run.
 
 Validation:
 - Clean nine-file archive with `main.py`, `deck.csv`, and seven runtime files
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85887679` completed.
-- Latest refreshed public score was 496.0.
+- Latest refreshed public score was 641.4.
