@@ -8,7 +8,7 @@ Kaggle submission: `54677296`
 
 Validation episode: `85889139`
 
-Public score: 711.2
+Public score: 794.2
 
 Status: complete
 
@@ -16,8 +16,8 @@ Summary:
 - Re-submitted Tomato Archaludon as the first final active profile after it
   retained stronger current and historical evidence than Stable LLCC.
 - The archive bytes matched the previously successful Tomato package.
-- Later score refreshes recovered above 700 and preserved the diversity side
-  of the final pair.
+- Later score refreshes recovered near 800 and preserved the diversity side of
+  the final pair.
 
 Validation:
 - Clean nine-file archive with `main.py`, `deck.csv`, and seven runtime files
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85889139` completed.
-- Latest refreshed public score was 711.2.
+- Latest refreshed public score was 794.2.
