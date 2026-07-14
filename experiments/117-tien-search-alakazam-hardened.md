@@ -8,7 +8,7 @@ Kaggle submission: `54676655`
 
 Validation episode: `85886634`
 
-Public score: 704.7
+Public score: 860.3
 
 Status: complete
 
@@ -22,8 +22,8 @@ Summary:
   cross-platform competition runtime.
 - Added the missing `sys` import used by search fallback diagnostics. No
   strategy weights, search parameters, or deck entries changed.
-- Later score refreshes recovered above 700 but remained below the 800-point
-  final-active threshold.
+- Later score refreshes recovered above 850 and moved the checkpoint back into
+  provisional final-active contention.
 
 Validation:
 - Clean 11-file archive with `main.py`, `deck.csv`, and nine runtime files
@@ -36,4 +36,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85886634` completed.
-- Latest refreshed public score was 704.7.
+- Latest refreshed public score was 860.3.
