@@ -8,7 +8,7 @@ Kaggle submission: `54626834`
 
 Validation episode: `85659682`
 
-Public score: 682.4
+Public score: 879.2
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   AttackFix.
 - Local validation passed for the 11-file archive layout, bare-namespace
   loading, entrypoint, 60-card deck, and three smoke battles.
-- Later score refreshes recovered above the opening value and preserved the
-  Stable LLCC side of the final pair.
+- Mature score refreshes recovered into the high guard range and preserved
+  the Stable LLCC side of the final pair.
 
 Validation:
 - `tar -tzf artifacts/submissions/s115-llcc-meta-a-stable-final-active.tar.gz`
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85659682` completed.
-- Latest refreshed public score was 682.4.
+- Mature public score was 879.2.
