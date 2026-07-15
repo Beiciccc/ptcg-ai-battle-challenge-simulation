@@ -8,7 +8,7 @@ Kaggle submission: `54677479`
 
 Validation episode: `85890112`
 
-Public score: 699.0
+Public score: 928.2
 
 Status: complete
 
@@ -19,8 +19,8 @@ Summary:
 - Re-submitted the hardened Search-Augmented Alakazam package as the second
   final active profile after experiment 117 matured above 900.
 - The archive bytes matched the successful experiment 117 package.
-- Later score refreshes recovered near 700 and completed the Tomato plus
-  Alakazam final pair.
+- Mature score refreshes rose above 925 and made this the strongest final
+  active profile.
 
 Validation:
 - Clean 11-file archive with `main.py`, `deck.csv`, and nine runtime files
@@ -32,4 +32,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `85890112` completed.
-- Latest refreshed public score was 699.0.
+- Mature public score was 928.2.
