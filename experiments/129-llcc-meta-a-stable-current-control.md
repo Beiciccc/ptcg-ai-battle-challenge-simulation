@@ -8,7 +8,7 @@ Kaggle submission: `54748977`
 
 Validation episode: `86204895`
 
-Public score: 600.0
+Public score: 895.9
 
 Status: complete
 
@@ -16,8 +16,8 @@ Summary:
 - Re-submitted Stable LLCC as the third current-day strategy family after the
   Alakazam and Tomato observations showed substantial score movement.
 - The archive bytes matched experiments 115, 119, and 124 exactly.
-- The validation episode completed, but interval-separated score readings
-  remained below the Alakazam and Tomato observations.
+- The validation episode completed, and later public score refreshes rose
+  substantially above its initial readings.
 
 Validation:
 - Clean 11-file archive with `main.py`, `deck.csv`, and nine runtime files
@@ -28,4 +28,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `86204895` completed.
-- Current public score is 600.0.
+- Current public score is 895.9.
