@@ -8,7 +8,7 @@ Kaggle submission: `54748778`
 
 Validation episode: `86203346`
 
-Public score: 600.0
+Public score: 616.0
 
 Status: complete
 
@@ -17,8 +17,8 @@ Summary:
   after the Alakazam anchor showed substantial score movement.
 - The archive bytes matched experiments 114, 116, 118, 120, 123, and 126
   exactly.
-- The validation episode completed and two interval-separated public score
-  readings remained at 600.0.
+- The validation episode completed, and repeated public score refreshes
+  demonstrated substantial validation variance.
 
 Validation:
 - Clean nine-file archive with `main.py`, `deck.csv`, and seven runtime files
@@ -30,4 +30,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `86203346` completed.
-- Current public score is 600.0.
+- Current public score is 616.0.
