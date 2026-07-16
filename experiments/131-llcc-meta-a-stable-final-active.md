@@ -8,7 +8,7 @@ Kaggle submission: `54749353`
 
 Validation episode: `86208000`
 
-Public score: 689.2
+Public score: 754.0
 
 Status: complete
 
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `86208000` completed.
-- Current public score is 689.2.
+- Public score at the 2026-07-16 01:25 UTC refresh was 754.0.
