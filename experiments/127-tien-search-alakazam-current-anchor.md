@@ -8,7 +8,7 @@ Kaggle submission: `54748433`
 
 Validation episode: `86200710`
 
-Public score: 600.0
+Public score: 745.3
 
 Status: complete
 
@@ -19,7 +19,8 @@ Summary:
 - Re-submitted the hardened Search-Augmented Alakazam package as the first
   current-day anchor after the previous identical archive matured above 900.
 - The archive bytes matched experiments 117, 121, 122, and 125 exactly.
-- The validation episode completed and the first public score was 600.0.
+- The validation episode completed, and subsequent score movement recovered
+  above the initial 600.0 reading.
 
 Validation:
 - Clean 11-file archive with `main.py`, `deck.csv`, and nine runtime files
@@ -31,4 +32,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `86200710` completed.
-- Current public score is 600.0.
+- Current public score is 745.3.

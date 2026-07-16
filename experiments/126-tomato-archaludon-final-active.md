@@ -8,7 +8,7 @@ Kaggle submission: `54706621`
 
 Validation episode: `86017363`
 
-Public score: 802.6
+Public score: 800.2
 
 Status: complete
 
@@ -29,4 +29,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `86017363` completed.
-- Mature public score is 802.6.
+- Mature public score is 800.2.
