@@ -8,7 +8,7 @@ Kaggle submission: `54790755`
 
 Validation episode: `86548262`
 
-Public score: 731.9
+Public score: 963.0
 
 Status: complete
 
@@ -19,8 +19,8 @@ Summary:
 - Re-submitted the hardened Search-Augmented Alakazam package as a rebound
   probe after identical archives previously exceeded 900.
 - The archive bytes matched experiments 117, 121, 122, 125, and 127 exactly.
-- The validation episode completed and two interval-separated public score
-  readings held at 731.9.
+- The validation episode completed and the public score moved from an initial
+  731.9 reading through 936.7 to the current 963.0 reading.
 
 Validation:
 - Clean 11-file archive with `main.py`, `deck.csv`, and nine runtime files
@@ -31,4 +31,4 @@ Validation:
 
 Result:
 - Kaggle validation episode `86548262` completed.
-- Current public score is 731.9.
+- Current public score is 963.0.
