@@ -10,7 +10,7 @@ Validation episode: `86553872`
 
 First public episode: `86554591`
 
-Public score: 799.2
+Public score: 854.0
 
 Status: complete
 
@@ -39,8 +39,8 @@ Validation:
 Result:
 - Kaggle validation episode `86553872` completed.
 - The first public battle completed normally as a turn-16 win.
-- The first two interval-separated public score readings held at 689.7, and
-  later matchmaker updates raised the current score to 799.2.
-- The live score remained in the below-850 branch of the final-pair rule, so
-  the final two profiles return to Stable LLCC and Search-Augmented Alakazam,
-  both rebuilt against the latest engine files.
+- The first two interval-separated public score readings held at 689.7. The
+  score was 799.2 at the final-pair checkpoint and later rose to 854.0.
+- Stable LLCC subsequently reached a higher current reading, while the mature
+  Search-Augmented Alakazam evidence remained the strongest candidate signal;
+  the final pair therefore stayed Stable plus Alakazam.
