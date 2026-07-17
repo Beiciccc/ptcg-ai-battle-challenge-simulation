@@ -12,7 +12,7 @@ First public episode: `86551796`
 
 Second public episode: `86552357`
 
-Public score: 504.6
+Public score: 500.8
 
 Status: complete
 
@@ -45,6 +45,6 @@ Result:
   turn six to Mega Abomasnow ex and again after a 26-turn battle, confirming
   gameplay losses rather than a packaging or runtime failure.
 - Six public episodes have now completed. Later matchmaker updates recovered
-  the public score from 349.7 to the current 504.6, still below the guards.
+  the public score from 349.7 to the current 500.8, still below the guards.
 - The profile is excluded from the final active pair unless later live evidence
   exceeds 800; the remaining final slots retain the stronger mature guards.
