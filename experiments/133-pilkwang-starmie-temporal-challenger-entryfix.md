@@ -12,7 +12,7 @@ First public episode: `86551796`
 
 Second public episode: `86552357`
 
-Public score: 349.7
+Public score: 504.6
 
 Status: complete
 
@@ -44,6 +44,7 @@ Result:
 - Both observed public battles completed normally. The Starmie side lost on
   turn six to Mega Abomasnow ex and again after a 26-turn battle, confirming
   gameplay losses rather than a packaging or runtime failure.
-- The current public score after those two losses is 349.7.
+- Six public episodes have now completed. Later matchmaker updates recovered
+  the public score from 349.7 to the current 504.6, still below the guards.
 - The profile is excluded from the final active pair unless later live evidence
   exceeds 800; the remaining final slots retain the stronger mature guards.
