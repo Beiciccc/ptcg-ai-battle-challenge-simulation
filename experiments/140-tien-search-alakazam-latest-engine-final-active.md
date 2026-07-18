@@ -10,7 +10,7 @@ Validation episode: `86616487`
 
 First public episode: `86616643`
 
-Public score: 889.8
+Public score: 773.1
 
 Status: complete
 
@@ -42,6 +42,7 @@ Result:
 - Kaggle validation episode `86616487` completed normally in 165 steps with
   reward `[-1, 1]` and both players in the DONE state.
 - The first public battle completed as a win.
-- The score rose from the 600.0 baseline through 712.4 and 799.7 to the current
-  889.8.
+- The score rose from the 600.0 baseline through 712.4 and 799.7, reached
+  889.8, and later moved to 773.1 at the final audit checkpoint.
 - This active-window observation is paired with Lucario in the final slot.
+- Final audit checkpoint: `2026-07-18 03:59 UTC`.

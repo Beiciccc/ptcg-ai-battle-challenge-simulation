@@ -8,7 +8,9 @@ Kaggle submission: `54798297`
 
 Validation episode: `86618120`
 
-Public score: 600.0
+First public episode: `86618785`
+
+Public score: 736.4
 
 Status: complete
 
@@ -39,7 +41,8 @@ Validation:
 Result:
 - Kaggle validation episode `86618120` completed normally in 122 steps with
   reward `[-1, 1]` and both players in the DONE state.
-- Two interval-separated official reads held at 600.0 before any public battle
-  was recorded.
+- The first public battle completed as a win and raised the score from the
+  600.0 baseline to 736.4.
 - The final active pair is Search-Augmented Alakazam followed by Mega Lucario
   Prize-Pressure.
+- Final audit checkpoint: `2026-07-18 03:59 UTC`.
