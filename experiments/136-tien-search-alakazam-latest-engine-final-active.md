@@ -10,7 +10,7 @@ Validation episode: `86558991`
 
 Public episodes: `86559703`, `86560258`
 
-Public score: 713.0
+Public score: 823.1
 
 Status: complete
 
@@ -41,7 +41,7 @@ Validation:
 Result:
 - Kaggle validation episode `86558991` completed.
 - The first two public battles completed normally as wins on turns 11 and 6.
-- The public score rose from 651.7 to the current 713.0.
-- The latest-engine rating is still early and should not be equated with the
-  mature old-engine score. Future engine updates require fresh live evidence;
-  older ratings may rank candidates but cannot validate a rebuilt package.
+- The public score rose from 651.7 through 713.0 to the current 823.1.
+- The latest-engine rating should not be equated with the mature old-engine
+  score. Future engine updates require fresh live evidence; older ratings may
+  rank candidates but cannot validate a rebuilt package.

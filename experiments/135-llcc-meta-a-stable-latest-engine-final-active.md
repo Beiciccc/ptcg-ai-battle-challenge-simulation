@@ -10,7 +10,7 @@ Validation episode: `86556150`
 
 Public episodes: `86556294`, `86556873`
 
-Public score: 836.8
+Public score: 753.2
 
 Status: complete
 
@@ -35,7 +35,7 @@ Validation:
 Result:
 - Kaggle validation episode `86556150` completed.
 - The first two public battles completed normally as wins on turns 34 and 4.
-- The public score rose from 674.0 through 741.4 and 868.0 to the current
-  836.8 reading.
+- The public score rose from 674.0 through 741.4 and 868.0 before later
+  movement settled at the current 753.2 reading.
 - Stable remains the lower-positioned final profile; the final slot is reserved
   for Search-Augmented Alakazam rebuilt against the same latest engine files.
