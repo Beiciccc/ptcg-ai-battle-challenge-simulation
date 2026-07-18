@@ -8,7 +8,9 @@ Kaggle submission: `54797464`
 
 Validation episode: `86610533`
 
-Public score: 600.0
+Public episodes: `86611145`, `86611689`
+
+Public score: 796.0
 
 Status: complete
 
@@ -34,7 +36,8 @@ Validation:
 Result:
 - Kaggle validation episode `86610533` completed normally in 106 steps with
   no runtime, timeout, or invalid-action errors.
-- Two interval-separated reads held at the initial 600.0 public score before
-  any public battle was recorded.
-- This latest-engine result is below the current Lucario and Search-Augmented
-  Alakazam references, so the profile is not retained for the final pair.
+- The first two observed public battles completed as wins.
+- The public score rose from the 600.0 baseline through 713.9, 795.8, and
+  870.6 before later movement reached the current 796.0.
+- This remains a high-variance result and requires comparison with the other
+  current latest-engine profiles before selecting the final pair.
