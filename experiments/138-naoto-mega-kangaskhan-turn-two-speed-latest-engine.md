@@ -10,7 +10,7 @@ Validation episode: `86612649`
 
 First public episode: `86613351`
 
-Public score: 482.4
+Public score: 568.3
 
 Status: complete
 
@@ -42,7 +42,7 @@ Result:
 - Kaggle validation episode `86612649` completed normally with reward
   `[1, -1]` and both players in the DONE state.
 - The first public battle completed as a loss.
-- The score moved from the 600.0 baseline through 521.7 and 606.3 before later
-  movement reached the current 482.4.
+- The score moved from the 600.0 baseline through 521.7, 606.3, and 482.4
+  before later movement reached the current 568.3.
 - The current result is below the active latest-engine references, so this
   strategy family is not retained for the final pair.

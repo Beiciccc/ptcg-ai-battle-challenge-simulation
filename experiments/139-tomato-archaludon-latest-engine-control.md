@@ -8,7 +8,7 @@ Kaggle submission: `54797915`
 
 Validation episode: `86614292`
 
-Public score: 600.0
+Public score: 573.1
 
 Status: complete
 
@@ -38,7 +38,6 @@ Validation:
 Result:
 - Kaggle validation episode `86614292` completed normally in 130 steps with
   reward `[-1, 1]` and both players in the DONE state.
-- Two interval-separated official reads held at 600.0 before any public battle
-  was recorded.
-- The pre-public-battle result does not meet the threshold to replace the
-  current Lucario and Search-Augmented Alakazam final-pair candidates.
+- The score moved from the 600.0 baseline through 467.1 to the current 573.1.
+- The current result does not meet the threshold to replace the Lucario and
+  Search-Augmented Alakazam final-pair candidates.
