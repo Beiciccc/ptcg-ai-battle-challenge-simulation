@@ -10,7 +10,7 @@ Validation episode: `86610533`
 
 Public episodes: `86611145`, `86611689`
 
-Public score: 796.0
+Public score: 796.4
 
 Status: complete
 
@@ -38,6 +38,6 @@ Result:
   no runtime, timeout, or invalid-action errors.
 - The first two observed public battles completed as wins.
 - The public score rose from the 600.0 baseline through 713.9, 795.8, and
-  870.6 before later movement reached the current 796.0.
+  870.6 before later movement reached the current 796.4.
 - This remains a high-variance result and requires comparison with the other
   current latest-engine profiles before selecting the final pair.
