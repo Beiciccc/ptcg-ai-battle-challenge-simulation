@@ -8,7 +8,9 @@ Kaggle submission: `54798090`
 
 Validation episode: `86616487`
 
-Public score: 600.0
+First public episode: `86616643`
+
+Public score: 889.8
 
 Status: complete
 
@@ -39,7 +41,7 @@ Validation:
 Result:
 - Kaggle validation episode `86616487` completed normally in 165 steps with
   reward `[-1, 1]` and both players in the DONE state.
-- Two interval-separated official reads held at 600.0 before any public battle
-  was recorded.
-- The mature same-byte evidence from experiment 136 remains 828.7; this new
-  active-window observation is paired with Lucario in the final slot.
+- The first public battle completed as a win.
+- The score rose from the 600.0 baseline through 712.4 and 799.7 to the current
+  889.8.
+- This active-window observation is paired with Lucario in the final slot.

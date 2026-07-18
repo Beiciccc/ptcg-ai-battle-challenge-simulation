@@ -41,6 +41,6 @@ Result:
 - The first public battle completed normally as a turn-16 win.
 - The first two interval-separated public score readings held at 689.7. The
   score was 799.2 at the final-pair checkpoint and later rose to 854.0.
-- Later score movement raised Lucario to 854.0, the strongest current reading
-  among the latest-engine experiments. The observation remains less mature
-  than the longer-running Alakazam and Stable ratings.
+- Later score movement raised Lucario to 854.0, supporting its reuse as the
+  final active profile. The observation remains less mature than the
+  longer-running Alakazam rating.
