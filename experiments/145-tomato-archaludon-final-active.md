@@ -1,0 +1,40 @@
+# 145 Tomato Archaludon Final Active
+
+Date: 2026-07-19 UTC
+
+Package: `artifacts/submissions/s145-tomato-archaludon-final-active.tar.gz`
+
+Kaggle submission: `54819765`
+
+Validation episode: `86797471`
+
+Public score: 600.0
+
+Status: complete
+
+Summary:
+- Re-submitted the exact latest-engine Tomato Archaludon archive as the first
+  member of the final active pair.
+- Retained Tomato because its current-day probe led the three-profile
+  comparison before the final slots and its local matchups split 3-3 with both
+  Alakazam and the improved Lucario heuristic.
+- Preserved every archive byte so the new observation changes only the active
+  public evaluation window.
+
+Validation:
+- Exact-byte match with experiments 139 and 144
+- Clean 11-file archive with `main.py`, `deck.csv`, and nine runtime files
+- No links, cache files, AppleDouble files, or nested archive root
+- Final top-level function: `agent`
+- 60-card deck check and exact initial deck return
+- Archive-root smoke battles completed in 130, 33, and 110 steps
+- Main SHA-256: `03216723e42e8dffa67a5ded172f23512a3f1f0540205cc815e8fd90dd3a3313`
+- Deck SHA-256: `42165967b565dd42ec426ecccfe79bfa7d72aa8306590e149dface0ee8bd530e`
+- Archive SHA-256: `97de047d4f4cad11ac77378b1cbc52da3d11b0989f032be02ed3dce7eb8ff0f0`
+
+Result:
+- Kaggle accepted the package and marked submission `54819765` complete.
+- Validation episode `86797471` reached the completed terminal state with
+  reward `[-1, 1]`.
+- The score remained at the 600.0 baseline at the 2026-07-19 01:48 UTC
+  checkpoint, with no public episode visible yet.
