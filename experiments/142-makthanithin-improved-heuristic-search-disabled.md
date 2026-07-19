@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s142-makthanithin-improved-heuristic-search-disa
 
 Kaggle submission: `54819384`
 
-Public score: 600.0
+Public score: 702.1
 
 Status: complete
 
@@ -38,7 +38,7 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54819384` complete.
-- The first public score was the 600.0 baseline at the 2026-07-19 01:18 UTC
-  checkpoint; no public battle was visible at that checkpoint.
+- The first public score was the 600.0 baseline at 01:18 UTC. It later reached
+  796.5 before moving to 702.1 at the 2026-07-19 01:30 UTC checkpoint.
 - The local comparisons support treating this as an exploratory anti-stall
   profile rather than replacing the stronger Alakazam anchor.
