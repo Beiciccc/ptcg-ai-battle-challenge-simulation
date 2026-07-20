@@ -42,4 +42,4 @@ Result:
 - Public evaluation moved from the 600.0 baseline through 716.9 and 628.8 to
   660.9; the local matchup result is retained as validation evidence rather
   than a leaderboard claim.
-- Score checkpoint: `2026-07-20 03:33 UTC`.
+- Score checkpoint: `2026-07-20 03:44 UTC`.

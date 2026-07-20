@@ -37,7 +37,7 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54844212` complete.
-- The first public-score read remained at the 600.0 baseline.
+- The public score remained at the 600.0 baseline at the frozen checkpoint.
 - The latest two rows preserve Search-Augmented Alakazam and Tomato Archaludon
   as distinct active strategy families.
-- Score checkpoint: `2026-07-20 03:41 UTC`.
+- Score checkpoint: `2026-07-20 03:44 UTC`.
