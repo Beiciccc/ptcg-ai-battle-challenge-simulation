@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s147-fishcat-v9-attention-all3d-exact-code-outpu
 
 Kaggle submission: `54843697`
 
-Public score: 600.0
+Public score: 699.8
 
 Status: complete
 
@@ -38,6 +38,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54843697` complete.
-- The first public-score read remained at the 600.0 baseline; no strength claim
-  is made until additional public episodes are available.
-- Score checkpoint: `2026-07-20 03:04 UTC`.
+- Public evaluation moved from the 600.0 baseline through 766.9 to 699.8 as
+  validation battles accumulated.
+- Score checkpoint: `2026-07-20 03:16 UTC`.
