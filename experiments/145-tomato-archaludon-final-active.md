@@ -8,7 +8,7 @@ Kaggle submission: `54819765`
 
 Validation episode: `86797471`
 
-Public score: 599.1
+Public score: 828.7
 
 Status: complete
 
@@ -36,6 +36,5 @@ Result:
 - Kaggle accepted the package and marked submission `54819765` complete.
 - Validation episode `86797471` reached the completed terminal state with
   reward `[-1, 1]`.
-- Public evaluation moved the score from the 600.0 baseline to 599.1 at the
-  final audit checkpoint.
-- Final audit checkpoint: `2026-07-19 01:56 UTC`.
+- Public evaluation later recovered from 599.1 to 828.7.
+- Score checkpoint: `2026-07-20 03:04 UTC`.

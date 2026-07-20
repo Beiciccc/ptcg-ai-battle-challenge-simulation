@@ -8,7 +8,7 @@ Kaggle submission: `54819874`
 
 Validation episode: `86798534`
 
-Public score: 600.0
+Public score: 763.8
 
 Status: complete
 
@@ -38,8 +38,7 @@ Result:
 - Kaggle accepted the package and marked submission `54819874` complete.
 - Validation episode `86798534` reached the completed terminal state with
   reward `[-1, 1]`.
-- The first two public-score reads remained at the 600.0 baseline, with no
-  public episode visible yet.
+- Later public evaluation recovered from the 600.0 baseline to 763.8.
 - The final active pair is Tomato Archaludon followed by Search-Augmented
   Alakazam.
-- Final audit checkpoint: `2026-07-19 01:56 UTC`.
+- Score checkpoint: `2026-07-20 03:04 UTC`.
