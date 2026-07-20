@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s148-makthanithin-archaludon-cinderace-current-c
 
 Kaggle submission: `54843847`
 
-Public score: 628.8
+Public score: 660.9
 
 Status: complete
 
@@ -39,7 +39,7 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54843847` complete.
-- Public evaluation moved from the 600.0 baseline through 716.9 to 628.8; the
-  local matchup result is retained as validation evidence rather than a
-  leaderboard claim.
-- Score checkpoint: `2026-07-20 03:25 UTC`.
+- Public evaluation moved from the 600.0 baseline through 716.9 and 628.8 to
+  660.9; the local matchup result is retained as validation evidence rather
+  than a leaderboard claim.
+- Score checkpoint: `2026-07-20 03:33 UTC`.
