@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s150-tien-search-alakazam-strategy-control.tar.g
 
 Kaggle submission: `54844108`
 
-Public score: 600.0
+Public score: 788.9
 
 Status: complete
 
@@ -39,6 +39,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54844108` complete.
-- The first public-score read remained at the 600.0 baseline; later validation
-  battles are required before comparing it with the mature parent observation.
-- Score checkpoint: `2026-07-20 03:33 UTC`.
+- Public evaluation moved from the 600.0 baseline through 700.8 to 788.9 as
+  validation battles accumulated.
+- Score checkpoint: `2026-07-20 03:41 UTC`.

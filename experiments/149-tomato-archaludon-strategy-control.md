@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s149-tomato-archaludon-strategy-control.tar.gz`
 
 Kaggle submission: `54843996`
 
-Public score: 606.0
+Public score: 453.0
 
 Status: complete
 
@@ -38,6 +38,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54843996` complete.
-- Public evaluation moved from the 600.0 baseline to 606.0; later validation
-  battles are required before comparing it with the mature parent observation.
-- Score checkpoint: `2026-07-20 03:33 UTC`.
+- Public evaluation moved through 600.0, 606.0, and 529.7 before reaching
+  453.0 as validation battles accumulated.
+- Score checkpoint: `2026-07-20 03:41 UTC`.
