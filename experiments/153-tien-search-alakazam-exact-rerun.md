@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s153-tien-search-alakazam-exact-rerun.tar.gz`
 
 Kaggle submission: `54865914`
 
-Public score: 600.0
+Public score: 747.7
 
 Status: complete
 
@@ -33,6 +33,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54865914` complete.
-- The first public-score read remained at the 600.0 baseline; later score
-  movement will be recorded as additional validation battles accumulate.
-- Score checkpoint: `2026-07-21 01:20 UTC`.
+- Public evaluation moved from the 600.0 baseline through 695.9 to 747.7 as
+  additional validation battles accumulated.
+- Score checkpoint: `2026-07-21 01:29 UTC`.
