@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s152-roman-v10-current-code-probe.tar.gz`
 
 Kaggle submission: `54865427`
 
-Public score: 600.0
+Public score: 447.0
 
 Status: complete
 
@@ -38,6 +38,7 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54865427` complete.
-- The first public-score read remained at the 600.0 baseline; the source
-  notebook title is not treated as independently verified leaderboard evidence.
-- Score checkpoint: `2026-07-21 00:55 UTC`.
+- Public evaluation moved from the 600.0 baseline to 498.5 and then 447.0; the
+  source notebook title is not treated as independently verified leaderboard
+  evidence.
+- Score checkpoint: `2026-07-21 01:17 UTC`.
