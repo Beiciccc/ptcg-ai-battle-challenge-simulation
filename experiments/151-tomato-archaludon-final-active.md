@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s151-tomato-archaludon-final-active.tar.gz`
 
 Kaggle submission: `54844212`
 
-Public score: 600.0
+Public score: 777.6
 
 Status: complete
 
@@ -37,7 +37,7 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54844212` complete.
-- The public score remained at the 600.0 baseline at the frozen checkpoint.
+- Later public evaluation recovered from the 600.0 baseline to 777.6.
 - The latest two rows preserve Search-Augmented Alakazam and Tomato Archaludon
   as distinct active strategy families.
-- Score checkpoint: `2026-07-20 03:44 UTC`.
+- Score checkpoint: `2026-07-21 00:55 UTC`.
