@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s154-tomato-archaludon-exact-rerun.tar.gz`
 
 Kaggle submission: `54866052`
 
-Public score: 696.2
+Public score: 810.0
 
 Status: complete
 
@@ -33,6 +33,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54866052` complete.
-- Public evaluation moved from the 600.0 baseline through 698.1 and 778.4 before
-  reaching 696.2 as additional validation battles accumulated.
-- Score checkpoint: `2026-07-21 01:40 UTC`.
+- Public evaluation moved from the 600.0 baseline through 698.1, 778.4, and
+  696.2 before reaching 810.0 as additional validation battles accumulated.
+- Score checkpoint: `2026-07-21 01:51 UTC`.
