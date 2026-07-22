@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s157-prvsiyan-field-audited-alakazam-v8-probe.ta
 
 Kaggle submission: `54891156`
 
-Public score: 607.8
+Public score: 725.5
 
 Status: complete
 
@@ -38,6 +38,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54891156` complete.
-- Public evaluation moved from the 600.0 baseline through 494.3 and 509.2 before
-  reaching 607.8 as additional validation battles accumulated.
-- Score checkpoint: `2026-07-22 01:46 UTC`.
+- Public evaluation moved from the 600.0 baseline through 494.3, 509.2, and
+  607.8 before reaching 725.5 as additional validation battles accumulated.
+- Score checkpoint: `2026-07-22 01:53 UTC`.
