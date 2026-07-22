@@ -1,0 +1,40 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "107",
+    "111",
+    "112"
+  ],
+  "files": [
+    {
+      "bytes": 253,
+      "path": "deck.csv",
+      "sha256": "fbe6ab59992260b0d6774abed19469be315521b5ed0546de8c20f329607693e6"
+    },
+    {
+      "bytes": 41087,
+      "path": "main.py",
+      "sha256": "c32e65488f71fb2978ac308ae9b812891aa28276b13e1966d0edaeb1a80ab98d"
+    }
+  ],
+  "first_experiment": "107",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "69e56383aa3a20933bb7ad5e145df9ffd0f4f88fdc0b7c77c01e227ce444a770",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s107-llcc-crustle-attackfix.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "c32e65488f71-fbe6ab599922"
+}

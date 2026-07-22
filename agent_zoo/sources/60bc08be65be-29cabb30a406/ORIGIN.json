@@ -1,0 +1,39 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "093",
+    "098"
+  ],
+  "files": [
+    {
+      "bytes": 261,
+      "path": "deck.csv",
+      "sha256": "29cabb30a40645e83c5260b83511cabdef62264f3a596cf18b265cb19493f159"
+    },
+    {
+      "bytes": 31996,
+      "path": "main.py",
+      "sha256": "60bc08be65be2df7bccff5dc3f8bc06e9a604800749d6af3d822c907e8d9d3ea"
+    }
+  ],
+  "first_experiment": "093",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "f39fabb207fac8ce221ade47db172c296e5c703bd2ecb47057d424d30d6c296a",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s093-pilkwang-0909-phantom-focus-transfer.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "60bc08be65be-29cabb30a406"
+}

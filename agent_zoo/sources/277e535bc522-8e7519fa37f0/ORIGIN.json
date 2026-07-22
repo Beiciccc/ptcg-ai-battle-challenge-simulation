@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "038"
+  ],
+  "files": [
+    {
+      "bytes": 243,
+      "path": "deck.csv",
+      "sha256": "8e7519fa37f05af6960f6872e8abb28dcff12b8516977145d528036b63fa05d1"
+    },
+    {
+      "bytes": 34078,
+      "path": "main.py",
+      "sha256": "277e535bc52277cfdaaa7b69abe15dc194b96085a4131b07ab7c7b22363e1347"
+    }
+  ],
+  "first_experiment": "038",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "335c68941f37e1b5f66109871b661d69893d7fbeb648dedb416cc2c6e30b17a4",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s038-kokinn-diary-day3-il-rerank.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "277e535bc522-8e7519fa37f0"
+}

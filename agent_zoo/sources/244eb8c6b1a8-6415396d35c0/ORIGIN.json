@@ -1,0 +1,39 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "042",
+    "077"
+  ],
+  "files": [
+    {
+      "bytes": 267,
+      "path": "deck.csv",
+      "sha256": "6415396d35c0f4b3d69ee6c231337968cc9f2d5d0767de801346d6f412c18e62"
+    },
+    {
+      "bytes": 55364,
+      "path": "main.py",
+      "sha256": "244eb8c6b1a89d65769a3ecc315fcd39809dfc3243dd2067f3ca24b29cb8b498"
+    }
+  ],
+  "first_experiment": "042",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "787837f8052216fcc5b37e16e84b8745a798281849120b211aa4d1810c4a7c00",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s042-souta-libraryout-crustle-great-tusk-clean.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "244eb8c6b1a8-6415396d35c0"
+}

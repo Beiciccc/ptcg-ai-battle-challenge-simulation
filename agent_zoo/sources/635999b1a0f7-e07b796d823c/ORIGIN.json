@@ -1,0 +1,45 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "028",
+    "032",
+    "036",
+    "037",
+    "041",
+    "048",
+    "058",
+    "069"
+  ],
+  "files": [
+    {
+      "bytes": 245,
+      "path": "deck.csv",
+      "sha256": "e07b796d823cbbfec98ccd6a1038527321264f0357afa7f60a021cf92066e510"
+    },
+    {
+      "bytes": 25362,
+      "path": "main.py",
+      "sha256": "635999b1a0f7970e70c17bb591c21b7576ddc83889ef5f50b76b8687ced5b09d"
+    }
+  ],
+  "first_experiment": "028",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "f22ce7fd4654291da2d66b92945913f16ff6cf1f267b4fbe2e23db5e0a2c3fda",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s028-naoto-hop-alakazam-target.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "635999b1a0f7-e07b796d823c"
+}

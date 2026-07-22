@@ -1,0 +1,48 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "004",
+    "010",
+    "020",
+    "023",
+    "030",
+    "031",
+    "035",
+    "040",
+    "050",
+    "054",
+    "059"
+  ],
+  "files": [
+    {
+      "bytes": 211,
+      "path": "deck.csv",
+      "sha256": "9c2647bd80d51bfd9cf89c74026e6a53607903b94cae9c235fad0c2128aad3aa"
+    },
+    {
+      "bytes": 4562,
+      "path": "main.py",
+      "sha256": "6de341ae762f15a7d926f5359e783e189bf25d5a0cff5ec69f78a954d0bdb6d3"
+    }
+  ],
+  "first_experiment": "004",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "fa012b5a4a86d267c78793979da64a93ac2d17dcd44c5b7bff4f3ea9da345518",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s004-crustle-specific.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "6de341ae762f-9c2647bd80d5"
+}

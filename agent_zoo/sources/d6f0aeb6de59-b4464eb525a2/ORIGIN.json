@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "006"
+  ],
+  "files": [
+    {
+      "bytes": 245,
+      "path": "deck.csv",
+      "sha256": "b4464eb525a25e6598a972d00efc5e5b5156372e77f51853f4076d8ebb34fd7d"
+    },
+    {
+      "bytes": 19781,
+      "path": "main.py",
+      "sha256": "d6f0aeb6de59840182b93f661b658f78e76fb31e7239a51368d21ab30c58c3c0"
+    }
+  ],
+  "first_experiment": "006",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "97259987f899f38e642e7e2bdc573573e6cd8edef02b50146a6c14db60c2fb24",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s006-lucario-full-policy.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "d6f0aeb6de59-b4464eb525a2"
+}

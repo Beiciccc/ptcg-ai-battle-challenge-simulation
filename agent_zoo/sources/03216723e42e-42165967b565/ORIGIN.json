@@ -1,0 +1,76 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "044",
+    "061",
+    "062",
+    "065",
+    "066",
+    "067",
+    "070",
+    "071",
+    "072",
+    "075",
+    "081",
+    "086",
+    "089",
+    "096",
+    "100",
+    "102",
+    "104",
+    "106",
+    "108",
+    "110",
+    "114",
+    "116",
+    "118",
+    "120",
+    "123",
+    "126",
+    "128",
+    "130",
+    "139",
+    "144",
+    "145",
+    "149",
+    "151",
+    "154",
+    "156",
+    "159",
+    "161"
+  ],
+  "files": [
+    {
+      "bytes": 253,
+      "path": "deck.csv",
+      "sha256": "42165967b565dd42ec426ecccfe79bfa7d72aa8306590e149dface0ee8bd530e"
+    },
+    {
+      "bytes": 38569,
+      "path": "main.py",
+      "sha256": "03216723e42e8dffa67a5ded172f23512a3f1f0540205cc815e8fd90dd3a3313"
+    }
+  ],
+  "first_experiment": "044",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "e7e1e346054f6d482e1b890b8a67eb68fd7bc167a6a5642bbe516287c2eb2486",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s045-tomato-archaludon-vs-starmie-clean.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/masamikobayashi/a-sample-archaludon-75-wr-vs-my-1300-starmie"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "03216723e42e-42165967b565"
+}

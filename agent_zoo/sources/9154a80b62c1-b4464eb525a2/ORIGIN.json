@@ -1,0 +1,43 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "009",
+    "016",
+    "018",
+    "021",
+    "022",
+    "026"
+  ],
+  "files": [
+    {
+      "bytes": 245,
+      "path": "deck.csv",
+      "sha256": "b4464eb525a25e6598a972d00efc5e5b5156372e77f51853f4076d8ebb34fd7d"
+    },
+    {
+      "bytes": 19637,
+      "path": "main.py",
+      "sha256": "9154a80b62c1eb67fcda5273bc637e97d337f8efff85734ffd7719a07a796d6f"
+    }
+  ],
+  "first_experiment": "009",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "3b5d06600c07274f4a289496eee1ec0ab303620f641824463817e3766f46740b",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s009-resubmit-lucario-full.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "9154a80b62c1-b4464eb525a2"
+}

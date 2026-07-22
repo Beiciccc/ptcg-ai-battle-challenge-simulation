@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "003"
+  ],
+  "files": [
+    {
+      "bytes": 211,
+      "path": "deck.csv",
+      "sha256": "9c2647bd80d51bfd9cf89c74026e6a53607903b94cae9c235fad0c2128aad3aa"
+    },
+    {
+      "bytes": 11135,
+      "path": "main.py",
+      "sha256": "c642b891c09baa8a86f0b19122418ce64f89896646863db0298202144daf77c6"
+    }
+  ],
+  "first_experiment": "003",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "473e75aeb462e97de05be1a80bcd74742122f9511cebfd56337de7a45a10e128",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s003-crustle-wall.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "c642b891c09b-9c2647bd80d5"
+}

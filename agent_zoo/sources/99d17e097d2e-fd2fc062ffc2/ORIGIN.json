@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "012"
+  ],
+  "files": [
+    {
+      "bytes": 242,
+      "path": "deck.csv",
+      "sha256": "fd2fc062ffc23c5a4f77f30c05d2fc1d08a7bade73e1dc67e1dd547192fd46b3"
+    },
+    {
+      "bytes": 29880,
+      "path": "main.py",
+      "sha256": "99d17e097d2e3ffddefe958679e9ee0441e41c239084883863ad0dbaef8670a6"
+    }
+  ],
+  "first_experiment": "012",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "26d58c3639731a0e68a3955397911ba3d096c3c296557b936c0737b59fe4c996",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s012-roman-v7-guarded.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "99d17e097d2e-fd2fc062ffc2"
+}

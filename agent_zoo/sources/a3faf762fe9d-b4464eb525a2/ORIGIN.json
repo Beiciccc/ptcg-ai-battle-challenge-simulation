@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "045"
+  ],
+  "files": [
+    {
+      "bytes": 245,
+      "path": "deck.csv",
+      "sha256": "b4464eb525a25e6598a972d00efc5e5b5156372e77f51853f4076d8ebb34fd7d"
+    },
+    {
+      "bytes": 25572,
+      "path": "main.py",
+      "sha256": "a3faf762fe9da0efc58e9916a746cc1b4a12539bb2d55f8ed0043da4799d6211"
+    }
+  ],
+  "first_experiment": "045",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "fcf837d7c90650072fa695f8753886151ae6cb289b7c86e67325989e32ebc9ae",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s044-seok-strongstart-turn-search-clean.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "a3faf762fe9d-b4464eb525a2"
+}

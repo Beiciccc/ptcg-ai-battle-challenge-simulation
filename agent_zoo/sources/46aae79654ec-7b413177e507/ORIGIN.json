@@ -1,0 +1,41 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "043",
+    "046",
+    "051",
+    "056"
+  ],
+  "files": [
+    {
+      "bytes": 262,
+      "path": "deck.csv",
+      "sha256": "7b413177e5077777f2178143839c0155b03b92bbc8b3a6607621a7d43f351141"
+    },
+    {
+      "bytes": 35978,
+      "path": "main.py",
+      "sha256": "46aae79654eca7d91e9a3c840d92e38d3ac6271b052379df43dc630163f68225"
+    }
+  ],
+  "first_experiment": "043",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "6cc8402ec291dc75277f88f548c6a3393f79d2791dc12424066235a519e311b7",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s043-pilkwang-lucario-alakazam-clean.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "46aae79654ec-7b413177e507"
+}

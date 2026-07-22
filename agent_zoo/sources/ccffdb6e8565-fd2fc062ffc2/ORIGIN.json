@@ -1,0 +1,44 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "008",
+    "011",
+    "015",
+    "019",
+    "025",
+    "034",
+    "060"
+  ],
+  "files": [
+    {
+      "bytes": 242,
+      "path": "deck.csv",
+      "sha256": "fd2fc062ffc23c5a4f77f30c05d2fc1d08a7bade73e1dc67e1dd547192fd46b3"
+    },
+    {
+      "bytes": 26928,
+      "path": "main.py",
+      "sha256": "ccffdb6e85658dedf21dd3f9829b97bc29a1a2a30e986f79054d86796bfdab12"
+    }
+  ],
+  "first_experiment": "008",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "d261311a7c7a4b89f8899ee5f0d0c868d8266a71c073e54a5a92caf24404a508",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s008-strongstart-retuned.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "ccffdb6e8565-fd2fc062ffc2"
+}

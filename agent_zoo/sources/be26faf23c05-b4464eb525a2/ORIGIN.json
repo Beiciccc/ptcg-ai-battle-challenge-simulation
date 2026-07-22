@@ -1,0 +1,47 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": [
+      "model.pt"
+    ]
+  },
+  "experiments": [
+    "147"
+  ],
+  "files": [
+    {
+      "bytes": 57067,
+      "path": "bc_agent.py",
+      "sha256": "9d58027de1edaae597920b82631f4abca51b8462fb755ecbffb741ac3a8dc754"
+    },
+    {
+      "bytes": 245,
+      "path": "deck.csv",
+      "sha256": "b4464eb525a25e6598a972d00efc5e5b5156372e77f51853f4076d8ebb34fd7d"
+    },
+    {
+      "bytes": 652,
+      "path": "main.py",
+      "sha256": "be26faf23c05ab4cca7bf0b2fd41416a9f3b65317ffecaf88e8692cbd6fae977"
+    }
+  ],
+  "first_experiment": "147",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "526b26dea80c1607bc92430ff6695308709282d2a823fdbbeaaea81364475834",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s147-fishcat-v9-attention-all3d-exact-code-output.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/fishcat37/ptcg-v9-attention-all3d-end-to-end"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "be26faf23c05-b4464eb525a2"
+}

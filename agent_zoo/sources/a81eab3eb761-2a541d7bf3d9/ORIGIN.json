@@ -1,0 +1,40 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "152"
+  ],
+  "files": [
+    {
+      "bytes": 241,
+      "path": "deck.csv",
+      "sha256": "2a541d7bf3d9e6b36037123f53f4dfef6348223f79fd27095dafc602a5357c19"
+    },
+    {
+      "bytes": 26209,
+      "path": "main.py",
+      "sha256": "a81eab3eb761af95da2ddf70a67d6078897a2cd698dae4a7b6ea92de070fad2b"
+    }
+  ],
+  "first_experiment": "152",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "957f9773b0f459409a15bb1062bddf05c378093a9b8a0a09e4b9341128514731",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s152-roman-v10-current-code-probe.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/romanrozen/strong-start-baseline-agent-v10-lb-950"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "a81eab3eb761-2a541d7bf3d9"
+}

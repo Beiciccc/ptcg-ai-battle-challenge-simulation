@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "007"
+  ],
+  "files": [
+    {
+      "bytes": 245,
+      "path": "deck.csv",
+      "sha256": "b4464eb525a25e6598a972d00efc5e5b5156372e77f51853f4076d8ebb34fd7d"
+    },
+    {
+      "bytes": 26928,
+      "path": "main.py",
+      "sha256": "ccffdb6e85658dedf21dd3f9829b97bc29a1a2a30e986f79054d86796bfdab12"
+    }
+  ],
+  "first_experiment": "007",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "d055229c757715bd1be4a60c5a06cd560ca84bda45852653e9919c63385eb16f",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s007-strongstart-lucario.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "ccffdb6e8565-b4464eb525a2"
+}

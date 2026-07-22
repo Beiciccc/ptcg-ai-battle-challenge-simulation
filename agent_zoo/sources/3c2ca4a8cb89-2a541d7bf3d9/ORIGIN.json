@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "047"
+  ],
+  "files": [
+    {
+      "bytes": 241,
+      "path": "deck.csv",
+      "sha256": "2a541d7bf3d9e6b36037123f53f4dfef6348223f79fd27095dafc602a5357c19"
+    },
+    {
+      "bytes": 21933,
+      "path": "main.py",
+      "sha256": "3c2ca4a8cb894671fb48815a71560e9a3564b575a43ad38bbee05c53642978f0"
+    }
+  ],
+  "first_experiment": "047",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "753e5e6a085777915b39683c24dc864f6fc25acf6979a3fbb4c3cbf09cb0997e",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s047-pilkwang-0628-option-c.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "3c2ca4a8cb89-2a541d7bf3d9"
+}

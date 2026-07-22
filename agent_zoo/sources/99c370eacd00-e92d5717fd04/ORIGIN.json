@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "001"
+  ],
+  "files": [
+    {
+      "bytes": 185,
+      "path": "deck.csv",
+      "sha256": "e92d5717fd04865b0b528307df7a9d9aecc2c7b917bfbd5042fe58e3d1f26997"
+    },
+    {
+      "bytes": 10588,
+      "path": "main.py",
+      "sha256": "99c370eacd0097b17a951a875dc49e4721c9024f74911be11dd935a16e4c7c1b"
+    }
+  ],
+  "first_experiment": "001",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "689c62b14ee02c2c6dd41242e56d83dfbf5bdcad1b6304d10f86bd12b59f4f1d",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s001-generic-abomasnow.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "99c370eacd00-e92d5717fd04"
+}

@@ -1,0 +1,42 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "013",
+    "029",
+    "033",
+    "064",
+    "074"
+  ],
+  "files": [
+    {
+      "bytes": 245,
+      "path": "deck.csv",
+      "sha256": "b4464eb525a25e6598a972d00efc5e5b5156372e77f51853f4076d8ebb34fd7d"
+    },
+    {
+      "bytes": 19089,
+      "path": "main.py",
+      "sha256": "8026b86be33fdec0fcb60051c6adecf91a3ecd9cbbff539fb0a0c617d1601ad3"
+    }
+  ],
+  "first_experiment": "013",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "01cabfc29cec1a49c2d2c270e3776c6b77e25064c22b726515dd8a53c882af76",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s013-lucario-search-915.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "8026b86be33f-b4464eb525a2"
+}

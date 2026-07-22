@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "024"
+  ],
+  "files": [
+    {
+      "bytes": 262,
+      "path": "deck.csv",
+      "sha256": "7b413177e5077777f2178143839c0155b03b92bbc8b3a6607621a7d43f351141"
+    },
+    {
+      "bytes": 32968,
+      "path": "main.py",
+      "sha256": "df4d597f593950b0d0c372f3e0bb26c182c4116648977f15adbb329a6ba922f4"
+    }
+  ],
+  "first_experiment": "024",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "8e159d365bd488c1cd50bd5367b59080649bdf421584c1f1bda36541f8bedc7f",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s024-alakazam-psychic-control.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "df4d597f5939-7b413177e507"
+}

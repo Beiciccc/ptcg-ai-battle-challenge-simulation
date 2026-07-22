@@ -1,0 +1,42 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": [
+      "pilot_factory_model.json"
+    ]
+  },
+  "experiments": [
+    "133"
+  ],
+  "files": [
+    {
+      "bytes": 265,
+      "path": "deck.csv",
+      "sha256": "f5b7eef403d35462050d8e6e2392fc66194d727a63ecb5c187448eb1965110af"
+    },
+    {
+      "bytes": 161,
+      "path": "main.py",
+      "sha256": "a55b71536ed64adff81d05b0ffc49f222b635db68969b7ba3271cbcceaf77d89"
+    }
+  ],
+  "first_experiment": "133",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "1b75907aa9e2055bf15604d1b619951b908d9002a92816ac881ed10099721711",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s133-pilkwang-starmie-temporal-challenger-entryfix.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/pilkwang/pok-mon-tcg-ai-battle-meta-snapshot-18-july"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "a55b71536ed6-f5b7eef403d3"
+}

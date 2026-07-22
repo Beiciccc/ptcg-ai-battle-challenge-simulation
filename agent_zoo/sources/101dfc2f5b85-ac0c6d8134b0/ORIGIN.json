@@ -1,0 +1,40 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "138"
+  ],
+  "files": [
+    {
+      "bytes": 254,
+      "path": "deck.csv",
+      "sha256": "ac0c6d8134b084fb0c23bff6b9dcdcf58242d2853502a3dc468a3f61b0671c1b"
+    },
+    {
+      "bytes": 27546,
+      "path": "main.py",
+      "sha256": "101dfc2f5b8531a6157ced4c94a6453000a4d6dbce8320595559bab6b0066856"
+    }
+  ],
+  "first_experiment": "138",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "c705f97897e876d4824e4e6fffdfbc2fdc0181a0a7cd5f69a6cc0635b8fb769e",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s138-naoto-mega-kangaskhan-turn-two-speed-latest-engine.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/naoto714/en-mega-kangaskhan-ex-turn-two-speed-deck"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "101dfc2f5b85-ac0c6d8134b0"
+}

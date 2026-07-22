@@ -1,0 +1,39 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "053",
+    "087"
+  ],
+  "files": [
+    {
+      "bytes": 259,
+      "path": "deck.csv",
+      "sha256": "0f8fb632ade2833645af8c6ffe2b282fe24e7446ee8b23f3e468b8410d8ea36c"
+    },
+    {
+      "bytes": 35978,
+      "path": "main.py",
+      "sha256": "46aae79654eca7d91e9a3c840d92e38d3ac6271b052379df43dc630163f68225"
+    }
+  ],
+  "first_experiment": "053",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "771a0ee86519a599afe4a534abce271c8b663e0c8c1b878c5b1ada89fafb0532",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s053-pilkwang-0629-alakazam-dunsparce.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "46aae79654ec-0f8fb632ade2"
+}

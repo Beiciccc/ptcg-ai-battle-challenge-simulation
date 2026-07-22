@@ -1,0 +1,42 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "079",
+    "083",
+    "090",
+    "095",
+    "099"
+  ],
+  "files": [
+    {
+      "bytes": 261,
+      "path": "deck.csv",
+      "sha256": "29cabb30a40645e83c5260b83511cabdef62264f3a596cf18b265cb19493f159"
+    },
+    {
+      "bytes": 31913,
+      "path": "main.py",
+      "sha256": "ef8936859fd215e6c704071042e5438d55e2e972b8f1806fb6eddbd03027e0b9"
+    }
+  ],
+  "first_experiment": "079",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "7513550b3b92c04c11a39c41cbe620ec5ebbef067812def124a432092b03c565",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s079-pilkwang-0704-dragapult-pressure.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "ef8936859fd2-29cabb30a406"
+}

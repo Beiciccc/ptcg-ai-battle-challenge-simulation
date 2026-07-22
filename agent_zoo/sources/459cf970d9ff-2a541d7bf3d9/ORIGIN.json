@@ -1,0 +1,43 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "017",
+    "039",
+    "134",
+    "141"
+  ],
+  "files": [
+    {
+      "bytes": 241,
+      "path": "deck.csv",
+      "sha256": "2a541d7bf3d9e6b36037123f53f4dfef6348223f79fd27095dafc602a5357c19"
+    },
+    {
+      "bytes": 21934,
+      "path": "main.py",
+      "sha256": "459cf970d9ffc28fcb13473cff216750f17d53a35fa990fcab1805e00e78a848"
+    }
+  ],
+  "first_experiment": "017",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "e5d5dfa2f384066e021582b349b9bbab5605236dba9dbcca6580456269d78180",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s017-maktha-1084-baseline.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/pilkwang/pok-mon-tcg-ai-battle-meta-snapshot-18-july"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "459cf970d9ff-2a541d7bf3d9"
+}

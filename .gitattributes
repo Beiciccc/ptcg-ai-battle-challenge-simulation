@@ -4,3 +4,6 @@
 *.yaml text eol=lf
 *.yml text eol=lf
 *.toml text eol=lf
+
+# Historical source snapshots are byte-preserved, including upstream whitespace.
+agent_zoo/sources/** -text -whitespace

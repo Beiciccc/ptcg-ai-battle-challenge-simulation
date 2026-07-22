@@ -1,0 +1,54 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "117",
+    "121",
+    "122",
+    "125",
+    "127",
+    "132",
+    "136",
+    "140",
+    "143",
+    "146",
+    "150",
+    "153",
+    "155",
+    "158",
+    "160"
+  ],
+  "files": [
+    {
+      "bytes": 261,
+      "path": "deck.csv",
+      "sha256": "a8c9177354b92abe5fb877f46b792b86f8ec9c4bc3551d5d16d4a89128f00976"
+    },
+    {
+      "bytes": 49254,
+      "path": "main.py",
+      "sha256": "235084ae725e0430f700d18fe1f2e3845b8a6209b34f1b5020c07db4ba9974e1"
+    }
+  ],
+  "first_experiment": "117",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "766fe6a21ee6f73b58f857a8cfefc6b43028b7f157face837c342d5d47a36798",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s117-tien-search-alakazam-hardened.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/tientrum/search-augmented-heuristic-agent-alakazam"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "235084ae725e-a8c9177354b9"
+}

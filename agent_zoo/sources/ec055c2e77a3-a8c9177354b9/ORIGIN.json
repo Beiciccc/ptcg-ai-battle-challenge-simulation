@@ -1,0 +1,40 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "157"
+  ],
+  "files": [
+    {
+      "bytes": 261,
+      "path": "deck.csv",
+      "sha256": "a8c9177354b92abe5fb877f46b792b86f8ec9c4bc3551d5d16d4a89128f00976"
+    },
+    {
+      "bytes": 33930,
+      "path": "main.py",
+      "sha256": "ec055c2e77a3865d94ef88f4a4498465130c19ef6f15321edd8a2faf83b28868"
+    }
+  ],
+  "first_experiment": "157",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "fec9855958d41b8e1f3f20e28da6cbe874eef75ee507ec66d6f7022526b2e184",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s157-prvsiyan-field-audited-alakazam-v8-probe.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/prvsiyan/ptcg-ai-battle-field-audited-alakazam-v8"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "ec055c2e77a3-a8c9177354b9"
+}

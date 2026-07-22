@@ -1,0 +1,40 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "142"
+  ],
+  "files": [
+    {
+      "bytes": 241,
+      "path": "deck.csv",
+      "sha256": "2a541d7bf3d9e6b36037123f53f4dfef6348223f79fd27095dafc602a5357c19"
+    },
+    {
+      "bytes": 26209,
+      "path": "main.py",
+      "sha256": "a003528e417b48771e780c0bc1147e86953168c3e4d53625fb39e36ecc72dd08"
+    }
+  ],
+  "first_experiment": "142",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "498f96d2af5a3b97f076a0f7fb2ceaec8cf0613db94576e09dcdb466ac836fe6",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s142-makthanithin-improved-heuristic-search-disabled.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/makthanithin/improved-probabilistic-agent"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "a003528e417b-2a541d7bf3d9"
+}

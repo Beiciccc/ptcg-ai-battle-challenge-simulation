@@ -1,0 +1,40 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": [
+      "lucario_deck.csv"
+    ]
+  },
+  "experiments": [
+    "084"
+  ],
+  "files": [
+    {
+      "bytes": 241,
+      "path": "deck.csv",
+      "sha256": "dc2b68464064ae885ad04704dc032853526584afa9bec408984e23cc4840bd5e"
+    },
+    {
+      "bytes": 23195,
+      "path": "main.py",
+      "sha256": "d627fa239976dc9841989e7ad42872faa97235abfbca94b3604a118adba912c8"
+    }
+  ],
+  "first_experiment": "084",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "d0a9e46e3a8cc6bd6fdbd47fd03f428869d17737e3e1458335b8e391d79fe0b6",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s084-yaminh-lucario-challenge.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "d627fa239976-dc2b68464064"
+}

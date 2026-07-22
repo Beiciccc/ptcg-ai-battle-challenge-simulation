@@ -1,0 +1,38 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "027"
+  ],
+  "files": [
+    {
+      "bytes": 242,
+      "path": "deck.csv",
+      "sha256": "fd2fc062ffc23c5a4f77f30c05d2fc1d08a7bade73e1dc67e1dd547192fd46b3"
+    },
+    {
+      "bytes": 30299,
+      "path": "main.py",
+      "sha256": "db3772cc387b2a6106bb18344708093576beebd5de5f7ba994e8bb79855eeced"
+    }
+  ],
+  "first_experiment": "027",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "1c5140f8ae88caf8743e950a3a1726a3ee1289bce71f599e155c286f7433ba0d",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s027-roman-v10-strong-start-baseline.tar.gz",
+    "upstream_notebook_urls": [],
+    "upstream_version_pinned": null
+  },
+  "schema_version": 1,
+  "source_id": "db3772cc387b-fd2fc062ffc2"
+}

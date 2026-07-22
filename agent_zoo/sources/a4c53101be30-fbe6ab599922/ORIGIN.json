@@ -1,0 +1,54 @@
+{
+  "excluded": {
+    "competition_runtime": true,
+    "engine_binaries": true,
+    "model_weights": true,
+    "other_top_level_members": []
+  },
+  "experiments": [
+    "052",
+    "055",
+    "057",
+    "063",
+    "068",
+    "073",
+    "076",
+    "078",
+    "080",
+    "082",
+    "085",
+    "088",
+    "094",
+    "137",
+    "148"
+  ],
+  "files": [
+    {
+      "bytes": 253,
+      "path": "deck.csv",
+      "sha256": "fbe6ab59992260b0d6774abed19469be315521b5ed0546de8c20f329607693e6"
+    },
+    {
+      "bytes": 41018,
+      "path": "main.py",
+      "sha256": "a4c53101be301c181bd477204a72c0e5cba65fddd34d8cd0ec4d36e4b41c9518"
+    }
+  ],
+  "first_experiment": "052",
+  "license": {
+    "notice": "../../THIRD_PARTY_NOTICES.md",
+    "scope": "retains_upstream_terms"
+  },
+  "provenance": {
+    "archive_sha256": "430459bdc570fe87b7aa9111622af884ddfef3d8590d9a6eadf5adcedc3c740d",
+    "kind": "exact_source_recovered_from_historical_package",
+    "package_is_local_only": true,
+    "package_label": "artifacts/submissions/s052-pilkwang-0629-archaludon-metal.tar.gz",
+    "upstream_notebook_urls": [
+      "https://www.kaggle.com/code/makthanithin/pok-mon-tcg-ai-battle-meta-snapshot-06-29"
+    ],
+    "upstream_version_pinned": false
+  },
+  "schema_version": 1,
+  "source_id": "a4c53101be30-fbe6ab599922"
+}
