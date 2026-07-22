@@ -2,7 +2,15 @@
 
 Date: 2026-07-07 UTC
 
-Package: `artifacts/submissions/s084-yaminh-lucario-challenge.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s084-yaminh-lucario-challenge.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/d627fa239976-dc2b68464064/main.py), [deck.csv](../agent_zoo/sources/d627fa239976-dc2b68464064/deck.csv)
+
+Source SHA256: main.py `d627fa239976dc9841989e7ad42872faa97235abfbca94b3604a118adba912c8`; deck.csv `dc2b68464064ae885ad04704dc032853526584afa9bec408984e23cc4840bd5e`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `54410567`
 

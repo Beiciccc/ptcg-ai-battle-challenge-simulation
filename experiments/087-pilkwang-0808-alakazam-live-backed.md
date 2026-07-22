@@ -2,7 +2,15 @@
 
 Date: 2026-07-08 UTC
 
-Package: `artifacts/submissions/s087-pilkwang-0808-alakazam-live-backed.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s087-pilkwang-0808-alakazam-live-backed.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/46aae79654ec-0f8fb632ade2/main.py), [deck.csv](../agent_zoo/sources/46aae79654ec-0f8fb632ade2/deck.csv)
+
+Source SHA256: main.py `46aae79654eca7d91e9a3c840d92e38d3ac6271b052379df43dc630163f68225`; deck.csv `0f8fb632ade2833645af8c6ffe2b282fe24e7446ee8b23f3e468b8410d8ea36c`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `54457221`
 

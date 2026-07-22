@@ -2,7 +2,15 @@
 
 Date: 2026-07-17 UTC
 
-Package: `artifacts/submissions/s136-tien-search-alakazam-latest-engine-final-active.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s136-tien-search-alakazam-latest-engine-final-active.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/235084ae725e-a8c9177354b9/main.py), [deck.csv](../agent_zoo/sources/235084ae725e-a8c9177354b9/deck.csv)
+
+Source SHA256: main.py `235084ae725e0430f700d18fe1f2e3845b8a6209b34f1b5020c07db4ba9974e1`; deck.csv `a8c9177354b92abe5fb877f46b792b86f8ec9c4bc3551d5d16d4a89128f00976`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `54791998`
 

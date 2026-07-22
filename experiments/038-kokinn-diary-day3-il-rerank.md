@@ -2,7 +2,15 @@
 
 Date: 2026-06-24
 
-Package: `artifacts/submissions/s038-kokinn-diary-day3-il-rerank.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s038-kokinn-diary-day3-il-rerank.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/277e535bc522-8e7519fa37f0/main.py), [deck.csv](../agent_zoo/sources/277e535bc522-8e7519fa37f0/deck.csv)
+
+Source SHA256: main.py `277e535bc52277cfdaaa7b69abe15dc194b96085a4131b07ab7c7b22363e1347`; deck.csv `8e7519fa37f05af6960f6872e8abb28dcff12b8516977145d528036b63fa05d1`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `54010287`
 

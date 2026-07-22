@@ -1,9 +1,10 @@
 # Third-party Notices
 
 Some strategy snapshots reproduce source published through public Kaggle Code.
-Kaggle describes the public notebook code corpus as Apache-2.0 licensed. The
-corresponding upstream notebook URL, when recorded in the experiment history,
-is preserved in `ORIGIN.json` and the Agent Zoo manifest.
+Kaggle describes its [public notebook code corpus](https://www.kaggle.com/datasets/kaggle/meta-kaggle-code)
+as Apache-2.0 licensed. The corresponding upstream notebook URL, when recorded
+in the experiment history, is preserved in `ORIGIN.json` and the Agent Zoo
+manifest.
 
 Snapshot files are preserved byte-for-byte and are not relicensed by this
 repository's MIT license. Attribution and upstream terms remain attached to

@@ -2,7 +2,15 @@
 
 Date: 2026-07-18 UTC
 
-Package: `artifacts/submissions/s138-naoto-mega-kangaskhan-turn-two-speed-latest-engine.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s138-naoto-mega-kangaskhan-turn-two-speed-latest-engine.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/101dfc2f5b85-ac0c6d8134b0/main.py), [deck.csv](../agent_zoo/sources/101dfc2f5b85-ac0c6d8134b0/deck.csv)
+
+Source SHA256: main.py `101dfc2f5b8531a6157ced4c94a6453000a4d6dbce8320595559bab6b0066856`; deck.csv `ac0c6d8134b084fb0c23bff6b9dcdcf58242d2853502a3dc468a3f61b0671c1b`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `54797740`
 

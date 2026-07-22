@@ -2,7 +2,15 @@
 
 Date: 2026-06-19
 
-Package: `artifacts/submissions/s012-roman-v7-guarded.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s012-roman-v7-guarded.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/99d17e097d2e-fd2fc062ffc2/main.py), [deck.csv](../agent_zoo/sources/99d17e097d2e-fd2fc062ffc2/deck.csv)
+
+Source SHA256: main.py `99d17e097d2e3ffddefe958679e9ee0441e41c239084883863ad0dbaef8670a6`; deck.csv `fd2fc062ffc23c5a4f77f30c05d2fc1d08a7bade73e1dc67e1dd547192fd46b3`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `53827461`
 

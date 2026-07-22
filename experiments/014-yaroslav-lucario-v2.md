@@ -2,7 +2,15 @@
 
 Date: 2026-06-19
 
-Package: `artifacts/submissions/s014-yaroslav-lucario-v2.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s014-yaroslav-lucario-v2.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/fddcbcde82cd-b4464eb525a2/main.py), [deck.csv](../agent_zoo/sources/fddcbcde82cd-b4464eb525a2/deck.csv)
+
+Source SHA256: main.py `fddcbcde82cd7b5b4f6a1c1644ec544fc0d7916184f12280c60b34e06076b540`; deck.csv `b4464eb525a25e6598a972d00efc5e5b5156372e77f51853f4076d8ebb34fd7d`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `53827710`
 

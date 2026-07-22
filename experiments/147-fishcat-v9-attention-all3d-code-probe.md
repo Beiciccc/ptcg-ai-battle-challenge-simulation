@@ -2,7 +2,15 @@
 
 Date: 2026-07-20 UTC
 
-Package: `artifacts/submissions/s147-fishcat-v9-attention-all3d-exact-code-output.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s147-fishcat-v9-attention-all3d-exact-code-output.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/be26faf23c05-b4464eb525a2/main.py), [deck.csv](../agent_zoo/sources/be26faf23c05-b4464eb525a2/deck.csv)
+
+Source SHA256: main.py `be26faf23c05ab4cca7bf0b2fd41416a9f3b65317ffecaf88e8692cbd6fae977`; deck.csv `b4464eb525a25e6598a972d00efc5e5b5156372e77f51853f4076d8ebb34fd7d`
+
+Reproducibility: exact source snapshot; model.pt and Kaggle runtime required
 
 Kaggle submission: `54843697`
 

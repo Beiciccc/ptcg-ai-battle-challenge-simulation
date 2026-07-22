@@ -2,7 +2,15 @@
 
 Date: 2026-07-17 UTC
 
-Package: `artifacts/submissions/s133-pilkwang-starmie-temporal-challenger-entryfix.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s133-pilkwang-starmie-temporal-challenger-entryfix.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/a55b71536ed6-f5b7eef403d3/main.py), [deck.csv](../agent_zoo/sources/a55b71536ed6-f5b7eef403d3/deck.csv)
+
+Source SHA256: main.py `a55b71536ed64adff81d05b0ffc49f222b635db68969b7ba3271cbcceaf77d89`; deck.csv `f5b7eef403d35462050d8e6e2392fc66194d727a63ecb5c187448eb1965110af`
+
+Reproducibility: exact source snapshot; JSON model data and Kaggle runtime required
 
 Kaggle submission: `54791084`
 

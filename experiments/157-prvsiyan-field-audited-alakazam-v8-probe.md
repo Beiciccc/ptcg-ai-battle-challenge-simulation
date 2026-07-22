@@ -2,7 +2,15 @@
 
 Date: 2026-07-22 UTC
 
-Package: `artifacts/submissions/s157-prvsiyan-field-audited-alakazam-v8-probe.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s157-prvsiyan-field-audited-alakazam-v8-probe.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/ec055c2e77a3-a8c9177354b9/main.py), [deck.csv](../agent_zoo/sources/ec055c2e77a3-a8c9177354b9/deck.csv)
+
+Source SHA256: main.py `ec055c2e77a3865d94ef88f4a4498465130c19ef6f15321edd8a2faf83b28868`; deck.csv `a8c9177354b92abe5fb877f46b792b86f8ec9c4bc3551d5d16d4a89128f00976`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `54891156`
 

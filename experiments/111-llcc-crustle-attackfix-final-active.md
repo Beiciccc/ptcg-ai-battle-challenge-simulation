@@ -2,7 +2,15 @@
 
 Date: 2026-07-12 UTC
 
-Package: `artifacts/submissions/s111-llcc-crustle-attackfix-final-active.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s111-llcc-crustle-attackfix-final-active.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/c32e65488f71-fbe6ab599922/main.py), [deck.csv](../agent_zoo/sources/c32e65488f71-fbe6ab599922/deck.csv)
+
+Source SHA256: main.py `c32e65488f71fb2978ac308ae9b812891aa28276b13e1966d0edaeb1a80ab98d`; deck.csv `fbe6ab59992260b0d6774abed19469be315521b5ed0546de8c20f329607693e6`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `54594245`
 

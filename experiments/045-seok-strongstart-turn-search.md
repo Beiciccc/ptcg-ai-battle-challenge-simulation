@@ -2,7 +2,15 @@
 
 Date: 2026-06-26
 
-Package: `artifacts/submissions/s044-seok-strongstart-turn-search-clean.tar.gz`
+Local generated package (not committed): `artifacts/submissions/s044-seok-strongstart-turn-search-clean.tar.gz`
+
+Source commit: [f46b15b](https://github.com/Beiciccc/ptcg-ai-battle-challenge-simulation/commit/f46b15bfa6d2ab5eb2de3996d84837ea38a08cd0)
+
+Source files: [main.py](../agent_zoo/sources/a3faf762fe9d-b4464eb525a2/main.py), [deck.csv](../agent_zoo/sources/a3faf762fe9d-b4464eb525a2/deck.csv)
+
+Source SHA256: main.py `a3faf762fe9da0efc58e9916a746cc1b4a12539bb2d55f8ed0043da4799d6211`; deck.csv `b4464eb525a25e6598a972d00efc5e5b5156372e77f51853f4076d8ebb34fd7d`
+
+Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `54081538`
 

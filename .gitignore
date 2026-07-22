@@ -29,6 +29,8 @@ sample_submission/
 artifacts/submissions/*
 artifacts/reports/*
 !artifacts/reports/.gitkeep
+artifacts/agent_zoo/
+artifacts/releases/
 
 private/
 runs/
