@@ -6,7 +6,7 @@ Package: `artifacts/submissions/s159-tomato-archaludon-exact-control.tar.gz`
 
 Kaggle submission: `54891424`
 
-Public score: 600.0
+Public score: 832.7
 
 Status: complete
 
@@ -33,6 +33,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54891424` complete.
-- The first public-score read remained at the 600.0 baseline; later score
-  movement will be recorded as additional validation battles accumulate.
-- Score checkpoint: `2026-07-22 01:53 UTC`.
+- Public evaluation rose from the 600.0 baseline through 712.7 to 832.7 as
+  additional validation battles accumulated.
+- Score checkpoint: `2026-07-22 02:00 UTC`.
