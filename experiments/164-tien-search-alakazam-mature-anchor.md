@@ -14,7 +14,7 @@ Reproducibility: exact source snapshot; Kaggle runtime required
 
 Kaggle submission: `54919474`
 
-Public score: 600.0
+Public score: 690.3
 
 Status: complete
 
@@ -42,6 +42,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54919474` complete.
-- Two official reads remained at the 600.0 baseline; later score movement may
-  occur as additional validation battles accumulate.
-- Score checkpoint: `2026-07-23 04:57 UTC`.
+- Two early official reads remained at the 600.0 baseline before later
+  evaluation raised the score to 690.3.
+- Score checkpoint: `2026-07-23 05:07 UTC`.
