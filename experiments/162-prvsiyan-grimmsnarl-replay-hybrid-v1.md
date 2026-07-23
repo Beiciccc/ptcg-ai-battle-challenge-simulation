@@ -8,7 +8,7 @@ Reproducibility: exact public Code output; public model checkpoint and Kaggle ru
 
 Kaggle submission: `54919201`
 
-Public score: 623.2
+Public score: 630.6
 
 Status: complete
 
@@ -41,6 +41,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54919201` complete.
-- Public evaluation moved from the 600.0 baseline through 507.4 before later
-  movement reached 623.2.
-- Score checkpoint: `2026-07-23 04:50 UTC`.
+- Public evaluation moved from the 600.0 baseline through 507.4 and 623.2
+  before later movement reached 630.6.
+- Score checkpoint: `2026-07-23 04:57 UTC`.
