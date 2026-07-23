@@ -37,10 +37,11 @@ The generated package is written under `artifacts/submissions/`.
 
 ## Source-only Agent Zoo
 
-The [Agent Zoo](agent_zoo/README.md) covers experiments 000 through 161 with
-162 experiment entries and 38 content-addressed source snapshots. Every entry
-records `main.py`, `deck.csv`, the source commit, Kaggle submission reference,
-public-score checkpoint, archive hash, and source-file SHA256 values.
+The version 1.0.0 [Agent Zoo](agent_zoo/README.md) is a frozen snapshot covering
+experiments 000 through 161 with 162 experiment entries and 38
+content-addressed source snapshots. Every entry records `main.py`, `deck.csv`,
+the source commit, Kaggle submission reference, public-score checkpoint,
+archive hash, and source-file SHA256 values.
 
 Materialize one directory per experiment directly from Git history:
 

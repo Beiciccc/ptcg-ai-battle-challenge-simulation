@@ -1,9 +1,10 @@
 # PTCG Source-only Agent Zoo
 
 This directory stores 38 content-addressed strategy source snapshots recovered
-from the historical packages named in `experiments/`. The manifest maps those
-snapshots to all 162 recorded experiments, 000 through 161, while avoiding
-duplicate source copies.
+from the historical packages named in `experiments/`. The version 1.0.0
+manifest maps those snapshots to 162 released experiment records, 000 through
+161, while avoiding duplicate source copies. Later experiment records remain
+under `experiments/` until a subsequent versioned Agent Zoo snapshot.
 
 The snapshots are not complete Kaggle submissions. They intentionally exclude
 the competition runtime (`cg/`), engine binaries, trained model weights, replay
