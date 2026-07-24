@@ -14,7 +14,7 @@ Reproducibility: exact strategy snapshot with Kaggle Environments 1.32.2 runtime
 
 Kaggle submission: `54939275`
 
-Public score: 468.2
+Public score: 471.0
 
 Status: complete
 
@@ -54,5 +54,5 @@ Validation:
 Result:
 - Kaggle accepted the package and marked submission `54939275` complete.
 - Two spaced official reads remained at the 600.0 baseline before later
-  evaluation moved through 699.1 and 565.1 to 468.2.
-- Score checkpoint: `2026-07-24 00:51 UTC`.
+  evaluation moved through 699.1, 565.1, and 468.2 to 471.0.
+- Score checkpoint: `2026-07-24 01:02 UTC`.
