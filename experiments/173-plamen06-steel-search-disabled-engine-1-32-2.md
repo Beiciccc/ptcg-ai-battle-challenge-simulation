@@ -8,7 +8,7 @@ Reproducibility: public strategy snapshot with one documented compatibility flag
 
 Kaggle submission: `54970766`
 
-Public score: 891.9
+Public score: 966.4
 
 Status: complete
 
@@ -56,6 +56,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54970766` complete.
-- Public evaluation moved from the 600.0 baseline through 807.6 before
-  reaching 891.9 as additional validation battles accumulated.
-- Score checkpoint: `2026-07-25 08:18 UTC`.
+- Public evaluation moved from the 600.0 baseline through 807.6, 891.9, and
+  958.4 before reaching 966.4 as additional validation battles accumulated.
+- Score checkpoint: `2026-07-25 08:25 UTC`.
