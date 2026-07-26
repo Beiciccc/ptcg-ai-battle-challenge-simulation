@@ -1,15 +1,15 @@
-# 177 Visible-Grim Belief Alakazam v18 Entry Fix
+# 180 Visible-Grim Belief Alakazam v18 Final Active
 
 Date: 2026-07-26 UTC
 
 Local generated package (not committed):
-`artifacts/submissions/s177-prvsiyan-visible-grim-belief-alakazam-v18-entryfix.tar.gz`
+`artifacts/submissions/s180-visible-grim-belief-alakazam-v18-final-active.tar.gz`
 
-Reproducibility: public v18 strategy with a one-line loader entrypoint rename
+Reproducibility: exact byte-for-byte rerun of experiment 177
 
-Kaggle submission: `54996323`
+Kaggle submission: `54996685`
 
-Public score: 880.8
+Public score: 600.0
 
 Status: complete
 
@@ -18,25 +18,24 @@ Sources:
 - [Kaggle Environments agent loader](https://github.com/Kaggle/kaggle-environments/blob/8418fb28e8a826ca3edff9561cf8e7ba11559e69/kaggle_environments/agent.py)
 
 Summary:
-- Retained every strategy, deck, and runtime byte from experiment 176 except
-  for the final wrapper name.
-- Renamed the redefined final `agent` wrapper to the fresh global name
-  `submission_entrypoint`, ensuring it is last in loader insertion order.
-- Preserved the visible Grimmsnarl and Team Rocket Energy response behavior.
+- Re-submitted the exact experiment 177 archive after its independent public
+  observation reached 880.8.
+- Retained the entrypoint repair that makes Kaggle's loader select
+  `submission_entrypoint`.
+- Preserved every strategy, deck, runtime, and archive byte.
 
 Validation:
+- Archive SHA-256 matched experiment 177 exactly
 - Static entrypoint check selected `submission_entrypoint`
-- Kaggle's `get_last_callable` selected `submission_entrypoint` at source line
-  1149 with two accepted arguments
+- Kaggle's `get_last_callable` selected `submission_entrypoint`
 - Loader-selected initialization returned the exact submitted 60-card deck
 - Clean 11-file archive with `main.py`, `deck.csv`, and nine runtime files
 - No links, cache files, AppleDouble files, unsafe paths, or nested archive root
 - Three loader-aware mirror games completed without errors
-- Eight loader-aware games against Steel completed 5-3 without errors
-- Eight loader-aware games against Mega Lucario Prize-Pressure completed 5-3
-  without errors
-- The 19-game validation recorded 592 search decisions, zero search failures,
-  and a 0.470-second maximum decision latency
+- Eight loader-aware games against Observable Meta Router split 4-4
+- Eight loader-aware games against current-runtime Steel split 4-4
+- The 19-game validation recorded 518 search decisions, zero search failures,
+  and a 0.328-second maximum decision latency
 - Main SHA-256:
   `a79119ff855566568440ae1c595dc8c5794a6917c028d856c0cac2952de44315`
 - Deck SHA-256:
@@ -53,7 +52,6 @@ Validation:
   `2fd5d69ac29283b3c7a6a6532a0dcc16b32e666cba2ca2547cc8bad5b7e2a3cf`
 
 Result:
-- Kaggle accepted the package and marked submission `54996323` complete.
-- Public evaluation moved from the 600.0 baseline through 705.2 and 796.9
-  before reaching 880.8 as additional validation battles accumulated.
+- Kaggle accepted the package and marked submission `54996685` complete.
+- The first public evaluation checkpoint was 600.0.
 - Score checkpoint: `2026-07-26 09:06 UTC`.
