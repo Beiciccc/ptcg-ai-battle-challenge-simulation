@@ -9,7 +9,7 @@ Reproducibility: exact byte-for-byte rerun of experiment 177
 
 Kaggle submission: `54996685`
 
-Public score: 600.0
+Public score: 461.8
 
 Status: complete
 
@@ -53,5 +53,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `54996685` complete.
-- The first public evaluation checkpoint was 600.0.
-- Score checkpoint: `2026-07-26 09:06 UTC`.
+- Public evaluation moved from the 600.0 baseline to 461.8 as additional
+  validation battles accumulated.
+- Score checkpoint: `2026-07-26 09:11 UTC`.
