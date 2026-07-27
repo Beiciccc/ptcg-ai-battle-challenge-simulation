@@ -9,7 +9,7 @@ Reproducibility: public v19 strategy with one appended loader entrypoint
 
 Kaggle submission: `55024382`
 
-Public score: 600.0
+Public score: 884.9
 
 Status: complete
 
@@ -51,5 +51,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `55024382` complete.
-- Two spaced reads remained at the 600.0 initial public checkpoint.
-- Score checkpoint: `2026-07-27 09:19 UTC`.
+- Public evaluation moved from 600.0 through 730.1 to 884.9 as additional
+  validation battles accumulated.
+- Score checkpoint: `2026-07-27 09:32 UTC`.

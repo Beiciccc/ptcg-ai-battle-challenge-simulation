@@ -9,7 +9,7 @@ Reproducibility: exact byte-for-byte public Code output
 
 Kaggle submission: `55024176`
 
-Public score: 709.4
+Public score: 680.7
 
 Status: complete
 
@@ -53,6 +53,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `55024176` complete.
-- Public evaluation moved from 600.0 through 759.3 to 709.4 as additional
-  validation battles accumulated.
-- Score checkpoint: `2026-07-27 09:19 UTC`.
+- Public evaluation moved from 600.0 through 759.3, 709.4, and 795.7 to 680.7
+  as additional validation battles accumulated.
+- Score checkpoint: `2026-07-27 09:32 UTC`.
