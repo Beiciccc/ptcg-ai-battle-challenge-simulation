@@ -9,7 +9,7 @@ Reproducibility: public Router v3 strategy with one appended loader entrypoint
 
 Kaggle submission: `55024028`
 
-Public score: 600.0
+Public score: 696.8
 
 Status: complete
 
@@ -54,5 +54,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `55024028` complete.
-- Two spaced reads remained at the 600.0 initial public checkpoint.
-- Score checkpoint: `2026-07-27 09:06 UTC`.
+- Public evaluation moved from the 600.0 baseline to 696.8 as additional
+  validation battles accumulated.
+- Score checkpoint: `2026-07-27 09:12 UTC`.
