@@ -11,7 +11,7 @@ Reproducibility: experiment 183 strategy with one additional loader entrypoint
 
 Kaggle submission: `55024981`
 
-Public score: 600.0
+Public score: 712.6
 
 Status: complete
 
@@ -58,5 +58,6 @@ Result:
 - The identical archive bytes were accepted after normalizing only the upload
   filename to `submission.tar.gz`.
 - Kaggle marked submission `55024981` complete.
-- Two spaced reads remained at the 600.0 initial public checkpoint.
-- Score checkpoint: `2026-07-27 09:46 UTC`.
+- Public evaluation moved from 600.0 to 712.6 as additional validation battles
+  accumulated.
+- Score checkpoint: `2026-07-27 09:48 UTC`.
