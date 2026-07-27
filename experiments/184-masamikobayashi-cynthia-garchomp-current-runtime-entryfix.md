@@ -10,7 +10,7 @@ loader entrypoint
 
 Kaggle submission: `55024691`
 
-Public score: 600.0
+Public score: 645.1
 
 Status: complete
 
@@ -56,5 +56,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package and marked submission `55024691` complete.
-- Two spaced reads remained at the 600.0 initial public checkpoint.
-- Score checkpoint: `2026-07-27 09:32 UTC`.
+- Public evaluation moved from 600.0 through 700.3, 634.3, and 696.4 to 645.1
+  as additional validation battles accumulated.
+- Score checkpoint: `2026-07-27 09:46 UTC`.
