@@ -11,7 +11,7 @@ Reproducibility: exact public Code output
 
 Kaggle submission: `55097827`
 
-Public score: 580.1
+Public score: 568.8
 
 Status: complete
 
@@ -54,5 +54,5 @@ Validation:
 Result:
 - Kaggle accepted the package as submission `55097827` and marked it complete.
 - Public evaluation moved from the 600.0 initialization baseline through 515.9,
-  593.6, and 476.6 before reaching 580.1.
-- Score checkpoint: `2026-07-30 03:14 UTC`.
+  593.6, 476.6, and 580.1 before reaching 568.8.
+- Score checkpoint: `2026-07-30 03:24 UTC`.
