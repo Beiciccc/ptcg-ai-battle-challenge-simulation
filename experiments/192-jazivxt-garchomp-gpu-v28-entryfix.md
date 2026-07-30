@@ -11,7 +11,7 @@ Reproducibility: public Code output plus loader-only final wrapper repair
 
 Kaggle submission: `55097974`
 
-Public score: 755.7
+Public score: 871.8
 
 Status: complete
 
@@ -51,5 +51,6 @@ Validation:
 
 Result:
 - Kaggle accepted the package as submission `55097974` and marked it complete.
-- Public evaluation moved from the 600.0 initialization baseline to 755.7.
-- Score checkpoint: `2026-07-30 03:11 UTC`.
+- Public evaluation moved from the 600.0 initialization baseline through 755.7
+  before reaching 871.8.
+- Score checkpoint: `2026-07-30 03:14 UTC`.
