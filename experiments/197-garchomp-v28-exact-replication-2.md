@@ -51,4 +51,4 @@ Result:
   714.2, and 659.0 before reaching 754.0.
 - The three byte-identical observations reached 961.3, 674.6, and 754.0 at
   their recorded checkpoints, confirming substantial public-path variance.
-- Score checkpoint: `2026-07-31 02:13 UTC`.
+- Score checkpoint: `2026-07-31 02:21 UTC`.
