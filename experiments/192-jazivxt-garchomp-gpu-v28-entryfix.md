@@ -29,8 +29,10 @@ Summary:
 Validation:
 - Static and dynamic loader checks selected `submission_entrypoint_v28_garchomp`
 - Loader-selected initialization returned the exact submitted 60-card deck
-- Clean root archive with the full current runtime and published helper files
-- No links, cache files, AppleDouble files, unsafe paths, or nested archive root
+- Root archive with the full current runtime and published helper files
+- No duplicate members, links, unsafe paths, or nested archive root
+- The archive retains non-executable AppleDouble and Python cache members; the
+  official loader did not select or import them
 - Forty-eight seat-alternated games completed without errors
 - Matchup results: 10-6 against Steel, 10-6 against Alakazam v23, and 12-4
   against replay-trained Grimmsnarl
