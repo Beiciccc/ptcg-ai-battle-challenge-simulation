@@ -11,7 +11,7 @@ Reproducibility: byte-identical rerun of experiment 196
 
 Kaggle submission: `55124341`
 
-Public score: 518.9
+Public score: 741.3
 
 Status: complete
 
@@ -48,7 +48,7 @@ Validation:
 Result:
 - Kaggle accepted the package as submission `55124341` and marked it complete.
 - Public evaluation moved from the 600.0 initialization baseline through 514.9
-  before reaching 518.9.
-- The two byte-identical observations reached 726.6 and 518.9 at the same
-  checkpoint, confirming substantial public-path variance.
-- Score checkpoint: `2026-07-31 02:21 UTC`.
+  and 518.9 before recovering to 741.3.
+- The two byte-identical observations reached 726.6 and 741.3 at the same
+  checkpoint after substantial early public-path variance.
+- Score checkpoint: `2026-08-01 05:14 UTC`.

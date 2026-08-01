@@ -1,17 +1,17 @@
-# 198 Plamen06 Steel Search-Disabled Exact Replication
+# 201 Plamen06 Steel Exact Replication 2
 
-Date: 2026-07-31 UTC
+Date: 2026-08-01 UTC
 
 Local generated package (not committed):
-`artifacts/submissions/s198-plamen06-steel-search-disabled-exact-replication.tar.gz`
+`artifacts/submissions/s201-steel-search-disabled-exact-replication-2.tar.gz`
 
 Official upload filename: `submission.tar.gz`
 
-Reproducibility: byte-identical rerun of experiments 173 and 175
+Reproducibility: byte-identical rerun of experiments 173, 175, and 198
 
-Kaggle submission: `55124190`
+Kaggle submission: `55154344`
 
-Public score: 673.6
+Public score: 736.1
 
 Status: complete
 
@@ -21,22 +21,23 @@ Sources:
 - [Kaggle Environments runtime fix](https://github.com/Kaggle/kaggle-environments/commit/03ab2cc235b719e5a3bd0d19e2d2c62c65a4c303)
 
 Summary:
-- Re-ran the exact search-disabled Steel archive for a third independent
-  public-score observation.
+- Re-ran the exact search-disabled Steel archive as the first 2026-08-01
+  observation.
 - Preserved the documented compatibility flag, strategy, 60-card deck,
   runtime, and archive bytes.
-- Added a fresh comparison against the three most recent exact public archives
-  before submission.
+- Used Steel to form a distinct Garchomp and Steel active pair while retaining
+  coverage against Crustle-oriented strategies.
 
 Validation:
-- Archive SHA-256 matched experiments 173 and 175 exactly
+- Archive SHA-256 matched experiments 173, 175, and 198 exactly
 - Static and dynamic loader checks selected the final `agent` callable
 - Loader-selected initialization returned the exact submitted 60-card deck
 - Clean 11-file archive with `main.py`, `deck.csv`, and nine runtime files
 - No links, cache files, AppleDouble files, unsafe paths, or nested archive root
-- Twenty-four fresh seat-alternated games completed 11-13 without errors
-- Fresh results: 3-5 against experiment 197 Garchomp, 3-5 against experiment
-  196 Archaludon, and 5-3 against experiment 195 Crustle
+- Eight fresh seat-alternated games against experiment 200 Garchomp split 4-4
+  without errors
+- Both strategies went 3-1 from seat zero and 1-3 from seat one, exposing a
+  material seat effect rather than a clear strategy advantage
 - Main SHA-256:
   `4cc4c469d1c5caced0439cb2db32ad4827a87f7dcc698419bef6c07fc64aedcb`
 - Deck SHA-256:
@@ -47,9 +48,8 @@ Validation:
   `b5c7601e843a9f7269513a1ba9489cc1354a8dbff52e0ddd74f93fa8ff165bf2`
 
 Result:
-- Kaggle accepted the package as submission `55124190` and marked it complete.
-- Public evaluation moved from the 600.0 initialization baseline through 710.4
-  and 770.6 before moving through 663.4 to 673.6.
-- The three byte-identical observations reached 966.4, 721.7, and 673.6 at
-  their recorded checkpoints.
+- Kaggle accepted the package as submission `55154344` and marked it complete.
+- Public evaluation moved from the 600.0 initialization baseline to 736.1.
+- At this checkpoint, the four byte-identical official rows read 966.4, 773.1,
+  673.6, and 736.1.
 - Score checkpoint: `2026-08-01 05:14 UTC`.
