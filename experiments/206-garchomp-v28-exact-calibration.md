@@ -1,17 +1,17 @@
-# 204 Garchomp v28 Exact Final Pair
+# 206 Garchomp v28 Exact Calibration
 
-Date: 2026-08-01 UTC
+Date: 2026-08-02 UTC
 
 Local generated package (not committed):
-`artifacts/submissions/s204-garchomp-v28-exact-final-pair.tar.gz`
+`artifacts/submissions/s206-garchomp-v28-exact-calibration.tar.gz`
 
 Official upload filename: `submission.tar.gz`
 
-Reproducibility: byte-identical rerun of experiments 192, 194, 197, and 200
+Reproducibility: byte-identical rerun of experiments 192, 194, 197, 200, and 204
 
-Kaggle submission: `55154791`
+Kaggle submission: `55173906`
 
-Public score: 779.1
+Public score: 726.2
 
 Status: complete
 
@@ -20,23 +20,23 @@ Sources:
 - [Competition data](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/data)
 
 Summary:
-- Re-ran the exact Garchomp v28 archive as the first member of the final
-  Garchomp and Archaludon pair.
+- Re-ran the exact Garchomp v28 archive as the first 2026-08-02 calibration.
 - Preserved every strategy, deck, helper, weight, runtime, and archive byte.
-- Selected Garchomp for its repeated official observations and complementary
-  matchup coverage with Archaludon.
+- Retained the established Garchomp and Archaludon frontier because the new
+  public archives lacked direct archive-to-score evidence.
 
 Validation:
-- Archive SHA-256 matched experiments 192, 194, 197, and 200 exactly
+- Archive SHA-256 matched experiments 192, 194, 197, 200, and 204 exactly
 - Static and dynamic loader checks selected `submission_entrypoint_v28_garchomp`
 - Loader-selected initialization returned the exact submitted 60-card deck
 - No duplicate members, links, unsafe paths, or nested archive root
 - The byte-identical archive retains non-executable AppleDouble and Python
   cache members; the official loader did not select or import them
-- The prior 48-game anchor panel completed 32-16 without errors
-- Eight fresh seat-alternated games against Archaludon completed 6-2 without
-  errors, ties, or material seat bias
-- Maximum observed decision latency was 0.018 seconds for Garchomp and 0.045
+- Eight fresh seat-alternated games against Archaludon completed 7-1 without
+  errors or ties
+- Garchomp went 3-1 from seat zero and 4-0 from seat one; the panel recorded
+  five wins from seat one and three from seat zero
+- Maximum observed decision latency was 0.002 seconds for Garchomp and 0.027
   seconds for Archaludon
 - Main SHA-256:
   `37a0aad5cfac56b90162b0a50ef02ad1eec9353a7e2fc9a168b6f0e66830e5eb`
@@ -48,11 +48,11 @@ Validation:
   `e552dbe5042cf09abb25aeeba8359f4f5b4994a9982c11dcbf7f74a1b4b3aecf`
 
 Result:
-- Kaggle accepted the package as submission `55154791` and marked it complete.
-- Public evaluation remained at the 600.0 initialization baseline before
-  moving through 722.6, 758.9, 895.5, and 939.7 before reaching 779.1.
-- At this checkpoint, the five byte-identical official rows read 961.3, 726.3,
-  754.0, 684.6, and 779.1.
+- Kaggle accepted the package as submission `55173906` and marked it complete.
+- Public evaluation remained at the 600.0 initialization baseline before its
+  first non-baseline reading of 726.2.
+- At this checkpoint, the six byte-identical official rows read 961.3, 726.3,
+  754.0, 684.6, 779.1, and 726.2.
 - The latest two submissions preserve Archaludon and Garchomp as distinct
-  strategy families.
+  complementary strategy families.
 - Score checkpoint: `2026-08-02 00:40 UTC`.
