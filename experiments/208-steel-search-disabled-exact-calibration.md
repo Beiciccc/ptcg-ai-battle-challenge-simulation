@@ -58,4 +58,4 @@ Result:
   673.6, 626.7, and 827.9.
 - The matured reading keeps Steel under consideration for the final active
   pair, subject to the last-cycle robustness comparison.
-- Score checkpoint: `2026-08-02 01:23 UTC`.
+- Score checkpoint: `2026-08-02 01:27 UTC`.
