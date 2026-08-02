@@ -11,7 +11,7 @@ Reproducibility: byte-identical rerun of experiments 173, 175, 198, and 201
 
 Kaggle submission: `55174222`
 
-Public score: 487.9
+Public score: 783.1
 
 Status: complete
 
@@ -52,9 +52,10 @@ Validation:
 Result:
 - Kaggle accepted the package as submission `55174222` and marked it complete.
 - Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 487.9.
+  first non-baseline reading of 487.9, then moved through 603.4 and 678.8 to
+  783.1.
 - At this checkpoint, the five byte-identical official rows read 966.4, 773.1,
-  673.6, 626.7, and 487.9.
-- This exploration result did not justify retaining Steel in the final active
-  pair.
-- Score checkpoint: `2026-08-02 01:05 UTC`.
+  673.6, 626.7, and 783.1.
+- The matured reading keeps Steel under consideration for the final active
+  pair, subject to the last-cycle robustness comparison.
+- Score checkpoint: `2026-08-02 01:15 UTC`.
