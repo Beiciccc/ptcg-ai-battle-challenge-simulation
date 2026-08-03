@@ -12,7 +12,7 @@ and 206
 
 Kaggle submission: `55174424`
 
-Public score: 843.5
+Public score: 758.1
 
 Status: complete
 
@@ -52,7 +52,7 @@ Result:
 - Kaggle accepted the package as submission `55174424` and marked it complete.
 - Public evaluation remained at the 600.0 initialization baseline before its
   first non-baseline reading of 692.1, then moved through 794.9 and 728.3 to
-  843.5.
+  843.5 before reaching 758.1.
 - At this checkpoint, the seven byte-identical official rows read 961.3, 726.3,
-  754.0, 684.6, 779.1, 655.0, and 843.5.
-- Score checkpoint: `2026-08-02 01:29 UTC`.
+  754.0, 684.6, 779.1, 655.0, and 758.1.
+- Score checkpoint: `2026-08-03 05:08 UTC`.

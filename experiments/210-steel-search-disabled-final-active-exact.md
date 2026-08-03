@@ -11,7 +11,7 @@ Reproducibility: byte-identical rerun of experiments 173, 175, 198, 201, and 208
 
 Kaggle submission: `55174572`
 
-Public score: 649.2
+Public score: 679.6
 
 Status: complete
 
@@ -53,9 +53,9 @@ Validation:
 Result:
 - Kaggle accepted the package as submission `55174572` and marked it complete.
 - Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 489.7 and then moved to 649.2.
+  first non-baseline reading of 489.7 and then moved through 649.2 to 679.6.
 - At this checkpoint, the six byte-identical official rows read 966.4, 773.1,
-  673.6, 626.7, 827.9, and 649.2, showing substantial early path variance.
+  673.6, 626.7, 827.9, and 679.6, showing substantial early path variance.
 - The final latest-two submissions preserve Garchomp and Steel as distinct
   strategy families.
-- Score checkpoint: `2026-08-02 01:29 UTC`.
+- Score checkpoint: `2026-08-03 05:08 UTC`.
