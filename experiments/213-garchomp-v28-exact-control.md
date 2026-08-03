@@ -1,18 +1,18 @@
-# 211 Garchomp v28 Exact Calibration
+# 213 Garchomp v28 Exact Control
 
 Date: 2026-08-03 UTC
 
 Local generated package (not committed):
-`artifacts/submissions/s211-garchomp-v28-exact-calibration.tar.gz`
+`artifacts/submissions/s213-garchomp-v28-exact-control.tar.gz`
 
 Official upload filename: `submission.tar.gz`
 
 Reproducibility: byte-identical rerun of experiments 192, 194, 197, 200, 204,
-206, and 209
+206, 209, and 211
 
-Kaggle submission: `55202725`
+Kaggle submission: `55203145`
 
-Public score: 917.3
+Public score: 506.9
 
 Status: complete
 
@@ -21,24 +21,27 @@ Sources:
 - [Competition data](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/data)
 
 Summary:
-- Re-ran the exact Garchomp v28 archive as the first 2026-08-03 calibration.
+- Re-ran the exact Garchomp v28 archive as the third 2026-08-03 control.
 - Preserved every strategy, deck, helper, weight, runtime, and archive byte.
-- Kept the mature exact frontier because the new Grimmsnarl archive lacked a
-  direct binding between its current bytes and the displayed score.
+- Used the mature control after the newly published Grimmsnarl candidate failed
+  the predeclared two-anchor validation threshold.
 
 Validation:
-- Archive SHA-256 matched experiments 192, 194, 197, 200, 204, 206, and 209
+- Archive SHA-256 matched experiments 192, 194, 197, 200, 204, 206, 209, and
+  211 exactly
 - Static and dynamic loader checks selected `submission_entrypoint_v28_garchomp`
 - Loader-selected initialization returned the exact submitted 60-card deck
 - No duplicate members, links, unsafe paths, or nested archive root
 - The byte-identical archive retains non-executable AppleDouble and Python
   cache members; the official loader did not select or import them
-- Eight fresh seat-alternated games against Steel completed 5-3 without errors
-  or ties
-- Garchomp went 2-2 from seat zero and 3-1 from seat one; the panel recorded
-  five wins from seat one and three from seat zero
-- Maximum observed decision latency was 0.004 seconds for Garchomp and 0.003
-  seconds for Steel
+- Eight fresh seat-alternated games against the Grimmsnarl candidate completed
+  6-2 without errors or ties
+- Garchomp went 2-2 from seat zero and 4-0 from seat one; the panel recorded
+  six wins from seat one and two from seat zero
+- The Grimmsnarl candidate completed 7-9 across the Garchomp and Archaludon
+  anchor panels and was not submitted
+- Maximum observed decision latency was 0.036 seconds for Garchomp and 0.124
+  seconds for Grimmsnarl
 - Main SHA-256:
   `37a0aad5cfac56b90162b0a50ef02ad1eec9353a7e2fc9a168b6f0e66830e5eb`
 - Deck SHA-256:
@@ -49,10 +52,9 @@ Validation:
   `e552dbe5042cf09abb25aeeba8359f4f5b4994a9982c11dcbf7f74a1b4b3aecf`
 
 Result:
-- Kaggle accepted the package as submission `55202725` and marked it complete.
+- Kaggle accepted the package as submission `55203145` and marked it complete.
 - Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 659.7, then moved through 717.0 and 797.4 to
-  862.4 and 917.3.
-- At this checkpoint, the eight byte-identical official rows read 961.3, 726.3,
-  754.0, 684.6, 779.1, 655.0, 758.1, and 917.3.
+  first non-baseline reading of 506.9.
+- At this checkpoint, the nine byte-identical official rows read 961.3, 726.3,
+  754.0, 684.6, 779.1, 655.0, 758.1, 917.3, and 506.9.
 - Score checkpoint: `2026-08-03 05:28 UTC`.

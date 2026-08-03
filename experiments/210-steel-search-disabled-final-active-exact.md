@@ -58,4 +58,4 @@ Result:
   673.6, 626.7, 827.9, and 679.6, showing substantial early path variance.
 - The final latest-two submissions preserve Garchomp and Steel as distinct
   strategy families.
-- Score checkpoint: `2026-08-03 05:20 UTC`.
+- Score checkpoint: `2026-08-03 05:28 UTC`.
