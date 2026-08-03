@@ -12,7 +12,7 @@ Reproducibility: byte-identical rerun of experiments 192, 194, 197, 200, 204,
 
 Kaggle submission: `55203639`
 
-Public score: 657.1
+Public score: 661.4
 
 Status: complete
 
@@ -54,7 +54,8 @@ Validation:
 Result:
 - Kaggle accepted the package as submission `55203639` and marked it complete.
 - Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 657.1.
+  first non-baseline reading of 657.1, then moved through 696.0 and 594.6 to
+  661.4.
 - At this checkpoint, the ten byte-identical official rows read 961.3, 726.3,
-  754.0, 684.6, 779.1, 655.0, 758.1, 917.3, 648.9, and 657.1.
-- Score checkpoint: `2026-08-03 05:52 UTC`.
+  754.0, 684.6, 779.1, 655.0, 758.1, 917.3, 564.4, and 661.4.
+- Score checkpoint: `2026-08-03 06:05 UTC`.
