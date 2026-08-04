@@ -12,7 +12,7 @@ and 212
 
 Kaggle submission: `55203897`
 
-Public score: 738.0
+Public score: 650.9
 
 Status: complete
 
@@ -54,9 +54,9 @@ Validation:
 Result:
 - Kaggle accepted the package as submission `55203897` and marked it complete.
 - Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 738.0.
+  first non-baseline reading of 738.0 before moving to 650.9.
 - At this checkpoint, the seven byte-identical official rows read 726.6, 741.3,
-  788.1, 738.9, 610.9, 907.3, and 738.0.
+  788.1, 738.9, 610.9, 907.3, and 650.9.
 - The latest two submissions preserve Garchomp and Archaludon as distinct
   complementary strategy families.
-- Score checkpoint: `2026-08-03 06:05 UTC`.
+- Score checkpoint: `2026-08-04 00:41 UTC`.
