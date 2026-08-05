@@ -12,7 +12,7 @@ Reproducibility: byte-identical rerun of experiments 196, 199, 203, 205, 207,
 
 Kaggle submission: `55254689`
 
-Public score: 694.6
+Public score: 605.1
 
 Status: complete
 
@@ -54,10 +54,10 @@ Validation:
 
 Result:
 - Kaggle accepted the package as submission `55254689` and marked it complete.
-- Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 694.6.
+- Public evaluation remained at the 600.0 initialization baseline before
+  moving through 694.6, 781.6, 627.6, and 646.0 to 605.1.
 - At this checkpoint, the eleven byte-identical official rows read 726.6,
-  741.3, 788.1, 738.9, 610.9, 907.3, 650.9, 840.9, 731.8, 714.9, and 694.6.
+  741.3, 788.1, 738.9, 610.9, 907.3, 650.9, 840.9, 731.8, 714.9, and 605.1.
 - The latest two submissions preserve Garchomp and Archaludon as distinct
   complementary strategy families.
-- Score checkpoint: `2026-08-05 01:35 UTC`.
+- Score checkpoint: `2026-08-05 01:52 UTC`.
