@@ -13,7 +13,7 @@ and 210
 
 Kaggle submission: `55255010`
 
-Public score: 761.8
+Public score: 757.4
 
 Status: complete
 
@@ -65,9 +65,9 @@ Validation:
 Result:
 - Kaggle accepted the package as submission `55255010` and marked it complete.
 - Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 744.1 and later reached 761.8.
+  first non-baseline reading of 744.1, later reached 761.8, and moved to 757.4.
 - At this checkpoint, the seven byte-identical official rows read 966.4,
-  721.7, 673.6, 626.7, 827.9, 679.6, and 761.8.
+  721.7, 673.6, 626.7, 827.9, 679.6, and 757.4.
 - The latest two submissions preserve Archaludon and Steel as distinct
   complementary strategy families.
-- Score checkpoint: `2026-08-06 18:03 UTC`.
+- Score checkpoint: `2026-08-06 18:35 UTC`.
