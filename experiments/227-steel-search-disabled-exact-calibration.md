@@ -12,7 +12,7 @@ Reproducibility: byte-identical rerun of experiments 173, 175, 198, 201, 208,
 
 Kaggle submission: `55304949`
 
-Public score: 526.5
+Public score: 693.5
 
 Status: complete
 
@@ -66,10 +66,10 @@ Validation:
 
 Result:
 - Kaggle accepted the package as submission `55304949` and marked it complete.
-- Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 526.5.
+- Public evaluation remained at the 600.0 initialization baseline before
+  moving through 526.5, 581.8, and 700.3 to 693.5.
 - At this checkpoint, the eight byte-identical official rows read 966.4,
-  721.7, 673.6, 626.7, 827.9, 679.6, 757.4, and 526.5.
+  721.7, 673.6, 626.7, 827.9, 679.6, 757.4, and 693.5.
 - The latest two submissions preserve Archaludon and Steel as distinct
   complementary strategy families.
-- Score checkpoint: `2026-08-06 18:35 UTC`.
+- Score checkpoint: `2026-08-07 12:41 UTC`.
