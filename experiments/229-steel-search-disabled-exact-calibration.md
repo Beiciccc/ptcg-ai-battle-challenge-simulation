@@ -12,7 +12,7 @@ Reproducibility: byte-identical rerun of experiments 173, 175, 198, 201, 208,
 
 Kaggle submission: `55325206`
 
-Public score: 721.1
+Public score: 789.4
 
 Status: complete
 
@@ -27,8 +27,9 @@ Summary:
   calibration and complement to experiment 228 Archaludon.
 - Preserved the documented compatibility flag, strategy, 60-card deck,
   runtime, and archive bytes.
-- Screened the mature Garchomp v28 archive against Archaludon before applying
-  the fixed Steel fallback.
+- Screened the mature Garchomp v28 source against Archaludon before applying
+  the fixed Steel fallback, then excluded that panel from exact evidence after
+  an official-resolver audit found a callable-binding mismatch.
 
 Public refresh:
 - A new Great Tusk / Crustle run was still executing and had no published
@@ -42,7 +43,8 @@ Candidate screen:
   `e552dbe5042cf09abb25aeeba8359f4f5b4994a9982c11dcbf7f74a1b4b3aecf`
 - The exact archive had previously completed a balanced 6-2 screen against
   Steel without faults
-- Eight new seat-alternated games against Archaludon split 4-4
+- Eight new seat-alternated games against Archaludon split 4-4 under the
+  harness-selected final `agent` definition
 - Garchomp went 2-2 from seat zero and 2-2 from seat one; winning seats also
   split 4-4
 - All games completed without errors, ties, timeouts, invalid actions, or
@@ -51,6 +53,10 @@ Candidate screen:
   was 0.025 seconds
 - The fixed gate required at least 5-3 with at least 2-2 from each candidate
   seat, so the aggregate result failed and selected the unique Steel fallback
+- A later audit found that the official resolver selected the earlier
+  `_v28_original_agent` value for Archaludon; the 4-4 panel is therefore not
+  retained as exact-loader matchup evidence, while the failed-gate fallback is
+  unchanged
 - Screen seeds were `2026080772` through `2026080779`
 
 Validation:
@@ -72,10 +78,10 @@ Validation:
 
 Result:
 - Kaggle accepted the package as submission `55325206` and marked it complete.
-- Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 721.1.
+- Public evaluation remained at the 600.0 initialization baseline before
+  moving through 721.1, 610.5, and 835.3 to 789.4.
 - At this checkpoint, the nine byte-identical official rows read 966.4, 721.7,
-  673.6, 626.7, 827.9, 679.6, 757.4, 693.5, and 721.1.
+  673.6, 626.7, 827.9, 679.6, 757.4, 693.5, and 789.4.
 - The latest two submissions preserve Archaludon and Steel as distinct
   complementary strategy families.
-- Score checkpoint: `2026-08-07 13:04 UTC`.
+- Score checkpoint: `2026-08-07 13:24 UTC`.
