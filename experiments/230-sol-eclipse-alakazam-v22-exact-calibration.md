@@ -11,7 +11,7 @@ Reproducibility: byte-identical rerun of experiment 193
 
 Kaggle submission: `55325658`
 
-Public score: 716.6
+Public score: 790.8
 
 Status: complete
 
@@ -75,10 +75,10 @@ Validation:
 
 Result:
 - Kaggle accepted the package as submission `55325658` and marked it complete.
-- Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 716.6.
+- Public evaluation remained at the 600.0 initialization baseline before
+  moving through 716.6, 814.0, and 797.2 to 790.8.
 - At this checkpoint, the two byte-identical official rows read 592.8 and
-  716.6.
+  790.8.
 - The latest two submissions preserve Steel and Sol Eclipse Alakazam as
   distinct complementary strategy families.
-- Score checkpoint: `2026-08-07 13:24 UTC`.
+- Score checkpoint: `2026-08-07 18:02 UTC`.
