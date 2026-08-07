@@ -12,7 +12,7 @@ Reproducibility: byte-identical rerun of experiments 173, 175, 198, 201, 208,
 
 Kaggle submission: `55330939`
 
-Public score: 727.7
+Public score: 718.7
 
 Status: complete
 
@@ -37,8 +37,8 @@ Public refresh:
   paths, but packaged its runtime under `cg/cg/`
 - An isolated official-loader check failed immediately with
   `ModuleNotFoundError: No module named 'cg.api'`
-- The exact output also had no verified official submission and score binding,
-  so it was not an executable candidate
+- The exact output was linked to submission `55327124`, but that object exposed
+  no formatted score, so the version had no verified score binding
 - Discussion, Rules, Evaluation, competition data, and CABT runtime checks
   produced no other verified material change
 
@@ -77,10 +77,10 @@ Validation:
 
 Result:
 - Kaggle accepted the package as submission `55330939` and marked it complete.
-- Public evaluation remained at the 600.0 initialization baseline before its
-  first non-baseline reading of 727.7.
+- Public evaluation remained at the 600.0 initialization baseline before
+  moving through 727.7, 621.0, 642.2, and 677.7 to 718.7.
 - At this checkpoint, the ten byte-identical official rows read 966.4, 721.7,
-  673.6, 626.7, 827.9, 679.6, 757.4, 693.5, 735.9, and 727.7.
+  673.6, 626.7, 827.9, 679.6, 757.4, 693.5, 735.9, and 718.7.
 - The latest two submissions preserve Sol Eclipse Alakazam and Steel as
   distinct complementary strategy families.
-- Score checkpoint: `2026-08-07 18:02 UTC`.
+- Score checkpoint: `2026-08-07 18:37 UTC`.
