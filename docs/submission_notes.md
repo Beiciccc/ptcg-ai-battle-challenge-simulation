@@ -22,5 +22,10 @@ python tools/submit_package.py artifacts/submissions/baseline.tar.gz --message "
 Use `tools/list_recent_submissions.py` to review recent Kaggle submission rows.
 
 For this simulation format, keep the required submission entrypoint as the last
-top-level function in `submission/main.py`; the submission loader can otherwise
-bind to the wrong callable.
+top-level binding in `submission/main.py`, and give it a fresh global name that
+has not been bound earlier in the file. Kaggle selects the last callable in the
+executed module's global insertion order. Redefining an earlier function name
+does not move that key to the end and can bind the loader to a helper instead.
+
+Run `tools/check_submission_entrypoint.py` on the exact packaged `main.py`
+before submission.
